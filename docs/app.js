@@ -11,6 +11,15 @@
   const DRAG_AXIS_RATIO = 1.15;
   const DRAG_DEAD_ZONE = 2;
   const DRAG_SMOOTHING = 0.28;
+  const EDIT_RULES = Object.freeze({
+    purposeMinLength: 24,
+    purposeStrongLength: 60,
+    featureTotalMinLength: 36,
+    featureTotalStrongLength: 120,
+    longFeatureLength: 18,
+    longFeatureMinCount: 2,
+    longFeatureStrongCount: 3
+  });
 
   const rawPlugins = Array.isArray(window.VSTINDER_PLUGINS) ? window.VSTINDER_PLUGINS : [];
   const dedupedBasePlugins = dedupeArchitectureVariants(rawPlugins);
@@ -18,7 +27,8 @@
   const deletedPluginIds = loadDeletedPluginIds(dedupedBasePlugins);
   const basePlugins = mergePlugins(dedupedBasePlugins, addedPlugins, deletedPluginIds);
   const pluginImages = window.VSTINDER_PLUGIN_IMAGES || {};
-  const plugins = applyOverrides(basePlugins);
+  const overridesById = loadOverrides();
+  const plugins = applyOverrides(basePlugins, overridesById);
   const basePluginIdSet = new Set(basePlugins.map((item) => String(item.id || "")));
 
   const state = {
@@ -317,9 +327,7 @@
     }
   }
 
-  function applyOverrides(list) {
-    const overrides = loadOverrides();
-
+  function applyOverrides(list, overrides = loadOverrides()) {
     return list.map((item) => {
       const override = overrides[item.id];
       if (!override || typeof override !== "object") {
@@ -680,8 +688,9 @@
     desktopPluginList.innerHTML = cards
       .map((item, idx) => {
         const activeClass = idx === activeIndex ? "active" : "";
+        const uneditedClass = isPluginEdited(item) ? "" : "unedited";
         return `
-          <button class="desktop-plugin-item ${activeClass}" type="button" data-action="jump-card" data-index="${idx}">
+          <button class="desktop-plugin-item ${activeClass} ${uneditedClass}" type="button" data-action="jump-card" data-index="${idx}">
             <span class="desktop-plugin-order">${idx + 1}</span>
             <span class="desktop-plugin-name">${escapeHtml(item.name || "")}</span>
           </button>
@@ -1039,6 +1048,36 @@
       .replace(/__/g, "")
       .replace(/\s{2,}/g, " ")
       .trim();
+  }
+
+  function isPluginEdited(plugin) {
+    if (!plugin || typeof plugin !== "object") {
+      return false;
+    }
+
+    const hasOverride = Boolean(overridesById[String(plugin.id || "")]);
+    const purposeText = normalizeTextForEditJudge(plugin.purpose);
+    const purposeLength = purposeText.length;
+
+    const features = Array.isArray(plugin.features) ? plugin.features : [];
+    const normalizedFeatures = features
+      .map((item) => normalizeTextForEditJudge(cleanupFeatureDisplayText(item)))
+      .filter(Boolean);
+
+    const featureTotalLength = normalizedFeatures.reduce((sum, text) => sum + text.length, 0);
+    const longFeatureCount = normalizedFeatures.filter((text) => text.length >= EDIT_RULES.longFeatureLength).length;
+
+    const hasRichPurpose = purposeLength >= EDIT_RULES.purposeMinLength;
+    const hasStrongPurpose = purposeLength >= EDIT_RULES.purposeStrongLength;
+    const hasRichFeatures = featureTotalLength >= EDIT_RULES.featureTotalMinLength || longFeatureCount >= EDIT_RULES.longFeatureMinCount;
+    const hasStrongFeatures = featureTotalLength >= EDIT_RULES.featureTotalStrongLength || longFeatureCount >= EDIT_RULES.longFeatureStrongCount;
+
+    const isRich = (hasRichPurpose && hasRichFeatures) || hasStrongPurpose || hasStrongFeatures;
+    return hasOverride || isRich;
+  }
+
+  function normalizeTextForEditJudge(input) {
+    return String(input || "").replace(/[\s\r\n\t]+/g, "").trim();
   }
 
   function renderFeatureItem(input) {

@@ -479,9 +479,10 @@
     listEl.innerHTML = filtered
       .map(({ plugin, merged, editStatus }) => {
         const active = plugin.id === state.selectedId ? "active" : "";
+        const uneditedClass = editStatus.isEdited ? "" : "unedited";
         const statusText = editStatus.isEdited ? "已編輯" : "未編輯";
         return `
-          <article class="plugin-row ${active}" data-id="${escapeHtml(plugin.id)}">
+          <article class="plugin-row ${active} ${uneditedClass}" data-id="${escapeHtml(plugin.id)}">
             <button class="row-main" type="button" data-action="select" data-id="${escapeHtml(plugin.id)}">
               <strong>${escapeHtml(merged.name || plugin.name || "")}</strong>
               <span>${escapeHtml(merged.category)} · ${statusText}</span>

@@ -1334,3 +1334,46 @@ h3,
   font-weight: 650;
   letter-spacing: 0.01em;
 }
+
+/* ===== Unedited Plugin Highlight ===== */
+.desktop-plugin-item.unedited {
+  border-color: #7f6240;
+  background: linear-gradient(180deg, #2f2a25 0%, #26221e 100%);
+}
+
+.desktop-plugin-item.unedited:hover {
+  border-color: #a9865a;
+  background: linear-gradient(180deg, #3a322c 0%, #2f2823 100%);
+}
+
+.desktop-plugin-item.unedited.active {
+  border-color: #d2a66e;
+  background: linear-gradient(180deg, #43392f 0%, #342c24 100%);
+  box-shadow: inset 0 0 0 1px rgba(210, 166, 110, 0.32);
+}
+
+.desktop-plugin-item.unedited .desktop-plugin-order {
+  color: #ffd59e;
+  background: rgba(63, 42, 18, 0.48);
+}
+
+.plugin-row.unedited {
+  border-color: #74593b;
+  background: linear-gradient(180deg, #2a2621 0%, #221f1a 100%);
+  box-shadow: inset 3px 0 0 rgba(208, 160, 97, 0.35);
+}
+
+.plugin-row.unedited.active {
+  border-color: #d2a66e;
+  box-shadow:
+    inset 0 0 0 1px rgba(210, 166, 110, 0.28),
+    inset 3px 0 0 rgba(226, 180, 116, 0.42);
+}
+
+.plugin-row.unedited .row-main strong {
+  color: #ffe3b5;
+}
+
+.plugin-row.unedited .row-main span {
+  color: #f0c98e;
+}

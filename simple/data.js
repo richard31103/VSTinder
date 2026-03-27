@@ -1675,12 +1675,14 @@ window.VSTINDER_PLUGINS = [
     "id": "virtual-tape-machines",
     "name": "Virtual Tape Machines",
     "category": "Saturation",
-    "vendor": "Virtual",
-    "purpose": "加入諧波與染色，讓聲音更厚實。",
+    "vendor": "Slate Digital",
+    "purpose": "精確模擬兩部音訊歷史上最具代表性的磁帶機：兩英吋 16 軌配置（通常用於追蹤與多軌錄音）以及半英吋立體聲配置（用於母帶處理），為數位音訊增添類比磁帶特有的溫暖、飽和感、非線性頻率響應與動態壓縮。",
     "features": [
-      "Tape",
-      "諧波染色",
-      "音色厚度"
+      "雙重機器建模：包含 FG-456（模擬經典的 2 吋 16 軌機器）與 FG-9（模擬著名的 1/2 吋立體聲母帶機器）。",
+      "磁帶速度選擇：提供 15 IPS 與 30 IPS 兩種選擇，15 IPS 具有更強的低頻延伸（Bass Bump），而 30 IPS 則能提供更平滑的高頻細節與更低的雜訊。",
+      "物理特性模擬：可調整 Wow & Flutter（抖晃率）與 Bass Alignment（低頻補償），並能精確模擬磁帶飽和產生的諧波失真。",
+      "群組控制（Grouping）：支援跨軌道的群組設定，方便同時調整專案中所有 VTM 實例的參數，確保整首歌曲具備一致的磁帶染色感。",
+      "低頻凝聚力：磁帶特有的低音凸起與壓縮特性，能有效黏合混音，使數位錄音聽起來更具深度與類比厚度。"
     ]
   },
   {
@@ -6696,13 +6698,15 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "asap-spectral-clipping",
     "name": "ASAP Spectral Clipping",
-    "category": "Frequency",
-    "vendor": "ASAP",
-    "purpose": "在頻譜層級修正聲音問題。",
+    "category": "Dynamic",
+    "vendor": "IRCAM (IRCAM Forum)",
+    "purpose": "這是一款專為頻譜能量處理設計的工具，不同於傳統的時域限制器，它在頻譜領域（Spectral Domain）內運作，允許使用者根據設定的門檻值（Threshold）來擴張或壓縮各個頻譜分量的能量，進而精細地控制聲音細節。",
     "features": [
-      "頻譜",
-      "頻率塑形",
-      "清晰度"
+      "精準頻譜控制：能夠針對聲音中的特定頻譜分量進行動態調整，而不僅僅是處理整體的波形振幅。",
+      "動態處理雙功能：具備擴張（Expand）與壓縮（Compress）功能，可用於消除低能量的背景噪音，或限制高能量的頻譜峰值（例如刺耳的鳥叫聲或諧波峰值）。",
+      "SuperVP 引擎驅動：基於 IRCAM 著名的 SuperVP 音訊分析合成引擎，提供極高品質的頻譜轉換效果。",
+      "非破壞性修補：適合用於修正錄音中的缺陷，或作為創意的音色改變工具，處理過程比傳統等化器或壓縮器更具透明度。",
+      "直觀的視覺反饋：介面提供清晰的頻譜能量分布圖，讓使用者能直觀地觀察門檻值對不同頻率的影響。"
     ]
   },
   {
@@ -8797,12 +8801,14 @@ window.VSTINDER_PLUGINS = [
     "id": "flanger-bl-20",
     "name": "Flanger BL-20",
     "category": "Modulation",
-    "vendor": "Flanger",
-    "purpose": "建立掃頻式梳狀濾波效果。",
+    "vendor": "Arturia",
+    "purpose": "基於罕見的經典硬體 Bel BF-20 進行數位建模，這是一款強大的 BBD（Bucket Brigade Device）錄音室破音/調變效果器，能產生從細微的立體聲寬度增強到激進的噴射機起飛聲（Jet-plane effect）等多樣化效果。",
     "features": [
-      "Flanger",
-      "動態變化",
-      "律動感"
+      "BBD 類比建模：忠實還原了 80 年代硬體特有的桶帶延遲（Bucket Brigade）特性，音色溫暖、深邃且帶有自然的類比失真。",
+      "多樣化 LFO 波形：除了基礎的三角波，還提供正弦波、方波、鋸齒波以及隨機波形，極大擴展了音色調變的可能性。",
+      "Zero-Crossing 效果：具備獨特的「零點交越」功能，能產生抵消相位的深度梳狀濾波（Flanging）聽感。",
+      "現代化擴展功能：新增了原始硬體所沒有的步進序列器（Function Generator）與外部側鏈（Sidechain）控制，讓調變能隨著節奏或外部訊號起伏。",
+      "立體聲拓寬：具備靈活的立體聲偏移（Stereo Offset）控制，能輕易創造出極具包圍感的立體空間寬度。"
     ]
   },
   {
@@ -10160,10 +10166,16 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "6x-500",
     "name": "6X-500",
-    "category": "Misc",
+    "category": "Saturation",
     "vendor": "Lindell Audio",
-    "purpose": "",
-    "features": []
+    "purpose": "基於經典 API 500 系列硬體開發的單聲道前級放大器（Preamp）與被動式等化器（EQ）模擬插件，旨在為數位音訊注入類比設備的溫暖音色、飽和感與空氣感。",
+    "features": [
+      "經典硬體模擬：精確還原了 Lindell Audio 自家硬體 6X-500 的電路特性，包含全分立式設計與變壓器耦合的音色特徵。",
+      "被動式 EQ 設計：搭載了靈感來自 Pultec 的增益濾波器，包含 High Frequency Boost（10kHz, 16kHz）與 Low Frequency Boost（30Hz, 60Hz, 100Hz），能提供極其平滑且具音樂性的高低頻修飾。",
+      "類比飽和度：透過調整增益結構，可以從細微的諧波染色轉變為明顯的類比飽和效果。",
+      "極簡化控制：介面直觀，僅需少數旋鈕即可快速達成專業級的音色塑造。",
+      "低資源消耗：設計高效，適合在多軌混音中大量掛載以模擬混音台的整體染色感。"
+    ]
   },
   {
     "id": "7x-500",
@@ -10440,10 +10452,16 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "abbey-road-chambers",
     "name": "Abbey Road Chambers",
-    "category": "Misc",
-    "vendor": "Waves Audio",
-    "purpose": "",
-    "features": []
+    "category": "Space",
+    "vendor": "Waves",
+    "purpose": "精確模擬倫敦艾比路錄音室（Abbey Road Studios）著名的二號回音室（Studio Two Echo Chamber）以及獨特的 S.T.E.E.D. 設置，提供自然、深邃且具備高度控制力的空間殘響與回音效果。",
+    "features": [
+      "經典空間重建：透過脈衝響應（Impulse Response）技術與建模，完美復刻傳奇錄音室的牆面材質、麥克風佈局與揚聲器特性。",
+      "S.T.E.E.D. 系統控制：整合了「Send, Tape, Echo, Echo, Delay」技術，能調整磁帶飽和、反饋迴路與過濾器，創造出從經典人聲到實驗性氛圍的多樣化音色。",
+      "多樣化空間選擇：除了二號回音室，還包含艾比路其他的指標性空間，如「Mirror Room」與「Stone Room」。",
+      "靈活的聲學操控：提供可調節的牆面吸音板（Shutters）設定，能精準控制空間的明亮度與殘響時長。",
+      "EMI 電路建模：內建 EMI 經典硬體 RS106 高低通濾波器與 RS127 EQ，用於精修空間效果的頻率響應。"
+    ]
   },
   {
     "id": "abbey-road-j37-tape",
