@@ -1,0 +1,25 @@
+﻿window.VSTINDER_PLUGIN_IMAGES = {
+    "2016-stereo-room":  "../Plugin%20Snapshot/2016%20Stereo%20Room.JPG",
+    "altiverb-7":  "../Plugin%20Snapshot/Altiverb%207.JPG",
+    "blackhole":  "../Plugin%20Snapshot/Blackhole.JPG",
+    "bx-bluechorus2":  "../Plugin%20Snapshot/bx%20bluechorus2.jpg",
+    "bx-delay2500":  "../Plugin%20Snapshot/bx%20delay2500.jpg",
+    "bx-rooms":  "../Plugin%20Snapshot/bx%20rooMS.jpg",
+    "bx-stereomaker":  "../Plugin%20Snapshot/bx%20stereomaker.jpg",
+    "delay-brigade":  "../Plugin%20Snapshot/Delay%20BRIGADE.jpg",
+    "delay-eternity":  "../Plugin%20Snapshot/Delay%20ETERNITY.jpg",
+    "delay-tape-201":  "../Plugin%20Snapshot/Delay%20TAPE-201.jpg",
+    "ultrareverb":  "../Plugin%20Snapshot/UltraReverb.jpg",
+    "valhalladelay":  "../Plugin%20Snapshot/ValhallaDelay.jpg",
+    "valhallafutureverb":  "../Plugin%20Snapshot/ValhallaFutureVerb.jpg",
+    "valhallaplate":  "../Plugin%20Snapshot/ValhallaPlate.jpg",
+    "valhallaroom":  "../Plugin%20Snapshot/ValhallaRoom.jpg",
+    "valhallashimmer":  "../Plugin%20Snapshot/ValhallaShimmer.jpg",
+    "valhallasupermassive":  "../Plugin%20Snapshot/ValhallaSupermassive.jpg",
+    "valhallavintageverb":  "../Plugin%20Snapshot/ValhallaVintageVerb.jpg",
+    "ampeg-b15n":  "../Plugin%20Snapshot/Ampeg%20B15N.jpg",
+    "ampeg-svt3pro":  "../Plugin%20Snapshot/Ampeg%20SVT3Pro.jpg",
+    "ampeg-svtvr":  "../Plugin%20Snapshot/Ampeg%20SVTVR.jpg",
+    "acme-opticom-xla-3":  "../Plugin%20Snapshot/Acme%20Opticom%20XLA-3.jpg"
+};
+

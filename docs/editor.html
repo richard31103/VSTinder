@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VSTinder 設定頁</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>VSTinder 設定頁</h1>
+        <p>手動編輯插件分類與敘述，並可快速複製插件名稱</p>
+      </div>
+      <div class="topbar-actions">
+        <a class="btn ghost" href="./index.html">回滑卡頁</a>
+      </div>
+    </header>
+
+    <section class="panel editor-panel">
+      <div class="editor-actions">
+        <button id="export-overrides" class="btn ghost" type="button">匯出 Overrides JSON</button>
+        <button id="export-merged-json" class="btn ghost" type="button">匯出完整 JSON</button>
+        <button id="export-merged-datajs" class="btn ghost" type="button">匯出 data.js</button>
+        <button id="export-csv" class="btn ghost" type="button">匯出可編輯 CSV</button>
+        <label class="btn ghost file-btn" for="import-overrides-input">匯入 Overrides JSON</label>
+        <input id="import-overrides-input" type="file" accept=".json" class="hidden-input" />
+        <label class="btn ghost file-btn" for="import-csv-input">匯入 CSV</label>
+        <input id="import-csv-input" type="file" accept=".csv,text/csv" class="hidden-input" />
+      </div>
+
+      <p class="editor-summary" id="editor-summary"></p>
+      <p class="editor-workflow">建議流程：複製名稱 -> 貼到你的研究筆記補資訊 -> 回來填品牌/功能/特點 -> 按「儲存並下一個」。</p>
+
+      <section class="paste-panel">
+        <label for="quick-paste-input">固定格式快速套用</label>
+        <textarea id="quick-paste-input" rows="10" placeholder="可直接貼上你固定格式內容（支援多筆，重複以『插件名稱 :』開頭）"></textarea>
+        <div class="paste-actions">
+          <button id="apply-paste-current" class="btn like" type="button">套用到目前插件</button>
+          <button id="apply-paste-by-name" class="btn ghost" type="button">依插件名稱自動套用</button>
+        </div>
+        <p class="paste-tip">格式欄位可用：插件名稱 / 品牌 / 功能 / 特點 / 分類。特點請用每行一點（例如 * 文字）。</p>
+      </section>
+
+      <div class="editor-grid">
+        <aside class="editor-sidebar">
+          <div class="editor-filters">
+            <input id="search-input" type="search" placeholder="搜尋插件名稱" />
+            <select id="category-filter">
+              <option value="all">全部分類</option>
+            </select>
+            <label class="inline-check">
+              <input id="only-edited" type="checkbox" /> 只看已編輯
+            </label>
+          </div>
+
+          <div id="plugin-list" class="plugin-list"></div>
+        </aside>
+
+        <section class="editor-detail">
+          <div id="empty-detail" class="empty-state">
+            <h3>請先選一個插件</h3>
+            <p>左側點選插件後即可編輯資料。</p>
+          </div>
+
+          <form id="editor-form" class="hidden" autocomplete="off">
+            <div class="field-row">
+              <label>Plugin 名稱</label>
+              <div class="name-copy-row">
+                <input id="plugin-name" type="text" readonly />
+                <button id="copy-name-btn" class="btn ghost" type="button">複製名稱</button>
+              </div>
+            </div>
+
+            <div class="field-row">
+              <label for="plugin-category">分類</label>
+              <select id="plugin-category"></select>
+            </div>
+
+            <div class="field-row">
+              <label for="plugin-vendor">品牌</label>
+              <input id="plugin-vendor" type="text" placeholder="例如：Valhalla DSP" />
+            </div>
+
+            <div class="field-row">
+              <label for="plugin-purpose">功能</label>
+              <textarea id="plugin-purpose" rows="4" placeholder="輸入功能敘述"></textarea>
+            </div>
+
+            <div class="field-row">
+              <label for="plugin-features">特點（每行一點）</label>
+              <textarea id="plugin-features" rows="6" placeholder="一行一個特點"></textarea>
+            </div>
+
+            <div class="editor-form-actions">
+              <button id="save-btn" class="btn like" type="button">儲存</button>
+              <button id="save-next-btn" class="btn ghost" type="button">儲存並下一個</button>
+              <button id="reset-btn" class="btn pass" type="button">還原此插件</button>
+            </div>
+
+            <p id="save-status" class="save-status"></p>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="./data.js"></script>
+  <script src="./editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VSTinder Simple</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar compact">
+      <div>
+        <h1>VSTinder</h1>
+      </div>
+      <div id="swipe-header-actions" class="topbar-actions-swipe hidden">
+        <button id="back-to-categories" class="btn ghost icon-btn" type="button" aria-label="返回選擇分類" title="返回選擇分類">←</button>
+        <button id="save-current" class="btn like icon-btn" type="button" aria-label="儲存當前插件" title="儲存">❤</button>
+        <button id="open-saved" class="btn ghost icon-btn" type="button" aria-label="儲存的插件" title="儲存的插件">☰</button>
+      </div>
+    </header>
+
+    <section id="category-view" class="panel"></section>
+
+    <section id="swipe-view" class="panel hidden">
+      <p id="swipe-status" class="sr-only" aria-live="polite"></p>
+
+      <div id="swipe-stage" class="swipe-stage">
+        <div id="deck" class="deck" aria-live="polite"></div>
+        <div id="swipe-empty" class="empty-state hidden">
+          <h3>這個分類已看完</h3>
+          <p>可返回分類選其他類別繼續。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="saved-view" class="panel hidden">
+      <div class="toolbar">
+        <button id="back-to-swipe" class="btn ghost">回滑卡</button>
+        <button id="back-to-categories-from-saved" class="btn ghost">返回選擇分類</button>
+      </div>
+      <h2>儲存的插件</h2>
+      <p id="saved-count" class="saved-count"></p>
+      <div id="saved-list" class="saved-list"></div>
+    </section>
+  </main>
+
+  <script src="./data.js"></script>
+  <script src="./plugin_snapshots_manifest.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
+
