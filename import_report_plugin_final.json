@@ -1,0 +1,3729 @@
+{
+  "generatedAt": "2026-03-27T08:46:55.978Z",
+  "mode": "similar",
+  "dryRun": false,
+  "input": "Plugin_Final_List.txt",
+  "target": "simple/data.js",
+  "totals": {
+    "existingBefore": 780,
+    "finalCount": 1122,
+    "linesRead": 549,
+    "linesNonEmpty": 548,
+    "parsed": 548,
+    "invalidLineCount": 0,
+    "added": 342,
+    "skipped_exact": 187,
+    "skipped_similar": 19,
+    "skipped_invalid_name": 0,
+    "skipped_total": 206
+  },
+  "preexistingDuplicates": {
+    "strict": 0,
+    "loose": 0
+  },
+  "added": [
+    {
+      "lineNumber": 2,
+      "id": "audiocleanupassistant",
+      "name": "AudioCleanUpAssistant",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 3,
+      "id": "debreath",
+      "name": "DeBreath",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 4,
+      "id": "declipper",
+      "name": "DeClipper",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 5,
+      "id": "deesser",
+      "name": "DeEsser",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 6,
+      "id": "deesserpro",
+      "name": "DeEsserPro",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 7,
+      "id": "mouthdeclicker",
+      "name": "MouthDeClicker",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 8,
+      "id": "noiseremover",
+      "name": "NoiseRemover",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 9,
+      "id": "noiseremoverpro",
+      "name": "NoiseRemoverPro",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 10,
+      "id": "plosiveremover",
+      "name": "PlosiveRemover",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 11,
+      "id": "reverbremover",
+      "name": "ReverbRemover",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 12,
+      "id": "reverbremoverpro",
+      "name": "ReverbRemoverPro",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 13,
+      "id": "voiceautoeq",
+      "name": "VoiceAutoEQ",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 15,
+      "id": "voicedeepener",
+      "name": "VoiceDeepener",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 16,
+      "id": "voiceleveler",
+      "name": "VoiceLeveler",
+      "vendor": "accusonus"
+    },
+    {
+      "lineNumber": 17,
+      "id": "aglp3",
+      "name": "AGLP3",
+      "vendor": "Ample Sound Co., Ltd."
+    },
+    {
+      "lineNumber": 18,
+      "id": "agm3",
+      "name": "AGM3",
+      "vendor": "Ample Sound Co., Ltd."
+    },
+    {
+      "lineNumber": 19,
+      "id": "agsc3",
+      "name": "AGSC3",
+      "vendor": "Ample Sound Co., Ltd."
+    },
+    {
+      "lineNumber": 62,
+      "id": "denoiser-classic",
+      "name": "Denoiser Classic",
+      "vendor": "Bertom"
+    },
+    {
+      "lineNumber": 65,
+      "id": "shaperbox",
+      "name": "ShaperBox",
+      "vendor": "Cableguys"
+    },
+    {
+      "lineNumber": 77,
+      "id": "banddelays",
+      "name": "BandDelays",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 84,
+      "id": "factory",
+      "name": "Factory",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 85,
+      "id": "h910dual",
+      "name": "H910Dual",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 86,
+      "id": "h910single",
+      "name": "H910Single",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 87,
+      "id": "h949dual",
+      "name": "H949Dual",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 88,
+      "id": "h949single",
+      "name": "H949Single",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 96,
+      "id": "pta",
+      "name": "PTA",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 97,
+      "id": "ptd",
+      "name": "PTD",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 104,
+      "id": "stereoroom2016",
+      "name": "StereoRoom2016",
+      "vendor": "Eventide"
+    },
+    {
+      "lineNumber": 111,
+      "id": "fabfilter-micro-vst-plug-in",
+      "name": "FabFilter Micro VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 112,
+      "id": "fabfilter-one-vst-plug-in",
+      "name": "FabFilter One VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 113,
+      "id": "fabfilter-pro-c-2-vst-plug-in",
+      "name": "FabFilter Pro-C 2 VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 114,
+      "id": "fabfilter-pro-ds-vst-plug-in",
+      "name": "FabFilter Pro-DS VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 115,
+      "id": "fabfilter-pro-g-vst-plug-in",
+      "name": "FabFilter Pro-G VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 116,
+      "id": "fabfilter-pro-l-vst-plug-in",
+      "name": "FabFilter Pro-L VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 117,
+      "id": "fabfilter-pro-mb-vst-plug-in",
+      "name": "FabFilter Pro-MB VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 118,
+      "id": "fabfilter-pro-q-3-vst-plug-in",
+      "name": "FabFilter Pro-Q 3 VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 119,
+      "id": "fabfilter-pro-r-vst-plug-in",
+      "name": "FabFilter Pro-R VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 120,
+      "id": "fabfilter-saturn-2-vst-plug-in",
+      "name": "FabFilter Saturn 2 VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 121,
+      "id": "fabfilter-simplon-vst-plug-in",
+      "name": "FabFilter Simplon VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 122,
+      "id": "fabfilter-timeless-3-vst-plug-in",
+      "name": "FabFilter Timeless 3 VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 123,
+      "id": "fabfilter-twin-2-vst-plug-in",
+      "name": "FabFilter Twin 2 VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 124,
+      "id": "fabfilter-volcano-2-vst-plug-in",
+      "name": "FabFilter Volcano 2 VST plug-in",
+      "vendor": "FabFilter"
+    },
+    {
+      "lineNumber": 125,
+      "id": "ffmpeg-audio-resampling-library",
+      "name": "FFmpeg audio resampling library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 126,
+      "id": "ffmpeg-audio-video-filtering-library",
+      "name": "FFmpeg audio/video filtering library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 127,
+      "id": "ffmpeg-codec-library",
+      "name": "FFmpeg codec library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 128,
+      "id": "ffmpeg-container-format-library",
+      "name": "FFmpeg container format library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 129,
+      "id": "ffmpeg-device-handling-library",
+      "name": "FFmpeg device handling library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 130,
+      "id": "ffmpeg-image-rescaling-library",
+      "name": "FFmpeg image rescaling library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 131,
+      "id": "ffmpeg-utility-library",
+      "name": "FFmpeg utility library",
+      "vendor": "FFmpeg Project"
+    },
+    {
+      "lineNumber": 141,
+      "id": "3-band-eq",
+      "name": "3-Band EQ",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 142,
+      "id": "bitcrush",
+      "name": "Bitcrush",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 144,
+      "id": "channel-mixer",
+      "name": "Channel Mixer",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 145,
+      "id": "chorus",
+      "name": "Chorus",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 146,
+      "id": "clipper",
+      "name": "Clipper",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 147,
+      "id": "comb-filter",
+      "name": "Comb Filter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 148,
+      "id": "compactor",
+      "name": "Compactor",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 149,
+      "id": "compressor",
+      "name": "Compressor",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 150,
+      "id": "convolver",
+      "name": "Convolver",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 151,
+      "id": "delay",
+      "name": "Delay",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 153,
+      "id": "distortion",
+      "name": "Distortion",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 154,
+      "id": "dual-delay",
+      "name": "Dual Delay",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 155,
+      "id": "dynamics",
+      "name": "Dynamics",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 156,
+      "id": "ensemble",
+      "name": "Ensemble",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 158,
+      "id": "filter",
+      "name": "Filter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 159,
+      "id": "filter-table",
+      "name": "Filter Table",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 160,
+      "id": "flanger",
+      "name": "Flanger",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 161,
+      "id": "formant-filter",
+      "name": "Formant Filter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 162,
+      "id": "frequency-shifter",
+      "name": "Frequency Shifter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 163,
+      "id": "gain",
+      "name": "Gain",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 164,
+      "id": "gate",
+      "name": "Gate",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 165,
+      "id": "haas",
+      "name": "Haas",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 166,
+      "id": "ladder-filter",
+      "name": "Ladder Filter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 167,
+      "id": "limiter",
+      "name": "Limiter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 169,
+      "id": "nonlinear-filter",
+      "name": "Nonlinear Filter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 170,
+      "id": "phase-distortion",
+      "name": "Phase Distortion",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 172,
+      "id": "phaser",
+      "name": "Phaser",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 173,
+      "id": "pitch-shifter",
+      "name": "Pitch Shifter",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 174,
+      "id": "resonator",
+      "name": "Resonator",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 175,
+      "id": "reverb",
+      "name": "Reverb",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 176,
+      "id": "reverser",
+      "name": "Reverser",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 177,
+      "id": "ring-mod",
+      "name": "Ring Mod",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 178,
+      "id": "shaper",
+      "name": "Shaper",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 179,
+      "id": "shaper-table",
+      "name": "Shaper Table",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 182,
+      "id": "stereo",
+      "name": "Stereo",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 183,
+      "id": "tape-stop",
+      "name": "Tape Stop",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 184,
+      "id": "trance-gate",
+      "name": "Trance Gate",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 185,
+      "id": "transient-shaper",
+      "name": "Transient Shaper",
+      "vendor": "Kilohearts"
+    },
+    {
+      "lineNumber": 189,
+      "id": "clariphonic-mk-ii",
+      "name": "Clariphonic MK II",
+      "vendor": "Kush"
+    },
+    {
+      "lineNumber": 192,
+      "id": "6x-500",
+      "name": "6X-500",
+      "vendor": "Lindell Audio"
+    },
+    {
+      "lineNumber": 193,
+      "id": "7x-500",
+      "name": "7X-500",
+      "vendor": "Lindell Audio"
+    },
+    {
+      "lineNumber": 194,
+      "id": "channelx",
+      "name": "ChannelX",
+      "vendor": "Lindell Audio"
+    },
+    {
+      "lineNumber": 200,
+      "id": "pex-500",
+      "name": "PEX-500",
+      "vendor": "Lindell Audio"
+    },
+    {
+      "lineNumber": 227,
+      "id": "nott",
+      "name": "NOTT",
+      "vendor": "Outobugi"
+    },
+    {
+      "lineNumber": 228,
+      "id": "stereoize",
+      "name": "Stereoize",
+      "vendor": "Outobugi"
+    },
+    {
+      "lineNumber": 250,
+      "id": "beatrice-2-0-0",
+      "name": "Beatrice_2.0.0",
+      "vendor": "Project Beatrice"
+    },
+    {
+      "lineNumber": 252,
+      "id": "d-50",
+      "name": "D-50",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 254,
+      "id": "juno-106",
+      "name": "JUNO-106",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 255,
+      "id": "juno-60",
+      "name": "JUNO-60",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 257,
+      "id": "jupiter-8",
+      "name": "JUPITER-8",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 258,
+      "id": "jv-1080",
+      "name": "JV-1080",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 259,
+      "id": "jx-3p",
+      "name": "JX-3P",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 260,
+      "id": "promars",
+      "name": "PROMARS",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 261,
+      "id": "sh-101",
+      "name": "SH-101",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 262,
+      "id": "sh-2",
+      "name": "SH-2",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 263,
+      "id": "system-1",
+      "name": "SYSTEM-1",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 264,
+      "id": "system-100",
+      "name": "SYSTEM-100",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 265,
+      "id": "system-8",
+      "name": "SYSTEM-8",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 266,
+      "id": "tb-303",
+      "name": "TB-303",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 267,
+      "id": "tr-606",
+      "name": "TR-606",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 268,
+      "id": "tr-707",
+      "name": "TR-707",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 269,
+      "id": "tr-727",
+      "name": "TR-727",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 270,
+      "id": "tr-808",
+      "name": "TR-808",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 271,
+      "id": "tr-909",
+      "name": "TR-909",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 272,
+      "id": "xv-5080",
+      "name": "XV-5080",
+      "vendor": "Roland Corporation"
+    },
+    {
+      "lineNumber": 288,
+      "id": "softube-saturation-knob",
+      "name": "Softube: Saturation Knob",
+      "vendor": "Softube"
+    },
+    {
+      "lineNumber": 289,
+      "id": "softube-tube-tech-cl-1b",
+      "name": "Softube: Tube-Tech CL 1B",
+      "vendor": "Softube"
+    },
+    {
+      "lineNumber": 290,
+      "id": "softube-tube-tech-pe-1c",
+      "name": "Softube: Tube-Tech PE 1C",
+      "vendor": "Softube"
+    },
+    {
+      "lineNumber": 291,
+      "id": "soundid-reference-plugin",
+      "name": "SoundID Reference Plugin",
+      "vendor": "Sonarworks"
+    },
+    {
+      "lineNumber": 297,
+      "id": "soundly-place-it",
+      "name": "Soundly Place it",
+      "vendor": "Soundly AS"
+    },
+    {
+      "lineNumber": 305,
+      "id": "ignite-emissary-audio-plug-in",
+      "name": "Ignite - Emissary Audio Plug-in",
+      "vendor": "STL Tones"
+    },
+    {
+      "lineNumber": 306,
+      "id": "ignite-nadir-audio-plug-in",
+      "name": "Ignite - NadIR Audio Plug-in",
+      "vendor": "STL Tones"
+    },
+    {
+      "lineNumber": 308,
+      "id": "revoice-pro-plug-in",
+      "name": "Revoice Pro Plug-In",
+      "vendor": "Synchro Arts Ltd"
+    },
+    {
+      "lineNumber": 309,
+      "id": "vocalign-ultra-plug-in",
+      "name": "VocAlign Ultra Plug-In",
+      "vendor": "Synchro Arts Ltd"
+    },
+    {
+      "lineNumber": 321,
+      "id": "abbey-road-chambers",
+      "name": "Abbey Road Chambers",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 322,
+      "id": "abbey-road-j37-tape",
+      "name": "Abbey Road J37 Tape",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 323,
+      "id": "abbey-road-plates",
+      "name": "Abbey Road Plates",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 324,
+      "id": "abbey-road-reel-adt",
+      "name": "Abbey Road Reel ADT",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 325,
+      "id": "abbey-road-rs124-compressor",
+      "name": "Abbey Road RS124 Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 326,
+      "id": "abbey-road-saturator",
+      "name": "Abbey Road Saturator",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 327,
+      "id": "abbey-road-studio-3",
+      "name": "Abbey Road Studio 3",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 328,
+      "id": "abbey-road-tg-master-chain",
+      "name": "Abbey Road TG Master Chain",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 329,
+      "id": "abbey-road-tg-vocal-chain",
+      "name": "Abbey Road TG Vocal Chain",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 330,
+      "id": "abbey-road-vinyl",
+      "name": "Abbey Road Vinyl",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 331,
+      "id": "api-2500",
+      "name": "API 2500",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 332,
+      "id": "api-550a",
+      "name": "API 550A",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 333,
+      "id": "api-550b",
+      "name": "API 550B",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 334,
+      "id": "api-560",
+      "name": "API 560",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 335,
+      "id": "audiotrack",
+      "name": "AudioTrack",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 336,
+      "id": "b360-ambisonics-encoder",
+      "name": "B360 Ambisonics Encoder",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 337,
+      "id": "bass-rider",
+      "name": "Bass Rider",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 338,
+      "id": "bb-tubes",
+      "name": "BB Tubes",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 339,
+      "id": "beeq",
+      "name": "BeEQ",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 340,
+      "id": "berzerk-distortion",
+      "name": "Berzerk Distortion",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 341,
+      "id": "brauer-motion",
+      "name": "Brauer Motion",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 342,
+      "id": "butch-vig-vocals",
+      "name": "Butch Vig Vocals",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 343,
+      "id": "c1-compressor",
+      "name": "C1 Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 344,
+      "id": "c4-multiband-compressor",
+      "name": "C4 Multiband Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 345,
+      "id": "c6-multiband-compressor",
+      "name": "C6 Multiband Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 346,
+      "id": "center",
+      "name": "Center",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 347,
+      "id": "cla-2a-compressor-limiter",
+      "name": "CLA-2A Compressor / Limiter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 348,
+      "id": "cla-3a-compressor-limiter",
+      "name": "CLA-3A Compressor / Limiter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 349,
+      "id": "cla-76-compressor-limiter",
+      "name": "CLA-76 Compressor / Limiter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 350,
+      "id": "cla-bass",
+      "name": "CLA Bass",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 351,
+      "id": "cla-drums",
+      "name": "CLA Drums",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 352,
+      "id": "cla-echosphere",
+      "name": "CLA EchoSphere",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 353,
+      "id": "cla-effects",
+      "name": "CLA Effects",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 354,
+      "id": "cla-epic",
+      "name": "CLA Epic",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 355,
+      "id": "cla-guitars",
+      "name": "CLA Guitars",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 356,
+      "id": "cla-mixdown",
+      "name": "CLA MixDown",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 357,
+      "id": "cla-mixhub",
+      "name": "CLA MixHub",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 358,
+      "id": "cla-nx",
+      "name": "CLA NX",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 359,
+      "id": "cla-unplugged",
+      "name": "CLA Unplugged",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 360,
+      "id": "cla-vocals",
+      "name": "CLA Vocals",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 361,
+      "id": "clarity-vx",
+      "name": "Clarity Vx",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 362,
+      "id": "clarity-vx-dereverb",
+      "name": "Clarity Vx DeReverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 363,
+      "id": "clarity-vx-pro",
+      "name": "Clarity Vx Pro",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 364,
+      "id": "cobalt-saphira",
+      "name": "Cobalt Saphira",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 365,
+      "id": "cosmo",
+      "name": "Cosmo",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 366,
+      "id": "cr8-creative-sampler",
+      "name": "CR8 Creative Sampler",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 367,
+      "id": "dbx-160-compressor-limiter",
+      "name": "dbx 160 Compressor / Limiter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 370,
+      "id": "dof",
+      "name": "DoF",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 371,
+      "id": "doppler",
+      "name": "Doppler",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 372,
+      "id": "doubler",
+      "name": "Doubler",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 373,
+      "id": "dts-neural-mono2stereo",
+      "name": "DTS Neural Mono2Stereo",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 374,
+      "id": "dts-neural-surround-downmix",
+      "name": "DTS Neural Surround DownMix",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 375,
+      "id": "dts-neural-surround-upmix",
+      "name": "DTS Neural Surround UpMix",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 376,
+      "id": "emo-d5-dynamics",
+      "name": "eMo D5 Dynamics",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 377,
+      "id": "emo-f2-filter",
+      "name": "eMo F2 Filter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 378,
+      "id": "emo-generator",
+      "name": "eMo Generator",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 379,
+      "id": "emo-q4-equalizer",
+      "name": "eMo Q4 Equalizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 380,
+      "id": "eddie-kramer-bass-channel",
+      "name": "Eddie Kramer Bass Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 381,
+      "id": "eddie-kramer-drum-channel",
+      "name": "Eddie Kramer Drum Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 382,
+      "id": "eddie-kramer-effects-channel",
+      "name": "Eddie Kramer Effects Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 383,
+      "id": "eddie-kramer-guitar-channel",
+      "name": "Eddie Kramer Guitar Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 384,
+      "id": "eddie-kramer-vocal-channel",
+      "name": "Eddie Kramer Vocal Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 385,
+      "id": "electric-200-piano",
+      "name": "Electric 200 Piano",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 386,
+      "id": "electric-88-piano",
+      "name": "Electric 88 Piano",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 387,
+      "id": "electric-grand-80-piano",
+      "name": "Electric Grand 80 Piano",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 388,
+      "id": "element-2-0-virtual-analog-synth",
+      "name": "Element 2.0 Virtual Analog Synth",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 389,
+      "id": "emi-tg12345-channel-strip",
+      "name": "EMI TG12345 Channel Strip",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 390,
+      "id": "enigma",
+      "name": "Enigma",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 391,
+      "id": "f6-floating-band-dynamic-eq",
+      "name": "F6 Floating-Band Dynamic EQ",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 392,
+      "id": "flow-motion-fm-synth",
+      "name": "Flow Motion FM Synth",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 393,
+      "id": "flux-desktop",
+      "name": "Flux Desktop",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 394,
+      "id": "gtr3-amps",
+      "name": "GTR3 Amps",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 395,
+      "id": "gtr3-stomps",
+      "name": "GTR3 Stomps",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 396,
+      "id": "gtr3-toolrack",
+      "name": "GTR3 ToolRack",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 397,
+      "id": "gtr3-tuner",
+      "name": "GTR3 Tuner",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 398,
+      "id": "greg-wells-mixcentric",
+      "name": "Greg Wells MixCentric",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 399,
+      "id": "greg-wells-pianocentric",
+      "name": "Greg Wells PianoCentric",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 400,
+      "id": "greg-wells-tonecentric",
+      "name": "Greg Wells ToneCentric",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 401,
+      "id": "greg-wells-voicecentric",
+      "name": "Greg Wells VoiceCentric",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 402,
+      "id": "gtr-solo",
+      "name": "GTR Solo",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 403,
+      "id": "h-comp-hybrid-compressor",
+      "name": "H-Comp Hybrid Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 404,
+      "id": "h-delay-hybrid-delay",
+      "name": "H-Delay Hybrid Delay",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 405,
+      "id": "h-eq-hybrid-equalizer",
+      "name": "H-EQ Hybrid Equalizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 406,
+      "id": "h-reverb-hybrid-reverb",
+      "name": "H-Reverb Hybrid Reverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 407,
+      "id": "idr360-bit-depth-reducer",
+      "name": "IDR360 Bit-Depth Reducer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 408,
+      "id": "inphase",
+      "name": "InPhase",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 409,
+      "id": "inphase-lt",
+      "name": "InPhase LT",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 410,
+      "id": "ir1-efficient",
+      "name": "IR1 Efficient",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 411,
+      "id": "ir1-convolution-reverb",
+      "name": "IR1 Convolution Reverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 412,
+      "id": "ir360-convolution-reverb",
+      "name": "IR360 Convolution Reverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 413,
+      "id": "ir-l-convolution-reverb",
+      "name": "IR-L Convolution Reverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 414,
+      "id": "jjp-bass",
+      "name": "JJP Bass",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 415,
+      "id": "jjp-cymbals-percussion",
+      "name": "JJP Cymbals & Percussion",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 416,
+      "id": "jjp-drums",
+      "name": "JJP Drums",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 417,
+      "id": "jjp-guitars",
+      "name": "JJP Guitars",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 418,
+      "id": "jjp-strings-keys",
+      "name": "JJP Strings & Keys",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 419,
+      "id": "jjp-vocals",
+      "name": "JJP Vocals",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 420,
+      "id": "kaleidoscopes",
+      "name": "Kaleidoscopes",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 421,
+      "id": "key-detector",
+      "name": "Key Detector",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 422,
+      "id": "king-s-microphones",
+      "name": "King's Microphones",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 423,
+      "id": "kramer-hls-channel",
+      "name": "Kramer HLS Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 424,
+      "id": "kramer-master-tape",
+      "name": "Kramer Master Tape",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 425,
+      "id": "kramer-pie-compressor",
+      "name": "Kramer PIE Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 426,
+      "id": "l1-ultramaximizer",
+      "name": "L1 Ultramaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 427,
+      "id": "l2-ultramaximizer",
+      "name": "L2 Ultramaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 428,
+      "id": "l3-multimaximizer",
+      "name": "L3 Multimaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 429,
+      "id": "l3-ultramaximizer",
+      "name": "L3 Ultramaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 430,
+      "id": "l3-16-multimaximizer",
+      "name": "L3-16 Multimaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 431,
+      "id": "l3-ll-multimaximizer",
+      "name": "L3-LL Multimaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 432,
+      "id": "l3-ll-ultramaximizer",
+      "name": "L3-LL Ultramaximizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 433,
+      "id": "lfe360-low-pass-filter",
+      "name": "LFE360 Low-Pass Filter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 434,
+      "id": "lil-tube",
+      "name": "Lil Tube",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 435,
+      "id": "lineq-broad-band",
+      "name": "LinEQ Broad-Band",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 436,
+      "id": "lineq-low-band",
+      "name": "LinEQ Low-Band",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 437,
+      "id": "linmb-multiband-compressor",
+      "name": "LinMB Multiband compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 438,
+      "id": "loair",
+      "name": "LoAir",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 439,
+      "id": "m360-manager-mixdown",
+      "name": "M360 Manager / Mixdown",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 440,
+      "id": "magma-bb-tubes",
+      "name": "Magma BB Tubes",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 441,
+      "id": "magma-lil-tube",
+      "name": "Magma Lil Tube",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 442,
+      "id": "magma-springs",
+      "name": "Magma Springs",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 443,
+      "id": "magma-tube-channel-strip",
+      "name": "Magma Tube Channel Strip",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 444,
+      "id": "manny-marroquin-delay",
+      "name": "Manny Marroquin Delay",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 445,
+      "id": "manny-marroquin-distortion",
+      "name": "Manny Marroquin Distortion",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 446,
+      "id": "manny-marroquin-eq",
+      "name": "Manny Marroquin EQ",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 447,
+      "id": "manny-marroquin-reverb",
+      "name": "Manny Marroquin Reverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 448,
+      "id": "manny-marroquin-triple-d",
+      "name": "Manny Marroquin Triple D",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 449,
+      "id": "maserati-b72",
+      "name": "Maserati B72",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 450,
+      "id": "maserati-drm",
+      "name": "Maserati DRM",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 451,
+      "id": "maserati-grp",
+      "name": "Maserati GRP",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 452,
+      "id": "maserati-gti",
+      "name": "Maserati GTi",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 453,
+      "id": "maserati-hcg",
+      "name": "Maserati HCG",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 454,
+      "id": "maserati-vx1",
+      "name": "Maserati VX1",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 455,
+      "id": "maxxbass",
+      "name": "MaxxBass",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 456,
+      "id": "maxxvolume",
+      "name": "MaxxVolume",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 457,
+      "id": "metafilter",
+      "name": "MetaFilter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 458,
+      "id": "metaflanger",
+      "name": "MetaFlanger",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 459,
+      "id": "mondomod",
+      "name": "MondoMod",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 460,
+      "id": "morphoder",
+      "name": "Morphoder",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 461,
+      "id": "mv2",
+      "name": "MV2",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 462,
+      "id": "nls-channel",
+      "name": "NLS Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 463,
+      "id": "nls-buss",
+      "name": "NLS Buss",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 464,
+      "id": "ns1-noise-suppressor",
+      "name": "NS1 Noise Suppressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 465,
+      "id": "nx-germano-studios-new-york",
+      "name": "NX Germano Studios New York",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 466,
+      "id": "nx-ocean-way-nashville",
+      "name": "NX Ocean Way Nashville",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 467,
+      "id": "nx-virtual-mix-room",
+      "name": "NX Virtual Mix Room",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 468,
+      "id": "oneknob-brighter",
+      "name": "OneKnob Brighter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 469,
+      "id": "oneknob-driver",
+      "name": "OneKnob Driver",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 470,
+      "id": "oneknob-filter",
+      "name": "OneKnob Filter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 471,
+      "id": "oneknob-louder",
+      "name": "OneKnob Louder",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 472,
+      "id": "oneknob-phatter",
+      "name": "OneKnob Phatter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 473,
+      "id": "oneknob-pressure",
+      "name": "OneKnob Pressure",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 474,
+      "id": "oneknob-pumper",
+      "name": "OneKnob Pumper",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 475,
+      "id": "oneknob-wetter",
+      "name": "OneKnob Wetter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 476,
+      "id": "ovox-vocal-resynthesis",
+      "name": "OVox Vocal ReSynthesis",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 477,
+      "id": "paz-analyzer",
+      "name": "PAZ Analyzer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 478,
+      "id": "primary-source-expander",
+      "name": "Primary Source Expander",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 479,
+      "id": "prs-supermodels",
+      "name": "PRS SuperModels",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 480,
+      "id": "ps22-stereo-maker",
+      "name": "PS22 Stereo Maker",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 481,
+      "id": "pumper",
+      "name": "Pumper",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 482,
+      "id": "puigchild-660",
+      "name": "PuigChild 660",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 483,
+      "id": "puigchild-670",
+      "name": "PuigChild 670",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 484,
+      "id": "puigtec-eqp-1a",
+      "name": "PuigTec EQP-1A",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 485,
+      "id": "puigtec-meq-5",
+      "name": "PuigTec MEQ-5",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 486,
+      "id": "q10-equalizer",
+      "name": "Q10 Equalizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 487,
+      "id": "q1-clone",
+      "name": "Q1-Clone",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 488,
+      "id": "renaissance-axx",
+      "name": "Renaissance Axx",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 489,
+      "id": "renaissance-bass",
+      "name": "Renaissance Bass",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 490,
+      "id": "renaissance-channel",
+      "name": "Renaissance Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 491,
+      "id": "renaissance-compressor",
+      "name": "Renaissance Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 492,
+      "id": "renaissance-deesser",
+      "name": "Renaissance DeEsser",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 493,
+      "id": "renaissance-equalizer",
+      "name": "Renaissance Equalizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 494,
+      "id": "renaissance-reverb",
+      "name": "Renaissance Reverb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 495,
+      "id": "renaissance-vox",
+      "name": "Renaissance Vox",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 496,
+      "id": "retro-fi",
+      "name": "Retro Fi",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 497,
+      "id": "s1-stereo-imager",
+      "name": "S1 Stereo Imager",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 498,
+      "id": "s360-surround-imager",
+      "name": "S360 Surround Imager",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 499,
+      "id": "saphira",
+      "name": "Saphira",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 500,
+      "id": "scheps-73",
+      "name": "Scheps 73",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 501,
+      "id": "scheps-omni-channel",
+      "name": "Scheps Omni Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 502,
+      "id": "scheps-parallel-particles",
+      "name": "Scheps Parallel Particles",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 503,
+      "id": "silk-vocal",
+      "name": "Silk Vocal",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 504,
+      "id": "sibilance",
+      "name": "Sibilance",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 505,
+      "id": "smack-attack",
+      "name": "Smack Attack",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 506,
+      "id": "soundshifter",
+      "name": "SoundShifter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 507,
+      "id": "space-rider",
+      "name": "Space Rider",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 508,
+      "id": "supertap",
+      "name": "SuperTap",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 509,
+      "id": "ssl-e-channel",
+      "name": "SSL E-Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 510,
+      "id": "ssl-ev2-channel",
+      "name": "SSL EV2 Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 511,
+      "id": "ssl-g-channel",
+      "name": "SSL G-Channel",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 512,
+      "id": "ssl-g-equalizer",
+      "name": "SSL G-Equalizer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 513,
+      "id": "ssl-g-master-buss-compressor",
+      "name": "SSL G-Master Buss Compressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 514,
+      "id": "stream",
+      "name": "Stream",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 515,
+      "id": "sub-aligner",
+      "name": "Sub Aligner",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 516,
+      "id": "submarine",
+      "name": "Submarine",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 517,
+      "id": "tarsier",
+      "name": "Tarsier",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 518,
+      "id": "torque",
+      "name": "Torque",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 519,
+      "id": "trueverb",
+      "name": "TrueVerb",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 520,
+      "id": "ultrapitch",
+      "name": "UltraPitch",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 521,
+      "id": "um225-um226",
+      "name": "UM225 / UM226",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 522,
+      "id": "v-comp",
+      "name": "V-Comp",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 523,
+      "id": "v-eq3",
+      "name": "V-EQ3",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 524,
+      "id": "v-eq4",
+      "name": "V-EQ4",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 525,
+      "id": "vitamin-multiband-enhancer",
+      "name": "Vitamin Multiband Enhancer",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 526,
+      "id": "vocal-bender",
+      "name": "Vocal Bender",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 527,
+      "id": "vocal-rider",
+      "name": "Vocal Rider",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 528,
+      "id": "vu-meter",
+      "name": "VU Meter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 529,
+      "id": "waves-harmony",
+      "name": "Waves Harmony",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 530,
+      "id": "waves-tune",
+      "name": "Waves Tune",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 531,
+      "id": "waves-tune-lt",
+      "name": "Waves Tune LT",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 532,
+      "id": "waves-tune-real-time",
+      "name": "Waves Tune Real-Time",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 533,
+      "id": "wlm-plus-loudness-meter",
+      "name": "WLM Plus Loudness Meter",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 534,
+      "id": "wns-noise-suppressor",
+      "name": "WNS Noise Suppressor",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 535,
+      "id": "x-click",
+      "name": "X-Click",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 536,
+      "id": "x-crackle",
+      "name": "X-Crackle",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 537,
+      "id": "x-hum",
+      "name": "X-Hum",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 538,
+      "id": "x-noise",
+      "name": "X-Noise",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 539,
+      "id": "z-noise",
+      "name": "Z-Noise",
+      "vendor": "Waves Audio"
+    },
+    {
+      "lineNumber": 545,
+      "id": "trackspacer",
+      "name": "Trackspacer",
+      "vendor": "Wavesfactory"
+    },
+    {
+      "lineNumber": 546,
+      "id": "serum-2-vst3-plug-in",
+      "name": "Serum 2 VST3 Plug-In",
+      "vendor": "Xfer Records"
+    }
+  ],
+  "skipped": [
+    {
+      "lineNumber": 1,
+      "vendor": "Aberrant DSP",
+      "name": "Lofi Oddity",
+      "reason": "exact",
+      "matchedName": "Lofi Oddity",
+      "matchedId": "lofi-oddity"
+    },
+    {
+      "lineNumber": 14,
+      "vendor": "accusonus",
+      "name": "Voice-Changer",
+      "reason": "similar",
+      "matchedName": "VoiceChanger",
+      "matchedId": "voicechanger"
+    },
+    {
+      "lineNumber": 20,
+      "vendor": "AnalogObsession",
+      "name": "BritPre",
+      "reason": "exact",
+      "matchedName": "BritPre",
+      "matchedId": "britpre"
+    },
+    {
+      "lineNumber": 21,
+      "vendor": "AnalogObsession",
+      "name": "Distox",
+      "reason": "exact",
+      "matchedName": "Distox",
+      "matchedId": "distox"
+    },
+    {
+      "lineNumber": 22,
+      "vendor": "AnalogObsession",
+      "name": "PreBOX",
+      "reason": "exact",
+      "matchedName": "PreBOX",
+      "matchedId": "prebox"
+    },
+    {
+      "lineNumber": 23,
+      "vendor": "AnalogObsession",
+      "name": "ReLife",
+      "reason": "exact",
+      "matchedName": "ReLife",
+      "matchedId": "relife"
+    },
+    {
+      "lineNumber": 24,
+      "vendor": "AnalogObsession",
+      "name": "RevO",
+      "reason": "exact",
+      "matchedName": "RevO",
+      "matchedId": "revo"
+    },
+    {
+      "lineNumber": 25,
+      "vendor": "Antares",
+      "name": "Auto-Tune EFX",
+      "reason": "exact",
+      "matchedName": "Auto-Tune EFX",
+      "matchedId": "auto-tune-efx"
+    },
+    {
+      "lineNumber": 26,
+      "vendor": "Audio Damage, Inc.",
+      "name": "Quanta",
+      "reason": "exact",
+      "matchedName": "Quanta",
+      "matchedId": "quanta"
+    },
+    {
+      "lineNumber": 27,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Alto Trombone",
+      "reason": "exact",
+      "matchedName": "SWAM Alto Trombone",
+      "matchedId": "swam-alto-trombone"
+    },
+    {
+      "lineNumber": 28,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Bass Trombone",
+      "reason": "exact",
+      "matchedName": "SWAM Bass Trombone",
+      "matchedId": "swam-bass-trombone"
+    },
+    {
+      "lineNumber": 29,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Bass Tuba",
+      "reason": "exact",
+      "matchedName": "SWAM Bass Tuba",
+      "matchedId": "swam-bass-tuba"
+    },
+    {
+      "lineNumber": 30,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Double Bass Trombone",
+      "reason": "exact",
+      "matchedName": "SWAM Double Bass Trombone",
+      "matchedId": "swam-double-bass-trombone"
+    },
+    {
+      "lineNumber": 31,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Euphonium",
+      "reason": "exact",
+      "matchedName": "SWAM Euphonium",
+      "matchedId": "swam-euphonium"
+    },
+    {
+      "lineNumber": 32,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Flugelhorn",
+      "reason": "exact",
+      "matchedName": "SWAM Flugelhorn",
+      "matchedId": "swam-flugelhorn"
+    },
+    {
+      "lineNumber": 33,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Flugelhorn Eb",
+      "reason": "exact",
+      "matchedName": "SWAM Flugelhorn Eb",
+      "matchedId": "swam-flugelhorn-eb"
+    },
+    {
+      "lineNumber": 34,
+      "vendor": "Audio Modeling",
+      "name": "SWAM French Horn Bb",
+      "reason": "exact",
+      "matchedName": "SWAM French Horn Bb",
+      "matchedId": "swam-french-horn-bb"
+    },
+    {
+      "lineNumber": 35,
+      "vendor": "Audio Modeling",
+      "name": "SWAM French Horn F",
+      "reason": "exact",
+      "matchedName": "SWAM French Horn F",
+      "matchedId": "swam-french-horn-f"
+    },
+    {
+      "lineNumber": 36,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Piccolo Trumpet",
+      "reason": "exact",
+      "matchedName": "SWAM Piccolo Trumpet",
+      "matchedId": "swam-piccolo-trumpet"
+    },
+    {
+      "lineNumber": 37,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Tenor Bass Trombone",
+      "reason": "exact",
+      "matchedName": "SWAM Tenor Bass Trombone",
+      "matchedId": "swam-tenor-bass-trombone"
+    },
+    {
+      "lineNumber": 38,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Tenor Trombone",
+      "reason": "exact",
+      "matchedName": "SWAM Tenor Trombone",
+      "matchedId": "swam-tenor-trombone"
+    },
+    {
+      "lineNumber": 39,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Trumpet",
+      "reason": "exact",
+      "matchedName": "SWAM Trumpet",
+      "matchedId": "swam-trumpet"
+    },
+    {
+      "lineNumber": 40,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Trumpet C",
+      "reason": "exact",
+      "matchedName": "SWAM Trumpet C",
+      "matchedId": "swam-trumpet-c"
+    },
+    {
+      "lineNumber": 41,
+      "vendor": "Audio Modeling",
+      "name": "SWAM Tuba Eb",
+      "reason": "exact",
+      "matchedName": "SWAM Tuba Eb",
+      "matchedId": "swam-tuba-eb"
+    },
+    {
+      "lineNumber": 42,
+      "vendor": "Audiomodern",
+      "name": "Soundbox",
+      "reason": "exact",
+      "matchedName": "Soundbox",
+      "matchedId": "soundbox"
+    },
+    {
+      "lineNumber": 43,
+      "vendor": "AudioThing",
+      "name": "Frostbite 2",
+      "reason": "similar",
+      "matchedName": "Frostbite2",
+      "matchedId": "frostbite2"
+    },
+    {
+      "lineNumber": 44,
+      "vendor": "AudioThing",
+      "name": "Gong Amp",
+      "reason": "similar",
+      "matchedName": "GongAmp",
+      "matchedId": "gongamp"
+    },
+    {
+      "lineNumber": 45,
+      "vendor": "AudioThing",
+      "name": "Megaphone",
+      "reason": "exact",
+      "matchedName": "Megaphone x64",
+      "matchedId": "megaphone-x64"
+    },
+    {
+      "lineNumber": 46,
+      "vendor": "AudioThing",
+      "name": "miniVerb",
+      "reason": "exact",
+      "matchedName": "miniVerb",
+      "matchedId": "miniverb"
+    },
+    {
+      "lineNumber": 47,
+      "vendor": "AudioThing",
+      "name": "Outer Space",
+      "reason": "similar",
+      "matchedName": "OuterSpace x64",
+      "matchedId": "outerspace-x64"
+    },
+    {
+      "lineNumber": 48,
+      "vendor": "AudioThing",
+      "name": "Reels",
+      "reason": "exact",
+      "matchedName": "Reels",
+      "matchedId": "reels"
+    },
+    {
+      "lineNumber": 49,
+      "vendor": "AudioThing",
+      "name": "Space Strip",
+      "reason": "similar",
+      "matchedName": "SpaceStrip x64",
+      "matchedId": "spacestrip-x64"
+    },
+    {
+      "lineNumber": 50,
+      "vendor": "AudioThing",
+      "name": "Speakers",
+      "reason": "exact",
+      "matchedName": "Speakers",
+      "matchedId": "speakers"
+    },
+    {
+      "lineNumber": 51,
+      "vendor": "AudioThing",
+      "name": "Springs",
+      "reason": "exact",
+      "matchedName": "Springs",
+      "matchedId": "springs"
+    },
+    {
+      "lineNumber": 52,
+      "vendor": "AudioThing",
+      "name": "The Orb",
+      "reason": "similar",
+      "matchedName": "TheOrb x64",
+      "matchedId": "theorb-x64"
+    },
+    {
+      "lineNumber": 53,
+      "vendor": "AudioThing",
+      "name": "Things Flip EQ",
+      "reason": "similar",
+      "matchedName": "ThingsFlipEQ",
+      "matchedId": "thingsflipeq"
+    },
+    {
+      "lineNumber": 54,
+      "vendor": "AudioThing",
+      "name": "Things Motor",
+      "reason": "similar",
+      "matchedName": "ThingsMotor",
+      "matchedId": "thingsmotor"
+    },
+    {
+      "lineNumber": 55,
+      "vendor": "AudioThing",
+      "name": "Things Texture",
+      "reason": "similar",
+      "matchedName": "ThingsTexture",
+      "matchedId": "thingstexture"
+    },
+    {
+      "lineNumber": 56,
+      "vendor": "AudioThing",
+      "name": "Type A",
+      "reason": "similar",
+      "matchedName": "TypeA x64",
+      "matchedId": "typea-x64"
+    },
+    {
+      "lineNumber": 57,
+      "vendor": "AudioThing",
+      "name": "Type B",
+      "reason": "similar",
+      "matchedName": "TypeB",
+      "matchedId": "typeb"
+    },
+    {
+      "lineNumber": 58,
+      "vendor": "AudioThing",
+      "name": "Valves",
+      "reason": "exact",
+      "matchedName": "Valves",
+      "matchedId": "valves"
+    },
+    {
+      "lineNumber": 59,
+      "vendor": "AudioThing",
+      "name": "Vinyl Strip",
+      "reason": "similar",
+      "matchedName": "VinylStrip x64",
+      "matchedId": "vinylstrip-x64"
+    },
+    {
+      "lineNumber": 60,
+      "vendor": "AudioThing",
+      "name": "Wave Box",
+      "reason": "similar",
+      "matchedName": "WaveBox x64",
+      "matchedId": "wavebox-x64"
+    },
+    {
+      "lineNumber": 61,
+      "vendor": "AudioThing",
+      "name": "Wires",
+      "reason": "exact",
+      "matchedName": "Wires",
+      "matchedId": "wires"
+    },
+    {
+      "lineNumber": 63,
+      "vendor": "beyerdynamic",
+      "name": "Headphone Lab",
+      "reason": "exact",
+      "matchedName": "Headphone Lab",
+      "matchedId": "headphone-lab"
+    },
+    {
+      "lineNumber": 64,
+      "vendor": "BirdBird",
+      "name": "System Audio Bridge",
+      "reason": "exact",
+      "matchedName": "System Audio Bridge",
+      "matchedId": "system-audio-bridge"
+    },
+    {
+      "lineNumber": 66,
+      "vendor": "Celemony Software GmbH",
+      "name": "Melodyne",
+      "reason": "exact",
+      "matchedName": "Melodyne",
+      "matchedId": "melodyne"
+    },
+    {
+      "lineNumber": 67,
+      "vendor": "CRQL",
+      "name": "ANINA",
+      "reason": "exact",
+      "matchedName": "ANINA",
+      "matchedId": "anina"
+    },
+    {
+      "lineNumber": 68,
+      "vendor": "Dawesome",
+      "name": "Abyss",
+      "reason": "exact",
+      "matchedName": "Abyss",
+      "matchedId": "abyss"
+    },
+    {
+      "lineNumber": 69,
+      "vendor": "Dear Reality",
+      "name": "Dear Reality MIYA",
+      "reason": "exact",
+      "matchedName": "Dear Reality MIYA",
+      "matchedId": "dear-reality-miya"
+    },
+    {
+      "lineNumber": 70,
+      "vendor": "Dear Reality",
+      "name": "dearVR MIX",
+      "reason": "exact",
+      "matchedName": "dearVR MIX",
+      "matchedId": "dearvr-mix"
+    },
+    {
+      "lineNumber": 71,
+      "vendor": "Dear Reality",
+      "name": "dearVR PRO 2",
+      "reason": "exact",
+      "matchedName": "dearVR PRO 2",
+      "matchedId": "dearvr-pro-2"
+    },
+    {
+      "lineNumber": 72,
+      "vendor": "Devious Machines",
+      "name": "Infiltrator",
+      "reason": "exact",
+      "matchedName": "Infiltrator",
+      "matchedId": "infiltrator"
+    },
+    {
+      "lineNumber": 73,
+      "vendor": "Devious Machines",
+      "name": "Texture",
+      "reason": "exact",
+      "matchedName": "Texture",
+      "matchedId": "texture"
+    },
+    {
+      "lineNumber": 74,
+      "vendor": "Dr. Audio",
+      "name": "NeuralNote",
+      "reason": "exact",
+      "matchedName": "NeuralNote",
+      "matchedId": "neuralnote"
+    },
+    {
+      "lineNumber": 75,
+      "vendor": "Echo Sound Works",
+      "name": "ESW Kalimba",
+      "reason": "exact",
+      "matchedName": "ESW Kalimba",
+      "matchedId": "esw-kalimba"
+    },
+    {
+      "lineNumber": 76,
+      "vendor": "Echo Sound Works",
+      "name": "ESW Vinyl Guitar 2",
+      "reason": "exact",
+      "matchedName": "ESW Vinyl Guitar 2",
+      "matchedId": "esw-vinyl-guitar-2"
+    },
+    {
+      "lineNumber": 78,
+      "vendor": "Eventide",
+      "name": "Blackhole",
+      "reason": "exact",
+      "matchedName": "Blackhole",
+      "matchedId": "blackhole"
+    },
+    {
+      "lineNumber": 79,
+      "vendor": "Eventide",
+      "name": "CrushStation",
+      "reason": "exact",
+      "matchedName": "CrushStation",
+      "matchedId": "crushstation"
+    },
+    {
+      "lineNumber": 80,
+      "vendor": "Eventide",
+      "name": "Crystals",
+      "reason": "exact",
+      "matchedName": "Crystals",
+      "matchedId": "crystals"
+    },
+    {
+      "lineNumber": 81,
+      "vendor": "Eventide",
+      "name": "EChannel",
+      "reason": "exact",
+      "matchedName": "EChannel",
+      "matchedId": "echannel"
+    },
+    {
+      "lineNumber": 82,
+      "vendor": "Eventide",
+      "name": "EQ45",
+      "reason": "exact",
+      "matchedName": "EQ45",
+      "matchedId": "eq45"
+    },
+    {
+      "lineNumber": 83,
+      "vendor": "Eventide",
+      "name": "EQ65",
+      "reason": "exact",
+      "matchedName": "EQ65",
+      "matchedId": "eq65"
+    },
+    {
+      "lineNumber": 89,
+      "vendor": "Eventide",
+      "name": "InstantFlangerMkII",
+      "reason": "similar",
+      "matchedName": "Instant Flanger Mk II",
+      "matchedId": "instant-flanger-mk-ii"
+    },
+    {
+      "lineNumber": 90,
+      "vendor": "Eventide",
+      "name": "InstantPhaserMkII",
+      "reason": "similar",
+      "matchedName": "Instant Phaser Mk II",
+      "matchedId": "instant-phaser-mk-ii"
+    },
+    {
+      "lineNumber": 91,
+      "vendor": "Eventide",
+      "name": "MangledVerb",
+      "reason": "exact",
+      "matchedName": "MangledVerb",
+      "matchedId": "mangledverb"
+    },
+    {
+      "lineNumber": 92,
+      "vendor": "Eventide",
+      "name": "MicroPitch",
+      "reason": "exact",
+      "matchedName": "MicroPitch",
+      "matchedId": "micropitch"
+    },
+    {
+      "lineNumber": 93,
+      "vendor": "Eventide",
+      "name": "Octavox",
+      "reason": "exact",
+      "matchedName": "Octavox",
+      "matchedId": "octavox"
+    },
+    {
+      "lineNumber": 94,
+      "vendor": "Eventide",
+      "name": "Omnipressor",
+      "reason": "exact",
+      "matchedName": "Omnipressor",
+      "matchedId": "omnipressor"
+    },
+    {
+      "lineNumber": 95,
+      "vendor": "Eventide",
+      "name": "Physion",
+      "reason": "exact",
+      "matchedName": "Physion",
+      "matchedId": "physion"
+    },
+    {
+      "lineNumber": 98,
+      "vendor": "Eventide",
+      "name": "Quadravox",
+      "reason": "exact",
+      "matchedName": "Quadravox",
+      "matchedId": "quadravox"
+    },
+    {
+      "lineNumber": 99,
+      "vendor": "Eventide",
+      "name": "RotaryMod",
+      "reason": "similar",
+      "matchedName": "Rotary Mod",
+      "matchedId": "rotary-mod"
+    },
+    {
+      "lineNumber": 100,
+      "vendor": "Eventide",
+      "name": "ShimmerVerb",
+      "reason": "exact",
+      "matchedName": "ShimmerVerb",
+      "matchedId": "shimmerverb"
+    },
+    {
+      "lineNumber": 101,
+      "vendor": "Eventide",
+      "name": "SP2016Reverb",
+      "reason": "similar",
+      "matchedName": "SP2016 Reverb",
+      "matchedId": "sp2016-reverb"
+    },
+    {
+      "lineNumber": 102,
+      "vendor": "Eventide",
+      "name": "SplitEQ",
+      "reason": "exact",
+      "matchedName": "SplitEQ",
+      "matchedId": "spliteq"
+    },
+    {
+      "lineNumber": 103,
+      "vendor": "Eventide",
+      "name": "Spring",
+      "reason": "exact",
+      "matchedName": "Spring",
+      "matchedId": "spring"
+    },
+    {
+      "lineNumber": 105,
+      "vendor": "Eventide",
+      "name": "TriceraChorus",
+      "reason": "exact",
+      "matchedName": "TriceraChorus",
+      "matchedId": "tricerachorus"
+    },
+    {
+      "lineNumber": 106,
+      "vendor": "Eventide",
+      "name": "Tverb",
+      "reason": "exact",
+      "matchedName": "Tverb",
+      "matchedId": "tverb"
+    },
+    {
+      "lineNumber": 107,
+      "vendor": "Eventide",
+      "name": "UltraChannel",
+      "reason": "exact",
+      "matchedName": "UltraChannel",
+      "matchedId": "ultrachannel"
+    },
+    {
+      "lineNumber": 108,
+      "vendor": "Eventide",
+      "name": "UltraReverb",
+      "reason": "exact",
+      "matchedName": "UltraReverb",
+      "matchedId": "ultrareverb"
+    },
+    {
+      "lineNumber": 109,
+      "vendor": "Eventide",
+      "name": "UltraTap",
+      "reason": "exact",
+      "matchedName": "UltraTap",
+      "matchedId": "ultratap"
+    },
+    {
+      "lineNumber": 110,
+      "vendor": "Eventide",
+      "name": "Undulator",
+      "reason": "exact",
+      "matchedName": "Undulator",
+      "matchedId": "undulator"
+    },
+    {
+      "lineNumber": 132,
+      "vendor": "Fiedler Audio",
+      "name": "fiedler audio stage",
+      "reason": "exact",
+      "matchedName": "fiedler audio stage",
+      "matchedId": "fiedler-audio-stage"
+    },
+    {
+      "lineNumber": 133,
+      "vendor": "Fors",
+      "name": "Sala",
+      "reason": "exact",
+      "matchedName": "Sala",
+      "matchedId": "sala"
+    },
+    {
+      "lineNumber": 134,
+      "vendor": "Ghost Note Audio",
+      "name": "SpectrumThief",
+      "reason": "exact",
+      "matchedName": "SpectrumThief",
+      "matchedId": "spectrumthief"
+    },
+    {
+      "lineNumber": 135,
+      "vendor": "IK Multimedia",
+      "name": "MODO BASS 2",
+      "reason": "exact",
+      "matchedName": "MODO BASS 2",
+      "matchedId": "modo-bass-2"
+    },
+    {
+      "lineNumber": 136,
+      "vendor": "Illformed",
+      "name": "Glitch2",
+      "reason": "exact",
+      "matchedName": "Glitch2",
+      "matchedId": "glitch2"
+    },
+    {
+      "lineNumber": 137,
+      "vendor": "Ircam",
+      "name": "ASAP Formant Shaping",
+      "reason": "exact",
+      "matchedName": "ASAP Formant Shaping",
+      "matchedId": "asap-formant-shaping"
+    },
+    {
+      "lineNumber": 138,
+      "vendor": "Ircam",
+      "name": "ASAP Spectral Clipping",
+      "reason": "exact",
+      "matchedName": "ASAP Spectral Clipping",
+      "matchedId": "asap-spectral-clipping"
+    },
+    {
+      "lineNumber": 139,
+      "vendor": "Ircam",
+      "name": "ASAP Spectral Remix",
+      "reason": "exact",
+      "matchedName": "ASAP Spectral Remix",
+      "matchedId": "asap-spectral-remix"
+    },
+    {
+      "lineNumber": 140,
+      "vendor": "Kazrog Inc",
+      "name": "Retro Sta-Level",
+      "reason": "exact",
+      "matchedName": "Retro Sta-Level",
+      "matchedId": "retro-sta-level"
+    },
+    {
+      "lineNumber": 143,
+      "vendor": "Kilohearts",
+      "name": "Carve EQ",
+      "reason": "exact",
+      "matchedName": "Carve EQ",
+      "matchedId": "carve-eq"
+    },
+    {
+      "lineNumber": 152,
+      "vendor": "Kilohearts",
+      "name": "Disperser",
+      "reason": "exact",
+      "matchedName": "Disperser",
+      "matchedId": "disperser"
+    },
+    {
+      "lineNumber": 157,
+      "vendor": "Kilohearts",
+      "name": "Faturator",
+      "reason": "exact",
+      "matchedName": "Faturator",
+      "matchedId": "faturator"
+    },
+    {
+      "lineNumber": 168,
+      "vendor": "Kilohearts",
+      "name": "Multipass",
+      "reason": "exact",
+      "matchedName": "Multipass",
+      "matchedId": "multipass"
+    },
+    {
+      "lineNumber": 171,
+      "vendor": "Kilohearts",
+      "name": "Phase Plant",
+      "reason": "exact",
+      "matchedName": "Phase Plant",
+      "matchedId": "phase-plant"
+    },
+    {
+      "lineNumber": 180,
+      "vendor": "Kilohearts",
+      "name": "Slice EQ",
+      "reason": "exact",
+      "matchedName": "Slice EQ",
+      "matchedId": "slice-eq"
+    },
+    {
+      "lineNumber": 181,
+      "vendor": "Kilohearts",
+      "name": "Snap Heap",
+      "reason": "exact",
+      "matchedName": "Snap Heap",
+      "matchedId": "snap-heap"
+    },
+    {
+      "lineNumber": 186,
+      "vendor": "Klevgrand",
+      "name": "Pana",
+      "reason": "exact",
+      "matchedName": "Pana",
+      "matchedId": "pana"
+    },
+    {
+      "lineNumber": 187,
+      "vendor": "KORG",
+      "name": "TRITON",
+      "reason": "exact",
+      "matchedName": "TRITON",
+      "matchedId": "triton"
+    },
+    {
+      "lineNumber": 188,
+      "vendor": "KORG",
+      "name": "TRITON_Extreme",
+      "reason": "similar",
+      "matchedName": "TRITON Extreme",
+      "matchedId": "triton-extreme"
+    },
+    {
+      "lineNumber": 190,
+      "vendor": "Kush",
+      "name": "UBK-1",
+      "reason": "exact",
+      "matchedName": "UBK-1",
+      "matchedId": "ubk-1"
+    },
+    {
+      "lineNumber": 191,
+      "vendor": "LennarDigital",
+      "name": "Sylenth1",
+      "reason": "exact",
+      "matchedName": "Sylenth1",
+      "matchedId": "sylenth1"
+    },
+    {
+      "lineNumber": 195,
+      "vendor": "Lindell Audio",
+      "name": "Lindell 254E",
+      "reason": "exact",
+      "matchedName": "Lindell 254E",
+      "matchedId": "lindell-254e"
+    },
+    {
+      "lineNumber": 196,
+      "vendor": "Lindell Audio",
+      "name": "Lindell 354E",
+      "reason": "exact",
+      "matchedName": "Lindell 354E",
+      "matchedId": "lindell-354e"
+    },
+    {
+      "lineNumber": 197,
+      "vendor": "Lindell Audio",
+      "name": "Lindell 80 Bus",
+      "reason": "exact",
+      "matchedName": "Lindell 80 Bus",
+      "matchedId": "lindell-80-bus"
+    },
+    {
+      "lineNumber": 198,
+      "vendor": "Lindell Audio",
+      "name": "Lindell 80 Channel",
+      "reason": "exact",
+      "matchedName": "Lindell 80 Channel",
+      "matchedId": "lindell-80-channel"
+    },
+    {
+      "lineNumber": 199,
+      "vendor": "Lindell Audio",
+      "name": "Lindell TE-100",
+      "reason": "exact",
+      "matchedName": "Lindell TE-100",
+      "matchedId": "lindell-te-100"
+    },
+    {
+      "lineNumber": 201,
+      "vendor": "Lindell Plugins",
+      "name": "Lindell 50 Buss",
+      "reason": "exact",
+      "matchedName": "Lindell 50 Buss",
+      "matchedId": "lindell-50-buss"
+    },
+    {
+      "lineNumber": 202,
+      "vendor": "Lindell Plugins",
+      "name": "Lindell 50 Channel",
+      "reason": "exact",
+      "matchedName": "Lindell 50 Channel",
+      "matchedId": "lindell-50-channel"
+    },
+    {
+      "lineNumber": 203,
+      "vendor": "Lindell Plugins",
+      "name": "Lindell 902 De-esser",
+      "reason": "exact",
+      "matchedName": "Lindell 902 De-esser",
+      "matchedId": "lindell-902-de-esser"
+    },
+    {
+      "lineNumber": 204,
+      "vendor": "Lindell Plugins",
+      "name": "Lindell SBC",
+      "reason": "exact",
+      "matchedName": "Lindell SBC",
+      "matchedId": "lindell-sbc"
+    },
+    {
+      "lineNumber": 205,
+      "vendor": "Luxora Audio",
+      "name": "LUX Vocal Preamp",
+      "reason": "exact",
+      "matchedName": "LUX Vocal Preamp",
+      "matchedId": "lux-vocal-preamp"
+    },
+    {
+      "lineNumber": 206,
+      "vendor": "Native Instruments GmbH",
+      "name": "Kontakt",
+      "reason": "exact",
+      "matchedName": "Kontakt",
+      "matchedId": "kontakt"
+    },
+    {
+      "lineNumber": 207,
+      "vendor": "Native Instruments GmbH",
+      "name": "Kontakt 8 Portable",
+      "reason": "exact",
+      "matchedName": "Kontakt 8 Portable",
+      "matchedId": "kontakt-8-portable"
+    },
+    {
+      "lineNumber": 208,
+      "vendor": "Native Instruments GmbH",
+      "name": "Massive",
+      "reason": "exact",
+      "matchedName": "Massive",
+      "matchedId": "massive"
+    },
+    {
+      "lineNumber": 209,
+      "vendor": "Neural DSP",
+      "name": "Archetype Abasi",
+      "reason": "exact",
+      "matchedName": "Archetype Abasi",
+      "matchedId": "archetype-abasi"
+    },
+    {
+      "lineNumber": 210,
+      "vendor": "Neural DSP",
+      "name": "Archetype Cory Wong",
+      "reason": "exact",
+      "matchedName": "Archetype Cory Wong",
+      "matchedId": "archetype-cory-wong"
+    },
+    {
+      "lineNumber": 211,
+      "vendor": "Neural DSP",
+      "name": "Archetype Gojira",
+      "reason": "exact",
+      "matchedName": "Archetype Gojira",
+      "matchedId": "archetype-gojira"
+    },
+    {
+      "lineNumber": 212,
+      "vendor": "Neural DSP",
+      "name": "Archetype Nolly",
+      "reason": "exact",
+      "matchedName": "Archetype Nolly",
+      "matchedId": "archetype-nolly"
+    },
+    {
+      "lineNumber": 213,
+      "vendor": "Neural DSP",
+      "name": "Archetype Plini",
+      "reason": "exact",
+      "matchedName": "Archetype Plini",
+      "matchedId": "archetype-plini"
+    },
+    {
+      "lineNumber": 214,
+      "vendor": "Neural DSP",
+      "name": "Darkglass Ultra",
+      "reason": "exact",
+      "matchedName": "Darkglass Ultra",
+      "matchedId": "darkglass-ultra"
+    },
+    {
+      "lineNumber": 215,
+      "vendor": "Neural DSP",
+      "name": "Fortin Cali Suite",
+      "reason": "exact",
+      "matchedName": "Fortin Cali Suite",
+      "matchedId": "fortin-cali-suite"
+    },
+    {
+      "lineNumber": 216,
+      "vendor": "Neural DSP",
+      "name": "Fortin Nameless Suite",
+      "reason": "exact",
+      "matchedName": "Fortin Nameless Suite",
+      "matchedId": "fortin-nameless-suite"
+    },
+    {
+      "lineNumber": 217,
+      "vendor": "Neural DSP",
+      "name": "Fortin NTS Suite",
+      "reason": "exact",
+      "matchedName": "Fortin NTS Suite",
+      "matchedId": "fortin-nts-suite"
+    },
+    {
+      "lineNumber": 218,
+      "vendor": "Neural DSP",
+      "name": "OMEGA Ampworks Granophyre",
+      "reason": "exact",
+      "matchedName": "OMEGA Ampworks Granophyre",
+      "matchedId": "omega-ampworks-granophyre"
+    },
+    {
+      "lineNumber": 219,
+      "vendor": "Neural DSP",
+      "name": "Parallax",
+      "reason": "exact",
+      "matchedName": "Parallax",
+      "matchedId": "parallax"
+    },
+    {
+      "lineNumber": 220,
+      "vendor": "Newfangled Audio",
+      "name": "Newfangled Elevate",
+      "reason": "exact",
+      "matchedName": "Newfangled Elevate",
+      "matchedId": "newfangled-elevate"
+    },
+    {
+      "lineNumber": 221,
+      "vendor": "Newfangled Audio",
+      "name": "Newfangled EQuivocate",
+      "reason": "exact",
+      "matchedName": "Newfangled EQuivocate",
+      "matchedId": "newfangled-equivocate"
+    },
+    {
+      "lineNumber": 222,
+      "vendor": "Newfangled Audio",
+      "name": "Newfangled Punctuate",
+      "reason": "exact",
+      "matchedName": "Newfangled Punctuate",
+      "matchedId": "newfangled-punctuate"
+    },
+    {
+      "lineNumber": 223,
+      "vendor": "Newfangled Audio",
+      "name": "Newfangled Saturate",
+      "reason": "exact",
+      "matchedName": "Newfangled Saturate",
+      "matchedId": "newfangled-saturate"
+    },
+    {
+      "lineNumber": 224,
+      "vendor": "Nimble Tools",
+      "name": "Misstortion 2",
+      "reason": "similar",
+      "matchedName": "Misstortion2",
+      "matchedId": "misstortion2"
+    },
+    {
+      "lineNumber": 225,
+      "vendor": "oeksound",
+      "name": "soothe2",
+      "reason": "exact",
+      "matchedName": "soothe2 x64",
+      "matchedId": "soothe2-x64"
+    },
+    {
+      "lineNumber": 226,
+      "vendor": "oeksound",
+      "name": "spiff",
+      "reason": "exact",
+      "matchedName": "spiff x64",
+      "matchedId": "spiff-x64"
+    },
+    {
+      "lineNumber": 229,
+      "vendor": "Output",
+      "name": "Movement",
+      "reason": "exact",
+      "matchedName": "Movement x64",
+      "matchedId": "movement-x64"
+    },
+    {
+      "lineNumber": 230,
+      "vendor": "Output",
+      "name": "Portal",
+      "reason": "exact",
+      "matchedName": "Portal",
+      "matchedId": "portal"
+    },
+    {
+      "lineNumber": 231,
+      "vendor": "plugdata",
+      "name": "plugdata",
+      "reason": "exact",
+      "matchedName": "plugdata",
+      "matchedId": "plugdata"
+    },
+    {
+      "lineNumber": 232,
+      "vendor": "plugdata",
+      "name": "plugdata-fx",
+      "reason": "exact",
+      "matchedName": "plugdata-fx",
+      "matchedId": "plugdata-fx"
+    },
+    {
+      "lineNumber": 233,
+      "vendor": "Plugin Alliance",
+      "name": "ADPTR StreamLiner",
+      "reason": "exact",
+      "matchedName": "ADPTR Streamliner",
+      "matchedId": "adptr-streamliner"
+    },
+    {
+      "lineNumber": 234,
+      "vendor": "Plugin Alliance",
+      "name": "Bettermaker EQ232D",
+      "reason": "exact",
+      "matchedName": "Bettermaker EQ232D",
+      "matchedId": "bettermaker-eq232d"
+    },
+    {
+      "lineNumber": 235,
+      "vendor": "Plugin Alliance",
+      "name": "DS Tantra 2",
+      "reason": "exact",
+      "matchedName": "DS Tantra 2",
+      "matchedId": "ds-tantra-2"
+    },
+    {
+      "lineNumber": 236,
+      "vendor": "Plugin Alliance",
+      "name": "elysia phils cascade",
+      "reason": "exact",
+      "matchedName": "elysia phils cascade",
+      "matchedId": "elysia-phils-cascade"
+    },
+    {
+      "lineNumber": 237,
+      "vendor": "Plugin Alliance",
+      "name": "LTL Chop Shop EQ",
+      "reason": "exact",
+      "matchedName": "LTL Chop Shop EQ",
+      "matchedId": "ltl-chop-shop-eq"
+    },
+    {
+      "lineNumber": 238,
+      "vendor": "Plugin Alliance",
+      "name": "NEOLD BIG AL",
+      "reason": "exact",
+      "matchedName": "NEOLD BIG AL",
+      "matchedId": "neold-big-al"
+    },
+    {
+      "lineNumber": 239,
+      "vendor": "Plugin Alliance",
+      "name": "NEOLD U17",
+      "reason": "exact",
+      "matchedName": "NEOLD U17",
+      "matchedId": "neold-u17"
+    },
+    {
+      "lineNumber": 240,
+      "vendor": "Plugin Alliance",
+      "name": "NEOLD V76U73",
+      "reason": "exact",
+      "matchedName": "NEOLD V76U73",
+      "matchedId": "neold-v76u73"
+    },
+    {
+      "lineNumber": 241,
+      "vendor": "Plugin Alliance",
+      "name": "NEOLD WARBLE",
+      "reason": "exact",
+      "matchedName": "NEOLD WARBLE",
+      "matchedId": "neold-warble"
+    },
+    {
+      "lineNumber": 242,
+      "vendor": "Plugin Alliance",
+      "name": "SPL HawkEye",
+      "reason": "exact",
+      "matchedName": "SPL HawkEye",
+      "matchedId": "spl-hawkeye"
+    },
+    {
+      "lineNumber": 243,
+      "vendor": "Plugin Alliance",
+      "name": "Unfiltered Audio Bass Mint",
+      "reason": "exact",
+      "matchedName": "Unfiltered Audio Bass Mint",
+      "matchedId": "unfiltered-audio-bass-mint"
+    },
+    {
+      "lineNumber": 244,
+      "vendor": "Plugin Boutique",
+      "name": "Scaler2",
+      "reason": "exact",
+      "matchedName": "Scaler2",
+      "matchedId": "scaler2"
+    },
+    {
+      "lineNumber": 245,
+      "vendor": "Plugin Boutique",
+      "name": "ScalerAudio2",
+      "reason": "exact",
+      "matchedName": "ScalerAudio2",
+      "matchedId": "scaleraudio2"
+    },
+    {
+      "lineNumber": 246,
+      "vendor": "Plugins That Knock",
+      "name": "KNOCK",
+      "reason": "exact",
+      "matchedName": "KNOCK",
+      "matchedId": "knock"
+    },
+    {
+      "lineNumber": 247,
+      "vendor": "Polyverse Music",
+      "name": "Filtron",
+      "reason": "exact",
+      "matchedName": "Filtron",
+      "matchedId": "filtron"
+    },
+    {
+      "lineNumber": 248,
+      "vendor": "Polyverse Music",
+      "name": "Wider",
+      "reason": "exact",
+      "matchedName": "Wider",
+      "matchedId": "wider"
+    },
+    {
+      "lineNumber": 249,
+      "vendor": "Polyverse Music Inc",
+      "name": "Manipulator",
+      "reason": "exact",
+      "matchedName": "Manipulator",
+      "matchedId": "manipulator"
+    },
+    {
+      "lineNumber": 251,
+      "vendor": "reFX Audio Software Inc.",
+      "name": "Nexus",
+      "reason": "exact",
+      "matchedName": "Nexus",
+      "matchedId": "nexus"
+    },
+    {
+      "lineNumber": 253,
+      "vendor": "Roland Corporation",
+      "name": "JD-800",
+      "reason": "exact",
+      "matchedName": "JD-800",
+      "matchedId": "jd-800"
+    },
+    {
+      "lineNumber": 256,
+      "vendor": "Roland Corporation",
+      "name": "JUNO-60 CHORUS",
+      "reason": "exact",
+      "matchedName": "JUNO-60 CHORUS",
+      "matchedId": "juno-60-chorus"
+    },
+    {
+      "lineNumber": 273,
+      "vendor": "Serato",
+      "name": "Serato Sample",
+      "reason": "exact",
+      "matchedName": "Serato Sample",
+      "matchedId": "serato-sample"
+    },
+    {
+      "lineNumber": 274,
+      "vendor": "Sinevibes",
+      "name": "SinevibesAlbedo",
+      "reason": "exact",
+      "matchedName": "SinevibesAlbedo",
+      "matchedId": "sinevibesalbedo"
+    },
+    {
+      "lineNumber": 275,
+      "vendor": "Sinevibes",
+      "name": "SinevibesBlend2",
+      "reason": "exact",
+      "matchedName": "SinevibesBlend2",
+      "matchedId": "sinevibesblend2"
+    },
+    {
+      "lineNumber": 276,
+      "vendor": "Sinevibes",
+      "name": "SinevibesCorrosion2",
+      "reason": "exact",
+      "matchedName": "SinevibesCorrosion2",
+      "matchedId": "sinevibescorrosion2"
+    },
+    {
+      "lineNumber": 277,
+      "vendor": "Sinevibes",
+      "name": "SinevibesDipole2",
+      "reason": "exact",
+      "matchedName": "SinevibesDipole2",
+      "matchedId": "sinevibesdipole2"
+    },
+    {
+      "lineNumber": 278,
+      "vendor": "Sinevibes",
+      "name": "SinevibesDispersion2",
+      "reason": "exact",
+      "matchedName": "SinevibesDispersion2",
+      "matchedId": "sinevibesdispersion2"
+    },
+    {
+      "lineNumber": 279,
+      "vendor": "Sinevibes",
+      "name": "SinevibesDroplet2",
+      "reason": "exact",
+      "matchedName": "SinevibesDroplet2",
+      "matchedId": "sinevibesdroplet2"
+    },
+    {
+      "lineNumber": 280,
+      "vendor": "Sinevibes",
+      "name": "SinevibesEternal2",
+      "reason": "exact",
+      "matchedName": "SinevibesEternal2",
+      "matchedId": "sinevibeseternal2"
+    },
+    {
+      "lineNumber": 281,
+      "vendor": "Sinevibes",
+      "name": "SinevibesHollow",
+      "reason": "exact",
+      "matchedName": "SinevibesHollow",
+      "matchedId": "sinevibeshollow"
+    },
+    {
+      "lineNumber": 282,
+      "vendor": "Sinevibes",
+      "name": "SinevibesLuminance2",
+      "reason": "exact",
+      "matchedName": "SinevibesLuminance2",
+      "matchedId": "sinevibesluminance2"
+    },
+    {
+      "lineNumber": 283,
+      "vendor": "Sinevibes",
+      "name": "SinevibesRerun2",
+      "reason": "exact",
+      "matchedName": "SinevibesRerun2",
+      "matchedId": "sinevibesrerun2"
+    },
+    {
+      "lineNumber": 284,
+      "vendor": "Sinevibes",
+      "name": "SinevibesWhirl2",
+      "reason": "exact",
+      "matchedName": "SinevibesWhirl2",
+      "matchedId": "sinevibeswhirl2"
+    },
+    {
+      "lineNumber": 285,
+      "vendor": "Slate Digital",
+      "name": "Fresh Air",
+      "reason": "exact",
+      "matchedName": "Fresh Air",
+      "matchedId": "fresh-air"
+    },
+    {
+      "lineNumber": 286,
+      "vendor": "Slate Digital",
+      "name": "Murda Melodies",
+      "reason": "exact",
+      "matchedName": "Murda Melodies",
+      "matchedId": "murda-melodies"
+    },
+    {
+      "lineNumber": 287,
+      "vendor": "Slate Digital",
+      "name": "Storch Filter",
+      "reason": "exact",
+      "matchedName": "Storch Filter",
+      "matchedId": "storch-filter"
+    },
+    {
+      "lineNumber": 292,
+      "vendor": "sonible",
+      "name": "smartEQ4",
+      "reason": "exact",
+      "matchedName": "smartEQ4",
+      "matchedId": "smarteq4"
+    },
+    {
+      "lineNumber": 293,
+      "vendor": "Sonic Academy",
+      "name": "Kick 3",
+      "reason": "exact",
+      "matchedName": "Kick 3",
+      "matchedId": "kick-3"
+    },
+    {
+      "lineNumber": 294,
+      "vendor": "Sonosaurus",
+      "name": "SonoBus",
+      "reason": "exact",
+      "matchedName": "SonoBus",
+      "matchedId": "sonobus"
+    },
+    {
+      "lineNumber": 295,
+      "vendor": "Sonosaurus",
+      "name": "SonoBusInstrument",
+      "reason": "exact",
+      "matchedName": "SonoBusInstrument",
+      "matchedId": "sonobusinstrument"
+    },
+    {
+      "lineNumber": 296,
+      "vendor": "Sound Particles SA",
+      "name": "EnergyPanner",
+      "reason": "exact",
+      "matchedName": "EnergyPanner",
+      "matchedId": "energypanner"
+    },
+    {
+      "lineNumber": 298,
+      "vendor": "Spectrasonics",
+      "name": "Keyscape",
+      "reason": "exact",
+      "matchedName": "Keyscape",
+      "matchedId": "keyscape"
+    },
+    {
+      "lineNumber": 299,
+      "vendor": "Spectrasonics",
+      "name": "Omnisphere",
+      "reason": "exact",
+      "matchedName": "Omnisphere",
+      "matchedId": "omnisphere"
+    },
+    {
+      "lineNumber": 300,
+      "vendor": "Spectrasonics",
+      "name": "Trilian",
+      "reason": "exact",
+      "matchedName": "Trilian",
+      "matchedId": "trilian"
+    },
+    {
+      "lineNumber": 301,
+      "vendor": "Spitfire Audio",
+      "name": "Labs",
+      "reason": "exact",
+      "matchedName": "LABS (64 Bit)",
+      "matchedId": "labs-64-bit"
+    },
+    {
+      "lineNumber": 302,
+      "vendor": "Splice",
+      "name": "SpliceBridge",
+      "reason": "exact",
+      "matchedName": "SpliceBridge",
+      "matchedId": "splicebridge"
+    },
+    {
+      "lineNumber": 303,
+      "vendor": "SSL",
+      "name": "SSL Native Channel Strip 2",
+      "reason": "exact",
+      "matchedName": "SSL Native Channel Strip 2",
+      "matchedId": "ssl-native-channel-strip-2"
+    },
+    {
+      "lineNumber": 304,
+      "vendor": "StevenAtkinson",
+      "name": "NeuralAmpModeler",
+      "reason": "exact",
+      "matchedName": "NeuralAmpModeler",
+      "matchedId": "neuralampmodeler"
+    },
+    {
+      "lineNumber": 307,
+      "vendor": "Synapse Audio Software",
+      "name": "DUNE 3",
+      "reason": "exact",
+      "matchedName": "DUNE 3",
+      "matchedId": "dune-3"
+    },
+    {
+      "lineNumber": 310,
+      "vendor": "Techivation",
+      "name": "AI-Rack",
+      "reason": "exact",
+      "matchedName": "AI-Rack",
+      "matchedId": "ai-rack"
+    },
+    {
+      "lineNumber": 311,
+      "vendor": "TERU FOX",
+      "name": "GuaiGuai",
+      "reason": "exact",
+      "matchedName": "GuaiGuai",
+      "matchedId": "guaiguai"
+    },
+    {
+      "lineNumber": 312,
+      "vendor": "TERU FOX",
+      "name": "KuaiKuai DAW Saviour",
+      "reason": "exact",
+      "matchedName": "KuaiKuai DAW Saviour",
+      "matchedId": "kuaikuai-daw-saviour"
+    },
+    {
+      "lineNumber": 313,
+      "vendor": "Tone Projects",
+      "name": "Basslane Pro",
+      "reason": "exact",
+      "matchedName": "Basslane Pro",
+      "matchedId": "basslane-pro"
+    },
+    {
+      "lineNumber": 314,
+      "vendor": "Tritik",
+      "name": "Tritik-Visu",
+      "reason": "exact",
+      "matchedName": "Tritik-Visu",
+      "matchedId": "tritik-visu"
+    },
+    {
+      "lineNumber": 315,
+      "vendor": "unplugred",
+      "name": "Scope",
+      "reason": "exact",
+      "matchedName": "Scope",
+      "matchedId": "scope"
+    },
+    {
+      "lineNumber": 316,
+      "vendor": "Valhalla DSP, LLC",
+      "name": "ValhallaDelay",
+      "reason": "exact",
+      "matchedName": "ValhallaDelay",
+      "matchedId": "valhalladelay"
+    },
+    {
+      "lineNumber": 317,
+      "vendor": "Valhalla DSP, LLC",
+      "name": "ValhallaFutureVerb",
+      "reason": "exact",
+      "matchedName": "ValhallaFutureVerb",
+      "matchedId": "valhallafutureverb"
+    },
+    {
+      "lineNumber": 318,
+      "vendor": "Valhalla DSP, LLC",
+      "name": "ValhallaRoom",
+      "reason": "exact",
+      "matchedName": "ValhallaRoom",
+      "matchedId": "valhallaroom"
+    },
+    {
+      "lineNumber": 319,
+      "vendor": "Valhalla DSP, LLC",
+      "name": "ValhallaSupermassive",
+      "reason": "exact",
+      "matchedName": "ValhallaSupermassive",
+      "matchedId": "valhallasupermassive"
+    },
+    {
+      "lineNumber": 320,
+      "vendor": "Valhalla DSP, LLC",
+      "name": "ValhallaVintageVerb",
+      "reason": "exact",
+      "matchedName": "ValhallaVintageVerb",
+      "matchedId": "valhallavintageverb"
+    },
+    {
+      "lineNumber": 368,
+      "vendor": "Waves Audio",
+      "name": "DeBreath",
+      "reason": "exact",
+      "matchedName": "DeBreath",
+      "matchedId": "debreath"
+    },
+    {
+      "lineNumber": 369,
+      "vendor": "Waves Audio",
+      "name": "DeEsser",
+      "reason": "exact",
+      "matchedName": "DeEsser",
+      "matchedId": "deesser"
+    },
+    {
+      "lineNumber": 540,
+      "vendor": "Wavesfactory",
+      "name": "Cassette",
+      "reason": "exact",
+      "matchedName": "Cassette",
+      "matchedId": "cassette"
+    },
+    {
+      "lineNumber": 541,
+      "vendor": "Wavesfactory",
+      "name": "Echo Cat",
+      "reason": "exact",
+      "matchedName": "Echo Cat",
+      "matchedId": "echo-cat"
+    },
+    {
+      "lineNumber": 542,
+      "vendor": "Wavesfactory",
+      "name": "MercuryFX",
+      "reason": "exact",
+      "matchedName": "MercuryFX",
+      "matchedId": "mercuryfx"
+    },
+    {
+      "lineNumber": 543,
+      "vendor": "Wavesfactory",
+      "name": "SK10",
+      "reason": "exact",
+      "matchedName": "SK10",
+      "matchedId": "sk10"
+    },
+    {
+      "lineNumber": 544,
+      "vendor": "Wavesfactory",
+      "name": "Spectre",
+      "reason": "exact",
+      "matchedName": "Spectre",
+      "matchedId": "spectre"
+    },
+    {
+      "lineNumber": 547,
+      "vendor": "Xynth Audio",
+      "name": "Chroma",
+      "reason": "exact",
+      "matchedName": "Chroma",
+      "matchedId": "chroma"
+    },
+    {
+      "lineNumber": 548,
+      "vendor": "YMCK",
+      "name": "Magical8bitPlug2",
+      "reason": "exact",
+      "matchedName": "Magical8bitPlug2",
+      "matchedId": "magical8bitplug2"
+    }
+  ],
+  "invalidLines": []
+}

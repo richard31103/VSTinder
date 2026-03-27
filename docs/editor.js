@@ -1,6 +1,8 @@
 ﻿(() => {
   const CATEGORIES = ["Space", "Saturation", "Dynamic", "Frequency", "Synthesizer", "Modulation", "Misc"];
   const OVERRIDES_KEY = "vstinder.simple.overrides.v1";
+  const ADDED_PLUGINS_KEY = "vstinder.simple.added.plugins.v1";
+  const DELETED_PLUGIN_IDS_KEY = "vstinder.simple.deleted.plugin.ids.v1";
   const TEMPLATE_LABELS = ["插件名稱", "品牌", "功能", "特點", "分類"];
   const EDIT_RULES = Object.freeze({
     purposeMinLength: 24,
@@ -14,11 +16,16 @@
 
   const rawPlugins = Array.isArray(window.VSTINDER_PLUGINS) ? window.VSTINDER_PLUGINS.slice() : [];
   const basePlugins = dedupeArchitectureVariants(rawPlugins);
-  const pluginById = new Map(basePlugins.map((item) => [item.id, item]));
-  const pluginsByNameKey = buildPluginNameIndex(basePlugins);
+  const basePluginById = new Map(basePlugins.map((item) => [item.id, item]));
+
+  let allPlugins = [];
+  let pluginById = new Map();
+  let pluginsByNameKey = new Map();
 
   const state = {
-    overrides: loadOverrides(),
+    overrides: {},
+    addedPlugins: loadAddedPlugins(),
+    deletedPluginIds: loadDeletedPluginIds(),
     selectedId: null,
     search: "",
     categoryFilter: "all",
@@ -43,12 +50,19 @@
   const vendorInput = document.getElementById("plugin-vendor");
   const purposeInput = document.getElementById("plugin-purpose");
   const featuresInput = document.getElementById("plugin-features");
+  const addPluginNameInput = document.getElementById("add-plugin-name");
+  const addPluginVendorInput = document.getElementById("add-plugin-vendor");
+  const addPluginCategoryInput = document.getElementById("add-plugin-category");
 
   const quickPasteInput = document.getElementById("quick-paste-input");
 
   init();
 
   function init() {
+    rebuildPluginCaches();
+    saveAddedPlugins();
+    saveDeletedPluginIds();
+    state.overrides = loadOverrides();
     fillCategoryOptions();
 
     searchInput.addEventListener("input", () => {
@@ -77,8 +91,10 @@
       if (!state.selectedId) return;
       const plugin = pluginById.get(state.selectedId);
       if (!plugin) return;
-      copyText(plugin.name);
-      setStatus(`已複製名稱：${plugin.name}`);
+      const merged = getMergedPlugin(plugin);
+      const name = merged.name || plugin.name || "";
+      copyText(name);
+      setStatus(`已複製名稱：${name}`);
     });
 
     document.getElementById("save-btn").addEventListener("click", () => {
@@ -93,23 +109,36 @@
       resetCurrent();
     });
 
+    document.getElementById("delete-current-btn").addEventListener("click", () => {
+      deleteCurrentPlugin();
+    });
+
+    document.getElementById("add-plugin-btn").addEventListener("click", () => {
+      addPluginFromForm();
+    });
+
+    document.getElementById("clear-add-plugin-btn").addEventListener("click", () => {
+      clearAddPluginForm();
+      setStatus("已清空新增欄位");
+    });
+
     document.getElementById("export-overrides").addEventListener("click", () => {
       downloadJson("manual_overrides.json", state.overrides);
     });
 
     document.getElementById("export-merged-json").addEventListener("click", () => {
-      const merged = basePlugins.map((item) => getMergedPlugin(item));
+      const merged = allPlugins.map((item) => getMergedPlugin(item));
       downloadJson("plugins.manual.merged.json", merged);
     });
 
     document.getElementById("export-merged-datajs").addEventListener("click", () => {
-      const merged = basePlugins.map((item) => getMergedPlugin(item));
+      const merged = allPlugins.map((item) => getMergedPlugin(item));
       const payload = `window.VSTINDER_PLUGINS = ${JSON.stringify(merged, null, 2)};\n`;
       downloadText("data.manual.js", payload, "application/javascript");
     });
 
     document.getElementById("export-csv").addEventListener("click", () => {
-      const rows = basePlugins.map((item) => {
+      const rows = allPlugins.map((item) => {
         const merged = getMergedPlugin(item);
         return {
           id: item.id,
@@ -134,8 +163,8 @@
 
     renderList();
 
-    if (basePlugins.length > 0) {
-      state.selectedId = basePlugins[0].id;
+    if (allPlugins.length > 0) {
+      state.selectedId = allPlugins[0].id;
       renderEditor();
     }
   }
@@ -143,6 +172,7 @@
   function fillCategoryOptions() {
     categoryFilterSelect.innerHTML = `<option value="all">全部分類</option>${CATEGORIES.map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("")}`;
     categoryInput.innerHTML = CATEGORIES.map((c) => `<option value="${escapeHtml(c)}">${escapeHtml(c)}</option>`).join("");
+    addPluginCategoryInput.innerHTML = CATEGORIES.map((c) => `<option value="${escapeHtml(c)}"${c === "Misc" ? " selected" : ""}>${escapeHtml(c)}</option>`).join("");
   }
 
   function buildPluginNameIndex(list) {
@@ -167,7 +197,107 @@
     if (matches.length === 1) return matches[0];
 
     const exact = matches.find((item) => item.name === name);
-    return exact || matches[0];
+    if (exact) return exact;
+
+    for (const item of allPlugins) {
+      const merged = getMergedPlugin(item);
+      if (normalizePluginName(merged.name || item.name) === key) {
+        return item;
+      }
+    }
+
+    return matches[0];
+  }
+
+  function rebuildPluginCaches() {
+    const normalizedAdded = normalizeAddedPlugins(state.addedPlugins);
+    state.addedPlugins = normalizedAdded;
+
+    const deletedIds = new Set(
+      Array.from(state.deletedPluginIds).filter((id) => basePluginById.has(id))
+    );
+    state.deletedPluginIds = deletedIds;
+
+    const visibleBase = basePlugins.filter((item) => !state.deletedPluginIds.has(item.id));
+    allPlugins = visibleBase.concat(state.addedPlugins);
+    pluginById = new Map(allPlugins.map((item) => [item.id, item]));
+    pluginsByNameKey = buildPluginNameIndex(allPlugins);
+  }
+
+  function loadAddedPlugins() {
+    try {
+      const raw = localStorage.getItem(ADDED_PLUGINS_KEY);
+      if (!raw) return [];
+      const parsed = JSON.parse(raw);
+      return normalizeAddedPlugins(Array.isArray(parsed) ? parsed : []);
+    } catch {
+      return [];
+    }
+  }
+
+  function saveAddedPlugins() {
+    localStorage.setItem(ADDED_PLUGINS_KEY, JSON.stringify(state.addedPlugins));
+  }
+
+  function loadDeletedPluginIds() {
+    try {
+      const raw = localStorage.getItem(DELETED_PLUGIN_IDS_KEY);
+      if (!raw) return new Set();
+      const parsed = JSON.parse(raw);
+      if (!Array.isArray(parsed)) return new Set();
+      const filtered = parsed
+        .map((id) => String(id || "").trim())
+        .filter((id) => basePluginById.has(id));
+      return new Set(filtered);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveDeletedPluginIds() {
+    const ids = Array.from(state.deletedPluginIds).sort();
+    localStorage.setItem(DELETED_PLUGIN_IDS_KEY, JSON.stringify(ids));
+  }
+
+  function normalizeAddedPlugins(list) {
+    const usedIds = new Set(basePlugins.map((item) => String(item.id || "").trim()).filter(Boolean));
+    const seenNameKeys = new Set(basePlugins.map((item) => normalizePluginName(item.name)).filter(Boolean));
+    const out = [];
+
+    for (const item of list) {
+      if (!item || typeof item !== "object") continue;
+
+      const name = cleanupSingleLine(item.name);
+      if (!name) continue;
+
+      const nameKey = normalizePluginName(name);
+      if (!nameKey || seenNameKeys.has(nameKey)) {
+        continue;
+      }
+
+      const idSeed = cleanupSingleLine(item.id) || name;
+      const id = generateUniquePluginId(idSeed, usedIds);
+      const category = normalizeCategory(item.category) || "Misc";
+      const vendor = cleanupSingleLine(item.vendor) || "Unknown";
+      const purpose = cleanupPurposeText(item.purpose);
+      const features = Array.isArray(item.features)
+        ? dedupeKeepOrder(item.features.map((entry) => cleanupFeatureText(entry)).filter(Boolean))
+        : [];
+
+      out.push({
+        id,
+        name,
+        category,
+        vendor,
+        purpose,
+        features
+      });
+
+      usedIds.add(id);
+      seenNameKeys.add(nameKey);
+    }
+
+    return out;
   }
 
   function loadOverrides() {
@@ -196,6 +326,13 @@
 
       const plugin = pluginById.get(id);
       const candidate = {};
+
+      if (typeof value.name === "string") {
+        const name = cleanupSingleLine(value.name);
+        if (name) {
+          candidate.name = name;
+        }
+      }
 
       if (typeof value.category === "string") {
         const normalizedCategory = normalizeCategory(value.category);
@@ -242,6 +379,7 @@
 
     const merged = { ...plugin };
 
+    if (override.name) merged.name = override.name;
     if (override.category) merged.category = override.category;
     if (override.vendor) merged.vendor = override.vendor;
     if (override.purpose) merged.purpose = override.purpose;
@@ -298,7 +436,7 @@
     let editedCount = 0;
     let overrideCount = 0;
 
-    for (const plugin of basePlugins) {
+    for (const plugin of allPlugins) {
       const merged = getMergedPlugin(plugin);
       const editStatus = getEditStatus(plugin, merged);
 
@@ -321,17 +459,17 @@
         continue;
       }
 
-      if (search && !plugin.name.toLowerCase().includes(search)) {
+      if (search && !String(merged.name || "").toLowerCase().includes(search)) {
         continue;
       }
 
       filtered.push({ plugin, merged, editStatus });
     }
 
-    filtered.sort((a, b) => a.plugin.name.localeCompare(b.plugin.name));
+    filtered.sort((a, b) => String(a.merged.name || "").localeCompare(String(b.merged.name || "")));
     state.filteredIds = filtered.map((item) => item.plugin.id);
 
-    summaryEl.textContent = `共 ${basePlugins.length} 筆插件，已編輯判定 ${editedCount} 筆（手動 Override ${overrideCount} 筆），目前列表 ${filtered.length} 筆。判定依據：功能 >= ${EDIT_RULES.purposeMinLength} 字 且 特點總長 >= ${EDIT_RULES.featureTotalMinLength} 字（或內容特別完整）。`;
+    summaryEl.textContent = `共 ${allPlugins.length} 筆插件（原始 ${basePlugins.length} + 手動新增 ${state.addedPlugins.length}，已刪除 ${state.deletedPluginIds.size}），已編輯判定 ${editedCount} 筆（手動 Override ${overrideCount} 筆），目前列表 ${filtered.length} 筆。判定依據：功能 >= ${EDIT_RULES.purposeMinLength} 字 且 特點總長 >= ${EDIT_RULES.featureTotalMinLength} 字（或內容特別完整）。`;
 
     if (filtered.length === 0) {
       listEl.innerHTML = `<div class="empty-state"><h3>沒有符合項目</h3><p>調整搜尋或篩選條件。</p></div>`;
@@ -345,10 +483,11 @@
         return `
           <article class="plugin-row ${active}" data-id="${escapeHtml(plugin.id)}">
             <button class="row-main" type="button" data-action="select" data-id="${escapeHtml(plugin.id)}">
-              <strong>${escapeHtml(plugin.name)}</strong>
+              <strong>${escapeHtml(merged.name || plugin.name || "")}</strong>
               <span>${escapeHtml(merged.category)} · ${statusText}</span>
             </button>
-            <button class="row-copy" type="button" data-action="copy" data-name="${escapeHtml(plugin.name)}">複製</button>
+            <button class="row-copy" type="button" data-action="copy" data-name="${escapeHtml(merged.name || plugin.name || "")}">複製</button>
+            <button class="row-delete" type="button" data-action="quick-delete" data-id="${escapeHtml(plugin.id)}" aria-label="刪除 ${escapeHtml(merged.name || plugin.name || "")}" title="刪除此插件">刪</button>
           </article>
         `;
       })
@@ -364,6 +503,13 @@
       const name = btn.getAttribute("data-name") || "";
       copyText(name);
       setStatus(`已複製名稱：${name}`);
+      return;
+    }
+
+    if (action === "quick-delete") {
+      const id = btn.getAttribute("data-id");
+      if (!id || !pluginById.has(id)) return;
+      deletePluginById(id);
       return;
     }
 
@@ -390,7 +536,7 @@
 
     const merged = getMergedPlugin(plugin);
 
-    nameInput.value = plugin.name || "";
+    nameInput.value = merged.name || plugin.name || "";
     categoryInput.value = CATEGORIES.includes(merged.category) ? merged.category : plugin.category;
     vendorInput.value = merged.vendor || "";
     purposeInput.value = merged.purpose || "";
@@ -402,6 +548,20 @@
     if (!plugin) return;
 
     const candidate = {};
+
+    const renamed = cleanupSingleLine(nameInput.value);
+    if (!renamed) {
+      setStatus("儲存失敗：Plugin 名稱不能為空");
+      nameInput.focus();
+      return;
+    }
+
+    if (hasNameConflict(plugin.id, renamed)) {
+      setStatus(`儲存失敗：名稱重複（${renamed}）`);
+      nameInput.focus();
+      return;
+    }
+    candidate.name = renamed;
 
     const normalizedCategory = normalizeCategory(categoryInput.value);
     if (normalizedCategory) {
@@ -439,10 +599,11 @@
       renderEditor();
     }
 
+    const currentName = getMergedPlugin(plugin).name || plugin.name || "";
     if (changed) {
-      setStatus(`已儲存：${plugin.name}`);
+      setStatus(`已儲存：${currentName}`);
     } else {
-      setStatus(`資料無變更：${plugin.name}`);
+      setStatus(`資料無變更：${currentName}`);
     }
   }
 
@@ -483,6 +644,130 @@
     } else {
       setStatus(`目前無手動設定：${plugin.name}`);
     }
+  }
+
+  function addPluginFromForm() {
+    const name = cleanupSingleLine(addPluginNameInput.value);
+    if (!name) {
+      setStatus("新增失敗：請先輸入 Plugin 名稱");
+      addPluginNameInput.focus();
+      return;
+    }
+
+    const existing = findPluginByName(name);
+    if (existing) {
+      state.selectedId = existing.id;
+      renderList();
+      renderEditor();
+      setStatus(`名稱已存在，已跳轉到：${existing.name}`);
+      return;
+    }
+
+    const normalizedName = normalizePluginName(name);
+    const deletedBaseMatch = basePlugins.find(
+      (item) => state.deletedPluginIds.has(item.id) && normalizePluginName(item.name) === normalizedName
+    );
+
+    if (deletedBaseMatch) {
+      state.deletedPluginIds.delete(deletedBaseMatch.id);
+
+      const candidate = state.overrides[deletedBaseMatch.id] ? { ...state.overrides[deletedBaseMatch.id] } : {};
+      const restoredVendor = cleanupSingleLine(addPluginVendorInput.value);
+      const restoredCategory = normalizeCategory(addPluginCategoryInput.value);
+
+      if (restoredVendor) {
+        candidate.vendor = restoredVendor;
+      }
+      if (restoredCategory) {
+        candidate.category = restoredCategory;
+      }
+      setOverrideForPlugin(deletedBaseMatch, candidate);
+
+      saveDeletedPluginIds();
+      saveOverrides();
+      rebuildPluginCaches();
+
+      state.selectedId = deletedBaseMatch.id;
+      clearAddPluginForm();
+      renderList();
+      renderEditor();
+      setStatus(`已恢復插件：${deletedBaseMatch.name}`);
+      return;
+    }
+
+    const newId = generateUniquePluginId(name);
+    const vendor = cleanupSingleLine(addPluginVendorInput.value) || "Unknown";
+    const category = normalizeCategory(addPluginCategoryInput.value) || "Misc";
+
+    state.addedPlugins.push({
+      id: newId,
+      name,
+      category,
+      vendor,
+      purpose: "",
+      features: []
+    });
+
+    saveAddedPlugins();
+    rebuildPluginCaches();
+
+    state.selectedId = newId;
+    clearAddPluginForm();
+    renderList();
+    renderEditor();
+    setStatus(`已新增插件：${name}`);
+  }
+
+  function deleteCurrentPlugin() {
+    const plugin = state.selectedId ? pluginById.get(state.selectedId) : null;
+    if (!plugin) {
+      setStatus("請先選擇要刪除的插件");
+      return;
+    }
+
+    deletePluginById(plugin.id);
+  }
+
+  function clearAddPluginForm() {
+    addPluginNameInput.value = "";
+    addPluginVendorInput.value = "";
+    addPluginCategoryInput.value = "Misc";
+  }
+
+  function deletePluginById(pluginId) {
+    const plugin = pluginById.get(pluginId);
+    if (!plugin) {
+      setStatus("刪除失敗：找不到插件");
+      return;
+    }
+
+    const currentId = plugin.id;
+    const currentName = getMergedPlugin(plugin).name || plugin.name || currentId;
+    const isAdded = state.addedPlugins.some((item) => item.id === currentId);
+
+    if (isAdded) {
+      state.addedPlugins = state.addedPlugins.filter((item) => item.id !== currentId);
+      saveAddedPlugins();
+    } else if (basePluginById.has(currentId)) {
+      state.deletedPluginIds.add(currentId);
+      saveDeletedPluginIds();
+    } else {
+      setStatus(`刪除失敗：找不到插件 ${currentName}`);
+      return;
+    }
+
+    delete state.overrides[currentId];
+    saveOverrides();
+
+    rebuildPluginCaches();
+    state.selectedId = null;
+    renderList();
+    if (state.filteredIds.length > 0) {
+      state.selectedId = state.filteredIds[0];
+      renderList();
+    }
+    renderEditor();
+    setStatus(`已刪除插件：${currentName}`);
   }
 
   function applyFixedTemplateToCurrent() {
@@ -602,6 +887,11 @@
 
   function finalizeOverride(plugin, candidate) {
     const out = {};
+
+    const name = cleanupSingleLine(candidate.name);
+    if (name && name !== cleanupSingleLine(plugin.name || "")) {
+      out.name = name;
+    }
 
     const category = normalizeCategory(candidate.category);
     if (category && category !== plugin.category) {
@@ -1112,6 +1402,49 @@
     return raw
       .replace(/\s*(?:[-_])?\s*(?:\(?\s*(?:x64|x86|64[\s-]*bit|32[\s-]*bit)\s*\)?)\s*$/i, "")
       .trim();
+  }
+
+  function hasNameConflict(pluginId, name) {
+    const targetKey = normalizePluginName(name);
+    if (!targetKey) return true;
+
+    for (const item of allPlugins) {
+      if (!item || item.id === pluginId) continue;
+      const merged = getMergedPlugin(item);
+      const key = normalizePluginName(merged.name || item.name || "");
+      if (key && key === targetKey) {
+        return true;
+      }
+    }
+
+    return false;
+  }
+
+  function generateUniquePluginId(input, usedSeed) {
+    const used = usedSeed instanceof Set
+      ? usedSeed
+      : new Set(allPlugins.map((item) => String(item.id || "").trim()).filter(Boolean));
+
+    const base = toPluginSlug(input) || "plugin";
+    let candidate = base;
+    let index = 2;
+
+    while (used.has(candidate)) {
+      candidate = `${base}-${index}`;
+      index += 1;
+    }
+
+    used.add(candidate);
+    return candidate;
+  }
+
+  function toPluginSlug(input) {
+    return String(input || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
   }
 
   function downloadJson(filename, data) {

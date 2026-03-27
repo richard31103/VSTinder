@@ -226,7 +226,7 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "era6-reverbremoverpro",
     "name": "ERA6 ReverbRemoverPro",
-    "category": "Dynamic",
+    "category": "Misc",
     "vendor": "Accusonus",
     "purpose": "基於多頻段（Multi-band）處理技術的高階混響移除工具，旨在精確地消除錄音中多餘的房間回響、室內反射與空曠感，特別針對人聲與對白進行優化。",
     "features": [
@@ -562,7 +562,7 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "spl-de-verb-plus",
     "name": "SPL De-Verb Plus",
-    "category": "Dynamic",
+    "category": "Misc",
     "vendor": "Plugin Alliance / Alliance Vox (Original hardware by SPL)",
     "purpose": "專門用於消除或減少音訊中過多房間殘響與環境聲的處理器。不同於傳統的門限器（Gate）或擴展器（Expander），它專注於處理聲音的衰減（Decay）部分，能在不影響原始訊號瞬態的情況下，有效讓錄音變得更加乾爽。",
     "features": [
@@ -1687,10 +1687,14 @@ window.VSTINDER_PLUGINS = [
     "id": "abyss",
     "name": "Abyss",
     "category": "Synthesizer",
-    "vendor": "Tracktion / Dawesome",
-    "purpose": "這是一款以「顏色」為核心概念的視覺化合成器，結合了光譜合成（Spectral Synthesis）與強大的調變系統，旨在讓使用者透過直覺的色彩操作來創造出充滿動感、深邃且具有電影感的音色。",
+    "vendor": "Dawesome (Tracktion)",
+    "purpose": "這是一款基於「視覺合成」概念的創新型視覺化合成器。它捨棄了傳統的振盪器與濾波器參數堆疊，改以顏色的變化來代表音色的質地（如暗淡、明亮、溫暖或冰冷），讓使用者能透過直覺的色彩操作來創造出極具動態感且深邃的音效。",
     "features": [
-      "色彩聲音引擎 (Sound Color Engine)：打破傳統的波形旋鈕，將音色特性映射到色彩空間中，使用者只需在色板上滑動即可混合出獨特的聲譜。"
+      "顏色聲譜 (Color Spectrum)：將聲音特徵對應至不同的顏色，使用者只需在色譜上滑動即可改變音色，操作邏輯極具藝術感與啟發性。",
+      "強大的調變引擎 (Modulation System)：內建強大的 LFO、封絡器（Envelopes）與隨機化工具，能讓音色產生如呼吸般自然的持續變動。",
+      "物理建模濾波器 (Physical Modeling Filters)：提供與傳統合成器不同的共鳴特性，讓聲音聽起來更具真實物質感。",
+      "MPE 支援：支援 MIDI 多維度控制（MIDI Polyphonic Expression），能實現極其細膩的觸控表達與表情控制。",
+      "高品質內建效果器：集成了高品質的混響、延遲與失真效果，與合成核心完美融合，適合製作環境音樂（Ambient）或電影配樂。"
     ]
   },
   {
@@ -6667,12 +6671,14 @@ window.VSTINDER_PLUGINS = [
     "id": "amek-eq-200",
     "name": "AMEK EQ 200",
     "category": "Frequency",
-    "vendor": "AMEK",
-    "purpose": "用精準 EQ 進行音色塑形。",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "基於傳奇硬體 AMEK G2500 研模的五段全參數等化器，結合了 70 與 80 年代經典電路設計，提供極致透明且細膩的頻率修飾能力，適用於母帶處理（Mastering）與匯流排（Bus）混音。",
     "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
+      "傳奇硬體架構：模擬了早期 AMEK 混音台著名的濾波器設計，以其音樂性極強的增益曲線和極低的失真度著稱。",
+      "TMT 技術：採用 Brainworx 專利的「公差建模技術」（Tolerance Modeling Technology），模擬真實模擬硬體組件之間的微小差異，提供更具寬度與深度的立體聲場。",
+      "靈活的處理模式：支援立體聲（Stereo）、雙單聲道（Dual Mono）以及中側處理（M/S）模式。",
+      "現代數位功能：新增了硬體所沒有的 Auto Solo 功能（可單獨聽取特定頻段）、連續可變的高低通濾波器，以及可調校的輸出增益。",
+      "極高解析度：其設計旨在提供極其平滑的頂端（Top End）提升，避免產生數位感或尖銳刺耳的聽感。"
     ]
   },
   {
@@ -8464,30 +8470,6 @@ window.VSTINDER_PLUGINS = [
     ]
   },
   {
-    "id": "d-50-vst2-64bit",
-    "name": "D-50(VST2 64bit)",
-    "category": "Synthesizer",
-    "vendor": "Unknown",
-    "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
-  },
-  {
-    "id": "d-50-vst3-64bit",
-    "name": "D-50(VST3 64bit)",
-    "category": "Synthesizer",
-    "vendor": "Unknown",
-    "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
-  },
-  {
     "id": "dune-3",
     "name": "DUNE 3",
     "category": "Synthesizer",
@@ -9470,5 +9452,2741 @@ window.VSTINDER_PLUGINS = [
       "創意用途",
       "工作流程"
     ]
+  },
+  {
+    "id": "audiocleanupassistant",
+    "name": "AudioCleanUpAssistant",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "debreath",
+    "name": "DeBreath",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "declipper",
+    "name": "DeClipper",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "deesser",
+    "name": "DeEsser",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "deesserpro",
+    "name": "DeEsserPro",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "mouthdeclicker",
+    "name": "MouthDeClicker",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "noiseremover",
+    "name": "NoiseRemover",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "noiseremoverpro",
+    "name": "NoiseRemoverPro",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "plosiveremover",
+    "name": "PlosiveRemover",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "reverbremover",
+    "name": "ReverbRemover",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "reverbremoverpro",
+    "name": "ReverbRemoverPro",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "voiceautoeq",
+    "name": "VoiceAutoEQ",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "voicedeepener",
+    "name": "VoiceDeepener",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "voiceleveler",
+    "name": "VoiceLeveler",
+    "category": "Misc",
+    "vendor": "accusonus",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "aglp3",
+    "name": "AGLP3",
+    "category": "Misc",
+    "vendor": "Ample Sound Co., Ltd.",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "agm3",
+    "name": "AGM3",
+    "category": "Misc",
+    "vendor": "Ample Sound Co., Ltd.",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "agsc3",
+    "name": "AGSC3",
+    "category": "Misc",
+    "vendor": "Ample Sound Co., Ltd.",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "denoiser-classic",
+    "name": "Denoiser Classic",
+    "category": "Misc",
+    "vendor": "Bertom",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "shaperbox",
+    "name": "ShaperBox",
+    "category": "Misc",
+    "vendor": "Cableguys",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "banddelays",
+    "name": "BandDelays",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "factory",
+    "name": "Factory",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h910dual",
+    "name": "H910Dual",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h910single",
+    "name": "H910Single",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h949dual",
+    "name": "H949Dual",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h949single",
+    "name": "H949Single",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "pta",
+    "name": "PTA",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ptd",
+    "name": "PTD",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "stereoroom2016",
+    "name": "StereoRoom2016",
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-micro-vst-plug-in",
+    "name": "FabFilter Micro VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-one-vst-plug-in",
+    "name": "FabFilter One VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-c-2-vst-plug-in",
+    "name": "FabFilter Pro-C 2 VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-ds-vst-plug-in",
+    "name": "FabFilter Pro-DS VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-g-vst-plug-in",
+    "name": "FabFilter Pro-G VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-l-vst-plug-in",
+    "name": "FabFilter Pro-L VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-mb-vst-plug-in",
+    "name": "FabFilter Pro-MB VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-q-3-vst-plug-in",
+    "name": "FabFilter Pro-Q 3 VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-pro-r-vst-plug-in",
+    "name": "FabFilter Pro-R VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-saturn-2-vst-plug-in",
+    "name": "FabFilter Saturn 2 VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-simplon-vst-plug-in",
+    "name": "FabFilter Simplon VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-timeless-3-vst-plug-in",
+    "name": "FabFilter Timeless 3 VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-twin-2-vst-plug-in",
+    "name": "FabFilter Twin 2 VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "fabfilter-volcano-2-vst-plug-in",
+    "name": "FabFilter Volcano 2 VST plug-in",
+    "category": "Misc",
+    "vendor": "FabFilter",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-audio-resampling-library",
+    "name": "FFmpeg audio resampling library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-audio-video-filtering-library",
+    "name": "FFmpeg audio/video filtering library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-codec-library",
+    "name": "FFmpeg codec library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-container-format-library",
+    "name": "FFmpeg container format library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-device-handling-library",
+    "name": "FFmpeg device handling library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-image-rescaling-library",
+    "name": "FFmpeg image rescaling library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ffmpeg-utility-library",
+    "name": "FFmpeg utility library",
+    "category": "Misc",
+    "vendor": "FFmpeg Project",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "3-band-eq",
+    "name": "3-Band EQ",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "bitcrush",
+    "name": "Bitcrush",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "channel-mixer",
+    "name": "Channel Mixer",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "chorus",
+    "name": "Chorus",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "clipper",
+    "name": "Clipper",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "comb-filter",
+    "name": "Comb Filter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "compactor",
+    "name": "Compactor",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "compressor",
+    "name": "Compressor",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "convolver",
+    "name": "Convolver",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "delay",
+    "name": "Delay",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "distortion",
+    "name": "Distortion",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dual-delay",
+    "name": "Dual Delay",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dynamics",
+    "name": "Dynamics",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ensemble",
+    "name": "Ensemble",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "filter",
+    "name": "Filter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "filter-table",
+    "name": "Filter Table",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "flanger",
+    "name": "Flanger",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "formant-filter",
+    "name": "Formant Filter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "frequency-shifter",
+    "name": "Frequency Shifter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gain",
+    "name": "Gain",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gate",
+    "name": "Gate",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "haas",
+    "name": "Haas",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ladder-filter",
+    "name": "Ladder Filter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "limiter",
+    "name": "Limiter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nonlinear-filter",
+    "name": "Nonlinear Filter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "phase-distortion",
+    "name": "Phase Distortion",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "phaser",
+    "name": "Phaser",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "pitch-shifter",
+    "name": "Pitch Shifter",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "resonator",
+    "name": "Resonator",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "reverb",
+    "name": "Reverb",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "reverser",
+    "name": "Reverser",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ring-mod",
+    "name": "Ring Mod",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "shaper",
+    "name": "Shaper",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "shaper-table",
+    "name": "Shaper Table",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "stereo",
+    "name": "Stereo",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tape-stop",
+    "name": "Tape Stop",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "trance-gate",
+    "name": "Trance Gate",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "transient-shaper",
+    "name": "Transient Shaper",
+    "category": "Misc",
+    "vendor": "Kilohearts",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "clariphonic-mk-ii",
+    "name": "Clariphonic MK II",
+    "category": "Misc",
+    "vendor": "Kush",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "6x-500",
+    "name": "6X-500",
+    "category": "Misc",
+    "vendor": "Lindell Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "7x-500",
+    "name": "7X-500",
+    "category": "Misc",
+    "vendor": "Lindell Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "channelx",
+    "name": "ChannelX",
+    "category": "Misc",
+    "vendor": "Lindell Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "pex-500",
+    "name": "PEX-500",
+    "category": "Misc",
+    "vendor": "Lindell Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nott",
+    "name": "NOTT",
+    "category": "Misc",
+    "vendor": "Outobugi",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "stereoize",
+    "name": "Stereoize",
+    "category": "Misc",
+    "vendor": "Outobugi",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "beatrice-2-0-0",
+    "name": "Beatrice_2.0.0",
+    "category": "Misc",
+    "vendor": "Project Beatrice",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "d-50",
+    "name": "D-50",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "juno-106",
+    "name": "JUNO-106",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "juno-60",
+    "name": "JUNO-60",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jupiter-8",
+    "name": "JUPITER-8",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jv-1080",
+    "name": "JV-1080",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jx-3p",
+    "name": "JX-3P",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "promars",
+    "name": "PROMARS",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "sh-101",
+    "name": "SH-101",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "sh-2",
+    "name": "SH-2",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "system-1",
+    "name": "SYSTEM-1",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "system-100",
+    "name": "SYSTEM-100",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "system-8",
+    "name": "SYSTEM-8",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tb-303",
+    "name": "TB-303",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tr-606",
+    "name": "TR-606",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tr-707",
+    "name": "TR-707",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tr-727",
+    "name": "TR-727",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tr-808",
+    "name": "TR-808",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tr-909",
+    "name": "TR-909",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "xv-5080",
+    "name": "XV-5080",
+    "category": "Misc",
+    "vendor": "Roland Corporation",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "softube-saturation-knob",
+    "name": "Softube: Saturation Knob",
+    "category": "Misc",
+    "vendor": "Softube",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "softube-tube-tech-cl-1b",
+    "name": "Softube: Tube-Tech CL 1B",
+    "category": "Misc",
+    "vendor": "Softube",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "softube-tube-tech-pe-1c",
+    "name": "Softube: Tube-Tech PE 1C",
+    "category": "Misc",
+    "vendor": "Softube",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "soundid-reference-plugin",
+    "name": "SoundID Reference Plugin",
+    "category": "Misc",
+    "vendor": "Sonarworks",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "soundly-place-it",
+    "name": "Soundly Place it",
+    "category": "Misc",
+    "vendor": "Soundly AS",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ignite-emissary-audio-plug-in",
+    "name": "Ignite - Emissary Audio Plug-in",
+    "category": "Misc",
+    "vendor": "STL Tones",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ignite-nadir-audio-plug-in",
+    "name": "Ignite - NadIR Audio Plug-in",
+    "category": "Misc",
+    "vendor": "STL Tones",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "revoice-pro-plug-in",
+    "name": "Revoice Pro Plug-In",
+    "category": "Misc",
+    "vendor": "Synchro Arts Ltd",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "vocalign-ultra-plug-in",
+    "name": "VocAlign Ultra Plug-In",
+    "category": "Misc",
+    "vendor": "Synchro Arts Ltd",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-chambers",
+    "name": "Abbey Road Chambers",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-j37-tape",
+    "name": "Abbey Road J37 Tape",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-plates",
+    "name": "Abbey Road Plates",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-reel-adt",
+    "name": "Abbey Road Reel ADT",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-rs124-compressor",
+    "name": "Abbey Road RS124 Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-saturator",
+    "name": "Abbey Road Saturator",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-studio-3",
+    "name": "Abbey Road Studio 3",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-tg-master-chain",
+    "name": "Abbey Road TG Master Chain",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-tg-vocal-chain",
+    "name": "Abbey Road TG Vocal Chain",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "abbey-road-vinyl",
+    "name": "Abbey Road Vinyl",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "api-2500",
+    "name": "API 2500",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "api-550a",
+    "name": "API 550A",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "api-550b",
+    "name": "API 550B",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "api-560",
+    "name": "API 560",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "audiotrack",
+    "name": "AudioTrack",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "b360-ambisonics-encoder",
+    "name": "B360 Ambisonics Encoder",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "bass-rider",
+    "name": "Bass Rider",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "bb-tubes",
+    "name": "BB Tubes",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "beeq",
+    "name": "BeEQ",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "berzerk-distortion",
+    "name": "Berzerk Distortion",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "brauer-motion",
+    "name": "Brauer Motion",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "butch-vig-vocals",
+    "name": "Butch Vig Vocals",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "c1-compressor",
+    "name": "C1 Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "c4-multiband-compressor",
+    "name": "C4 Multiband Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "c6-multiband-compressor",
+    "name": "C6 Multiband Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "center",
+    "name": "Center",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-2a-compressor-limiter",
+    "name": "CLA-2A Compressor / Limiter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-3a-compressor-limiter",
+    "name": "CLA-3A Compressor / Limiter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-76-compressor-limiter",
+    "name": "CLA-76 Compressor / Limiter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-bass",
+    "name": "CLA Bass",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-drums",
+    "name": "CLA Drums",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-echosphere",
+    "name": "CLA EchoSphere",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-effects",
+    "name": "CLA Effects",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-epic",
+    "name": "CLA Epic",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-guitars",
+    "name": "CLA Guitars",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-mixdown",
+    "name": "CLA MixDown",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-mixhub",
+    "name": "CLA MixHub",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-nx",
+    "name": "CLA NX",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-unplugged",
+    "name": "CLA Unplugged",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cla-vocals",
+    "name": "CLA Vocals",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "clarity-vx",
+    "name": "Clarity Vx",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "clarity-vx-dereverb",
+    "name": "Clarity Vx DeReverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "clarity-vx-pro",
+    "name": "Clarity Vx Pro",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cobalt-saphira",
+    "name": "Cobalt Saphira",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cosmo",
+    "name": "Cosmo",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "cr8-creative-sampler",
+    "name": "CR8 Creative Sampler",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dbx-160-compressor-limiter",
+    "name": "dbx 160 Compressor / Limiter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dof",
+    "name": "DoF",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "doppler",
+    "name": "Doppler",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "doubler",
+    "name": "Doubler",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dts-neural-mono2stereo",
+    "name": "DTS Neural Mono2Stereo",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dts-neural-surround-downmix",
+    "name": "DTS Neural Surround DownMix",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "dts-neural-surround-upmix",
+    "name": "DTS Neural Surround UpMix",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "emo-d5-dynamics",
+    "name": "eMo D5 Dynamics",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "emo-f2-filter",
+    "name": "eMo F2 Filter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "emo-generator",
+    "name": "eMo Generator",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "emo-q4-equalizer",
+    "name": "eMo Q4 Equalizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "eddie-kramer-bass-channel",
+    "name": "Eddie Kramer Bass Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "eddie-kramer-drum-channel",
+    "name": "Eddie Kramer Drum Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "eddie-kramer-effects-channel",
+    "name": "Eddie Kramer Effects Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "eddie-kramer-guitar-channel",
+    "name": "Eddie Kramer Guitar Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "eddie-kramer-vocal-channel",
+    "name": "Eddie Kramer Vocal Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "electric-200-piano",
+    "name": "Electric 200 Piano",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "electric-88-piano",
+    "name": "Electric 88 Piano",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "electric-grand-80-piano",
+    "name": "Electric Grand 80 Piano",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "element-2-0-virtual-analog-synth",
+    "name": "Element 2.0 Virtual Analog Synth",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "emi-tg12345-channel-strip",
+    "name": "EMI TG12345 Channel Strip",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "enigma",
+    "name": "Enigma",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "f6-floating-band-dynamic-eq",
+    "name": "F6 Floating-Band Dynamic EQ",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "flow-motion-fm-synth",
+    "name": "Flow Motion FM Synth",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "flux-desktop",
+    "name": "Flux Desktop",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gtr3-amps",
+    "name": "GTR3 Amps",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gtr3-stomps",
+    "name": "GTR3 Stomps",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gtr3-toolrack",
+    "name": "GTR3 ToolRack",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gtr3-tuner",
+    "name": "GTR3 Tuner",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "greg-wells-mixcentric",
+    "name": "Greg Wells MixCentric",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "greg-wells-pianocentric",
+    "name": "Greg Wells PianoCentric",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "greg-wells-tonecentric",
+    "name": "Greg Wells ToneCentric",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "greg-wells-voicecentric",
+    "name": "Greg Wells VoiceCentric",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "gtr-solo",
+    "name": "GTR Solo",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h-comp-hybrid-compressor",
+    "name": "H-Comp Hybrid Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h-delay-hybrid-delay",
+    "name": "H-Delay Hybrid Delay",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h-eq-hybrid-equalizer",
+    "name": "H-EQ Hybrid Equalizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "h-reverb-hybrid-reverb",
+    "name": "H-Reverb Hybrid Reverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "idr360-bit-depth-reducer",
+    "name": "IDR360 Bit-Depth Reducer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "inphase",
+    "name": "InPhase",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "inphase-lt",
+    "name": "InPhase LT",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ir1-efficient",
+    "name": "IR1 Efficient",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ir1-convolution-reverb",
+    "name": "IR1 Convolution Reverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ir360-convolution-reverb",
+    "name": "IR360 Convolution Reverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ir-l-convolution-reverb",
+    "name": "IR-L Convolution Reverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jjp-bass",
+    "name": "JJP Bass",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jjp-cymbals-percussion",
+    "name": "JJP Cymbals & Percussion",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jjp-drums",
+    "name": "JJP Drums",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jjp-guitars",
+    "name": "JJP Guitars",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jjp-strings-keys",
+    "name": "JJP Strings & Keys",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "jjp-vocals",
+    "name": "JJP Vocals",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "kaleidoscopes",
+    "name": "Kaleidoscopes",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "key-detector",
+    "name": "Key Detector",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "king-s-microphones",
+    "name": "King's Microphones",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "kramer-hls-channel",
+    "name": "Kramer HLS Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "kramer-master-tape",
+    "name": "Kramer Master Tape",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "kramer-pie-compressor",
+    "name": "Kramer PIE Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l1-ultramaximizer",
+    "name": "L1 Ultramaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l2-ultramaximizer",
+    "name": "L2 Ultramaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l3-multimaximizer",
+    "name": "L3 Multimaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l3-ultramaximizer",
+    "name": "L3 Ultramaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l3-16-multimaximizer",
+    "name": "L3-16 Multimaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l3-ll-multimaximizer",
+    "name": "L3-LL Multimaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "l3-ll-ultramaximizer",
+    "name": "L3-LL Ultramaximizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "lfe360-low-pass-filter",
+    "name": "LFE360 Low-Pass Filter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "lil-tube",
+    "name": "Lil Tube",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "lineq-broad-band",
+    "name": "LinEQ Broad-Band",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "lineq-low-band",
+    "name": "LinEQ Low-Band",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "linmb-multiband-compressor",
+    "name": "LinMB Multiband compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "loair",
+    "name": "LoAir",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "m360-manager-mixdown",
+    "name": "M360 Manager / Mixdown",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "magma-bb-tubes",
+    "name": "Magma BB Tubes",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "magma-lil-tube",
+    "name": "Magma Lil Tube",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "magma-springs",
+    "name": "Magma Springs",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "magma-tube-channel-strip",
+    "name": "Magma Tube Channel Strip",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "manny-marroquin-delay",
+    "name": "Manny Marroquin Delay",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "manny-marroquin-distortion",
+    "name": "Manny Marroquin Distortion",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "manny-marroquin-eq",
+    "name": "Manny Marroquin EQ",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "manny-marroquin-reverb",
+    "name": "Manny Marroquin Reverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "manny-marroquin-triple-d",
+    "name": "Manny Marroquin Triple D",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maserati-b72",
+    "name": "Maserati B72",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maserati-drm",
+    "name": "Maserati DRM",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maserati-grp",
+    "name": "Maserati GRP",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maserati-gti",
+    "name": "Maserati GTi",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maserati-hcg",
+    "name": "Maserati HCG",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maserati-vx1",
+    "name": "Maserati VX1",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maxxbass",
+    "name": "MaxxBass",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "maxxvolume",
+    "name": "MaxxVolume",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "metafilter",
+    "name": "MetaFilter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "metaflanger",
+    "name": "MetaFlanger",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "mondomod",
+    "name": "MondoMod",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "morphoder",
+    "name": "Morphoder",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "mv2",
+    "name": "MV2",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nls-channel",
+    "name": "NLS Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nls-buss",
+    "name": "NLS Buss",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ns1-noise-suppressor",
+    "name": "NS1 Noise Suppressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nx-germano-studios-new-york",
+    "name": "NX Germano Studios New York",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nx-ocean-way-nashville",
+    "name": "NX Ocean Way Nashville",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "nx-virtual-mix-room",
+    "name": "NX Virtual Mix Room",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-brighter",
+    "name": "OneKnob Brighter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-driver",
+    "name": "OneKnob Driver",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-filter",
+    "name": "OneKnob Filter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-louder",
+    "name": "OneKnob Louder",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-phatter",
+    "name": "OneKnob Phatter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-pressure",
+    "name": "OneKnob Pressure",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-pumper",
+    "name": "OneKnob Pumper",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "oneknob-wetter",
+    "name": "OneKnob Wetter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ovox-vocal-resynthesis",
+    "name": "OVox Vocal ReSynthesis",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "paz-analyzer",
+    "name": "PAZ Analyzer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "primary-source-expander",
+    "name": "Primary Source Expander",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "prs-supermodels",
+    "name": "PRS SuperModels",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ps22-stereo-maker",
+    "name": "PS22 Stereo Maker",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "pumper",
+    "name": "Pumper",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "puigchild-660",
+    "name": "PuigChild 660",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "puigchild-670",
+    "name": "PuigChild 670",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "puigtec-eqp-1a",
+    "name": "PuigTec EQP-1A",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "puigtec-meq-5",
+    "name": "PuigTec MEQ-5",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "q10-equalizer",
+    "name": "Q10 Equalizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "q1-clone",
+    "name": "Q1-Clone",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-axx",
+    "name": "Renaissance Axx",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-bass",
+    "name": "Renaissance Bass",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-channel",
+    "name": "Renaissance Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-compressor",
+    "name": "Renaissance Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-deesser",
+    "name": "Renaissance DeEsser",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-equalizer",
+    "name": "Renaissance Equalizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-reverb",
+    "name": "Renaissance Reverb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "renaissance-vox",
+    "name": "Renaissance Vox",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "retro-fi",
+    "name": "Retro Fi",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "s1-stereo-imager",
+    "name": "S1 Stereo Imager",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "s360-surround-imager",
+    "name": "S360 Surround Imager",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "saphira",
+    "name": "Saphira",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "scheps-73",
+    "name": "Scheps 73",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "scheps-omni-channel",
+    "name": "Scheps Omni Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "scheps-parallel-particles",
+    "name": "Scheps Parallel Particles",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "silk-vocal",
+    "name": "Silk Vocal",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "sibilance",
+    "name": "Sibilance",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "smack-attack",
+    "name": "Smack Attack",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "soundshifter",
+    "name": "SoundShifter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "space-rider",
+    "name": "Space Rider",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "supertap",
+    "name": "SuperTap",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ssl-e-channel",
+    "name": "SSL E-Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ssl-ev2-channel",
+    "name": "SSL EV2 Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ssl-g-channel",
+    "name": "SSL G-Channel",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ssl-g-equalizer",
+    "name": "SSL G-Equalizer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ssl-g-master-buss-compressor",
+    "name": "SSL G-Master Buss Compressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "stream",
+    "name": "Stream",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "sub-aligner",
+    "name": "Sub Aligner",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "submarine",
+    "name": "Submarine",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "tarsier",
+    "name": "Tarsier",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "torque",
+    "name": "Torque",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "trueverb",
+    "name": "TrueVerb",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "ultrapitch",
+    "name": "UltraPitch",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "um225-um226",
+    "name": "UM225 / UM226",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "v-comp",
+    "name": "V-Comp",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "v-eq3",
+    "name": "V-EQ3",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "v-eq4",
+    "name": "V-EQ4",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "vitamin-multiband-enhancer",
+    "name": "Vitamin Multiband Enhancer",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "vocal-bender",
+    "name": "Vocal Bender",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "vocal-rider",
+    "name": "Vocal Rider",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "vu-meter",
+    "name": "VU Meter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "waves-harmony",
+    "name": "Waves Harmony",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "waves-tune",
+    "name": "Waves Tune",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "waves-tune-lt",
+    "name": "Waves Tune LT",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "waves-tune-real-time",
+    "name": "Waves Tune Real-Time",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "wlm-plus-loudness-meter",
+    "name": "WLM Plus Loudness Meter",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "wns-noise-suppressor",
+    "name": "WNS Noise Suppressor",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "x-click",
+    "name": "X-Click",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "x-crackle",
+    "name": "X-Crackle",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "x-hum",
+    "name": "X-Hum",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "x-noise",
+    "name": "X-Noise",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "z-noise",
+    "name": "Z-Noise",
+    "category": "Misc",
+    "vendor": "Waves Audio",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "trackspacer",
+    "name": "Trackspacer",
+    "category": "Misc",
+    "vendor": "Wavesfactory",
+    "purpose": "",
+    "features": []
+  },
+  {
+    "id": "serum-2-vst3-plug-in",
+    "name": "Serum 2 VST3 Plug-In",
+    "category": "Misc",
+    "vendor": "Xfer Records",
+    "purpose": "",
+    "features": []
   }
 ];

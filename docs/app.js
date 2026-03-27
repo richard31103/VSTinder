@@ -1,13 +1,22 @@
 ﻿(() => {
   const CATEGORIES = ["Space", "Saturation", "Dynamic", "Frequency", "Synthesizer", "Modulation", "Misc"];
   const OVERRIDES_KEY = "vstinder.simple.overrides.v1";
+  const ADDED_PLUGINS_KEY = "vstinder.simple.added.plugins.v1";
+  const DELETED_PLUGIN_IDS_KEY = "vstinder.simple.deleted.plugin.ids.v1";
   const SAVED_KEY = "vstinder.simple.saved.v1";
   const SWIPE_THRESHOLD = 110;
   const SWIPE_OUT_X = 620;
   const SWIPE_OUT_ROTATE = 22;
+  const DRAG_LOCK_THRESHOLD = 10;
+  const DRAG_AXIS_RATIO = 1.15;
+  const DRAG_DEAD_ZONE = 2;
+  const DRAG_SMOOTHING = 0.28;
 
   const rawPlugins = Array.isArray(window.VSTINDER_PLUGINS) ? window.VSTINDER_PLUGINS : [];
-  const basePlugins = dedupeArchitectureVariants(rawPlugins);
+  const dedupedBasePlugins = dedupeArchitectureVariants(rawPlugins);
+  const addedPlugins = loadAddedPlugins(dedupedBasePlugins);
+  const deletedPluginIds = loadDeletedPluginIds(dedupedBasePlugins);
+  const basePlugins = mergePlugins(dedupedBasePlugins, addedPlugins, deletedPluginIds);
   const pluginImages = window.VSTINDER_PLUGIN_IMAGES || {};
   const plugins = applyOverrides(basePlugins);
   const basePluginIdSet = new Set(basePlugins.map((item) => String(item.id || "")));
@@ -15,12 +24,23 @@
   const state = {
     category: null,
     indexByCategory: {},
+    categorySearch: {
+      keyword: "",
+      includeDescription: false
+    },
     saved: loadSaved(),
     drag: {
       active: false,
       pointerId: null,
       startX: 0,
-      x: 0
+      startY: 0,
+      x: 0,
+      axisLock: null,
+      rafId: null,
+      pendingX: 0,
+      captured: false,
+      card: null,
+      renderX: 0
     },
     animating: false
   };
@@ -37,6 +57,7 @@
   const openSavedBtn = document.getElementById("open-saved");
   const savedList = document.getElementById("saved-list");
   const savedCount = document.getElementById("saved-count");
+  const desktopPluginList = document.getElementById("desktop-plugin-list");
 
   document.getElementById("back-to-categories").addEventListener("click", showCategories);
   document.getElementById("save-current").addEventListener("click", saveCurrentCard);
@@ -46,6 +67,9 @@
 
   deck.addEventListener("click", onDeckClick);
   savedList.addEventListener("click", onSavedListClick);
+  if (desktopPluginList) {
+    desktopPluginList.addEventListener("click", onDesktopPluginListClick);
+  }
 
   renderCategories();
   renderSavedButtonLabel();
@@ -161,6 +185,124 @@
 
     return score;
   }
+
+  function loadAddedPlugins(baseList) {
+    try {
+      const raw = localStorage.getItem(ADDED_PLUGINS_KEY);
+      if (!raw) return [];
+      const parsed = JSON.parse(raw);
+      return normalizeAddedPlugins(Array.isArray(parsed) ? parsed : [], baseList);
+    } catch {
+      return [];
+    }
+  }
+
+  function loadDeletedPluginIds(baseList) {
+    try {
+      const raw = localStorage.getItem(DELETED_PLUGIN_IDS_KEY);
+      if (!raw) return new Set();
+      const parsed = JSON.parse(raw);
+      if (!Array.isArray(parsed)) return new Set();
+
+      const baseIdSet = new Set(baseList.map((item) => String(item.id || "")));
+      return new Set(
+        parsed.map((id) => String(id || "").trim()).filter((id) => id && baseIdSet.has(id))
+      );
+    } catch {
+      return new Set();
+    }
+  }
+
+  function mergePlugins(baseList, addedList, deletedIds) {
+    const deleted = deletedIds instanceof Set ? deletedIds : new Set();
+    const visibleBase = baseList.filter((item) => !deleted.has(String(item.id || "")));
+    const out = visibleBase.slice();
+    const seenNameKeys = new Set(visibleBase.map((item) => getPluginFamilyKey(item.name)).filter(Boolean));
+    const usedIds = new Set(visibleBase.map((item) => String(item.id || "")).filter(Boolean));
+
+    for (const item of addedList) {
+      if (!item || typeof item !== "object") continue;
+      const nameKey = getPluginFamilyKey(item.name);
+      if (!nameKey || seenNameKeys.has(nameKey)) continue;
+
+      let id = String(item.id || "").trim();
+      if (!id) {
+        id = generatePluginId(item.name, usedIds);
+      } else if (usedIds.has(id)) {
+        id = generatePluginId(item.name || id, usedIds);
+      } else {
+        usedIds.add(id);
+      }
+
+      out.push({
+        id,
+        name: String(item.name || "").trim(),
+        category: CATEGORIES.includes(item.category) ? item.category : "Misc",
+        vendor: String(item.vendor || "").trim() || "Unknown",
+        purpose: String(item.purpose || "").trim(),
+        features: Array.isArray(item.features)
+          ? item.features.map((value) => cleanupFeatureDisplayText(value)).filter(Boolean)
+          : []
+      });
+
+      seenNameKeys.add(nameKey);
+    }
+
+    return out;
+  }
+
+  function normalizeAddedPlugins(list, baseList) {
+    const baseNameSet = new Set(baseList.map((item) => getPluginFamilyKey(item.name)).filter(Boolean));
+    const usedIds = new Set(baseList.map((item) => String(item.id || "")).filter(Boolean));
+    const out = [];
+
+    for (const item of list) {
+      if (!item || typeof item !== "object") continue;
+      const name = String(item.name || "").trim();
+      if (!name) continue;
+
+      const nameKey = getPluginFamilyKey(name);
+      if (!nameKey || baseNameSet.has(nameKey)) continue;
+
+      const id = generatePluginId(String(item.id || "").trim() || name, usedIds);
+      const features = Array.isArray(item.features)
+        ? item.features.map((value) => cleanupFeatureDisplayText(value)).filter(Boolean)
+        : [];
+
+      out.push({
+        id,
+        name,
+        category: CATEGORIES.includes(item.category) ? item.category : "Misc",
+        vendor: String(item.vendor || "").trim() || "Unknown",
+        purpose: String(item.purpose || "").trim(),
+        features
+      });
+
+      baseNameSet.add(nameKey);
+    }
+
+    return out;
+  }
+
+  function generatePluginId(seed, usedIds) {
+    const used = usedIds instanceof Set ? usedIds : new Set();
+    const base = String(seed || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "plugin";
+
+    let candidate = base;
+    let index = 2;
+    while (used.has(candidate)) {
+      candidate = `${base}-${index}`;
+      index += 1;
+    }
+    used.add(candidate);
+    return candidate;
+  }
+
   function loadOverrides() {
     try {
       const raw = localStorage.getItem(OVERRIDES_KEY);
@@ -185,6 +327,10 @@
       }
 
       const next = { ...item };
+
+      if (typeof override.name === "string" && override.name.trim()) {
+        next.name = override.name.trim();
+      }
 
       if (typeof override.category === "string" && CATEGORIES.includes(override.category)) {
         next.category = override.category;
@@ -288,6 +434,23 @@
           </button>
         `).join("")}
       </div>
+      <section class="category-search-panel" aria-label="搜尋插件">
+        <h3 class="category-search-title">搜尋插件</h3>
+        <div class="category-search-controls">
+          <input
+            id="category-search-input"
+            class="category-search-input"
+            type="search"
+            placeholder="輸入關鍵字（名稱 / 品牌 / 分類）"
+            value="${escapeHtml(state.categorySearch.keyword)}"
+          />
+          <label class="inline-check category-search-toggle">
+            <input id="category-search-include-desc" type="checkbox" ${state.categorySearch.includeDescription ? "checked" : ""} />
+            搜尋敘述內容（功能 / 特點）
+          </label>
+        </div>
+        <div id="category-search-result" class="category-search-result"></div>
+      </section>
     `;
 
     categoryView.querySelectorAll(".category-btn").forEach((el) => {
@@ -297,9 +460,116 @@
         showSwipe();
       });
     });
+
+    const searchInput = categoryView.querySelector("#category-search-input");
+    const includeDescInput = categoryView.querySelector("#category-search-include-desc");
+    const resultEl = categoryView.querySelector("#category-search-result");
+    const searchablePool = buildCategorySearchPool();
+
+    const renderSearchResults = () => {
+      if (!searchInput || !includeDescInput || !resultEl) return;
+
+      const keyword = String(state.categorySearch.keyword || "").trim();
+      if (!keyword) {
+        resultEl.innerHTML = "";
+        return;
+      }
+
+      const query = keyword.toLowerCase();
+      const includeDescription = Boolean(state.categorySearch.includeDescription);
+
+      const results = searchablePool.filter((item) => {
+        if (item.basicText.includes(query)) return true;
+        if (includeDescription && item.descriptionText.includes(query)) return true;
+        return false;
+      });
+
+      if (results.length === 0) {
+        resultEl.innerHTML = `<div class="category-search-empty">找不到插件</div>`;
+        return;
+      }
+
+      resultEl.innerHTML = results
+        .map((item) => `
+          <button
+            class="category-search-item"
+            type="button"
+            data-action="jump-search-result"
+            data-category="${escapeHtml(item.category)}"
+            data-index="${item.indexInCategory}"
+          >
+            <span class="category-search-main">${escapeHtml(item.name || "")}</span>
+            <span class="category-search-meta">${escapeHtml(item.vendor || "Unknown")} · ${escapeHtml(item.category || "")}</span>
+          </button>
+        `)
+        .join("");
+    };
+
+    if (searchInput) {
+      searchInput.addEventListener("input", () => {
+        state.categorySearch.keyword = searchInput.value || "";
+        renderSearchResults();
+      });
+    }
+
+    if (includeDescInput) {
+      includeDescInput.addEventListener("change", () => {
+        state.categorySearch.includeDescription = includeDescInput.checked;
+        renderSearchResults();
+      });
+    }
+
+    if (resultEl) {
+      resultEl.addEventListener("click", onCategorySearchResultClick);
+    }
+
+    renderSearchResults();
+  }
+
+  function buildCategorySearchPool() {
+    const out = [];
+
+    for (const category of CATEGORIES) {
+      const cards = getCards(category);
+      cards.forEach((plugin, indexInCategory) => {
+        const features = Array.isArray(plugin.features) ? plugin.features : [];
+        out.push({
+          pluginId: plugin.id,
+          category,
+          indexInCategory,
+          name: String(plugin.name || ""),
+          vendor: String(plugin.vendor || "Unknown"),
+          basicText: [
+            plugin.name || "",
+            plugin.vendor || "",
+            plugin.category || ""
+          ].join("\n").toLowerCase(),
+          descriptionText: [
+            plugin.purpose || "",
+            ...features
+          ].join("\n").toLowerCase()
+        });
+      });
+    }
+
+    return out;
+  }
+
+  function onCategorySearchResultClick(event) {
+    const btn = event.target.closest("button[data-action='jump-search-result']");
+    if (!btn) return;
+
+    const category = btn.getAttribute("data-category") || "";
+    const index = Number(btn.getAttribute("data-index"));
+    if (!category || !Number.isFinite(index)) return;
+
+    state.category = category;
+    setCurrentIndex(index);
+    showSwipe();
   }
 
   function showCategories() {
+    resetDragState();
     categoryView.classList.remove("hidden");
     swipeView.classList.add("hidden");
     savedView.classList.add("hidden");
@@ -315,6 +585,7 @@
       return;
     }
 
+    resetDragState();
     categoryView.classList.add("hidden");
     swipeView.classList.remove("hidden");
     savedView.classList.add("hidden");
@@ -324,6 +595,7 @@
   }
 
   function showSaved() {
+    resetDragState();
     categoryView.classList.add("hidden");
     swipeView.classList.add("hidden");
     savedView.classList.remove("hidden");
@@ -369,6 +641,8 @@
   function renderSwipeDeck() {
     const { cards, index, current, next } = getCurrentStack();
 
+    renderDesktopPluginList(cards, index);
+
     if (!current) {
       deck.innerHTML = "";
       swipeEmpty.classList.remove("hidden");
@@ -393,6 +667,27 @@
     topCard.addEventListener("pointermove", onPointerMove);
     topCard.addEventListener("pointerup", onPointerUp);
     topCard.addEventListener("pointercancel", onPointerCancel);
+  }
+
+  function renderDesktopPluginList(cards, activeIndex) {
+    if (!desktopPluginList) return;
+
+    if (!cards || cards.length === 0) {
+      desktopPluginList.innerHTML = `<div class="desktop-plugin-empty">${escapeHtml(state.category || "")} 沒有可顯示卡片</div>`;
+      return;
+    }
+
+    desktopPluginList.innerHTML = cards
+      .map((item, idx) => {
+        const activeClass = idx === activeIndex ? "active" : "";
+        return `
+          <button class="desktop-plugin-item ${activeClass}" type="button" data-action="jump-card" data-index="${idx}">
+            <span class="desktop-plugin-order">${idx + 1}</span>
+            <span class="desktop-plugin-name">${escapeHtml(item.name || "")}</span>
+          </button>
+        `;
+      })
+      .join("");
   }
 
   function renderCard(card, className, counterText = "") {
@@ -464,6 +759,17 @@
     copyText(name);
   }
 
+  function onDesktopPluginListClick(event) {
+    const btn = event.target.closest("button[data-action='jump-card']");
+    if (!btn || !state.category) return;
+
+    const index = Number(btn.getAttribute("data-index"));
+    if (!Number.isFinite(index)) return;
+
+    setCurrentIndex(index);
+    renderSwipeDeck();
+  }
+
   function onSavedListClick(event) {
     const copyBtn = event.target.closest("button[data-action='copy-saved-name']");
     if (copyBtn) {
@@ -494,16 +800,19 @@
   function onPointerDown(event) {
     if (state.animating) return;
     if (event.target.closest("button[data-action='copy-name']")) return;
+    if (event.pointerType === "mouse" && event.button !== 0) return;
 
     const card = event.currentTarget;
-    card.classList.add("dragging");
-
     state.drag.active = true;
     state.drag.pointerId = event.pointerId;
     state.drag.startX = event.clientX;
+    state.drag.startY = event.clientY;
     state.drag.x = 0;
-
-    card.setPointerCapture(event.pointerId);
+    state.drag.axisLock = null;
+    state.drag.pendingX = 0;
+    state.drag.renderX = 0;
+    state.drag.captured = false;
+    state.drag.card = card;
   }
 
   function onPointerMove(event) {
@@ -511,9 +820,46 @@
       return;
     }
 
+    const card = state.drag.card || event.currentTarget;
     const dx = event.clientX - state.drag.startX;
+    const dy = event.clientY - state.drag.startY;
+    const absDx = Math.abs(dx);
+    const absDy = Math.abs(dy);
+
+    if (!state.drag.axisLock) {
+      if (absDx < DRAG_LOCK_THRESHOLD && absDy < DRAG_LOCK_THRESHOLD) {
+        return;
+      }
+
+      if (absDx > absDy * DRAG_AXIS_RATIO) {
+        state.drag.axisLock = "x";
+        card.style.transition = "transform 0ms";
+        card.classList.add("dragging");
+        document.body.classList.add("is-swiping");
+
+        if (!state.drag.captured) {
+          try {
+            card.setPointerCapture(event.pointerId);
+            state.drag.captured = true;
+          } catch {
+            // ignore capture errors
+          }
+        }
+      } else if (absDy > absDx * DRAG_AXIS_RATIO) {
+        state.drag.axisLock = "y";
+      } else {
+        return;
+      }
+    }
+
+    if (state.drag.axisLock !== "x") {
+      return;
+    }
+
+    event.preventDefault();
     state.drag.x = dx;
-    applyCardTransform(event.currentTarget, dx);
+    state.drag.pendingX = absDx <= DRAG_DEAD_ZONE ? 0 : dx;
+    queueDragFrame();
   }
 
   function onPointerUp(event) {
@@ -521,15 +867,22 @@
       return;
     }
 
-    const card = event.currentTarget;
-    try {
-      card.releasePointerCapture(event.pointerId);
-    } catch {
-      // ignore
+    const card = state.drag.card || event.currentTarget;
+    releaseCapturedPointer(card, event.pointerId);
+    if (state.drag.rafId) {
+      window.cancelAnimationFrame(state.drag.rafId);
+      state.drag.rafId = null;
     }
 
+    const axisLock = state.drag.axisLock;
     const x = state.drag.x;
     resetDragState();
+
+    if (axisLock !== "x") {
+      card.style.transition = "transform 170ms ease, opacity 170ms ease";
+      card.style.transform = "translate3d(0, 0, 0) rotate(0deg)";
+      return;
+    }
 
     if (x > SWIPE_THRESHOLD) {
       animateCardOut(card, "next", 1);
@@ -545,46 +898,65 @@
   }
 
   function onPointerCancel(event) {
-    const card = event.currentTarget;
+    const card = state.drag.card || event.currentTarget;
     if (state.drag.active && state.drag.pointerId === event.pointerId) {
-      try {
-        card.releasePointerCapture(event.pointerId);
-      } catch {
-        // ignore
-      }
+      releaseCapturedPointer(card, event.pointerId);
     }
 
     resetDragState();
     resetCardPosition(card);
   }
 
+  function queueDragFrame() {
+    if (state.drag.rafId) return;
+    state.drag.rafId = window.requestAnimationFrame(runDragFrame);
+  }
+
+  function runDragFrame() {
+    state.drag.rafId = null;
+    if (!state.drag.active || state.drag.axisLock !== "x" || !state.drag.card) {
+      return;
+    }
+
+    const nextX = state.drag.pendingX;
+    const currentX = state.drag.renderX;
+    const smoothedX = currentX + (nextX - currentX) * DRAG_SMOOTHING;
+    const finalX = Math.abs(nextX - smoothedX) < 0.35 ? nextX : smoothedX;
+
+    state.drag.renderX = finalX;
+    applyCardTransform(state.drag.card, finalX);
+
+    if (Math.abs(nextX - finalX) > 0.35) {
+      queueDragFrame();
+    }
+  }
+
+  function releaseCapturedPointer(card, pointerId) {
+    if (!state.drag.captured) return;
+    try {
+      if (card && card.hasPointerCapture(pointerId)) {
+        card.releasePointerCapture(pointerId);
+      }
+    } catch {
+      // ignore release errors
+    }
+  }
+
   function applyCardTransform(card, x) {
-    const rotate = (x / 240) * SWIPE_OUT_ROTATE;
+    const rotate = clamp((x / 260) * SWIPE_OUT_ROTATE, -SWIPE_OUT_ROTATE, SWIPE_OUT_ROTATE);
     card.style.transform = `translate3d(${x}px, 0, 0) rotate(${rotate}deg)`;
-
-    const likeBadge = card.querySelector('[data-badge="like"]');
-    const passBadge = card.querySelector('[data-badge="pass"]');
-
-    const likeOpacity = clamp((x - 30) / 120, 0, 1);
-    const passOpacity = clamp((-x - 30) / 120, 0, 1);
-
-    if (likeBadge) likeBadge.style.opacity = String(likeOpacity);
-    if (passBadge) passBadge.style.opacity = String(passOpacity);
   }
 
   function resetCardPosition(card) {
+    if (!card) return;
     card.classList.remove("dragging");
     card.style.transition = "transform 170ms ease";
     card.style.transform = "translate3d(0, 0, 0) rotate(0deg)";
 
-    const likeBadge = card.querySelector('[data-badge="like"]');
-    const passBadge = card.querySelector('[data-badge="pass"]');
-    if (likeBadge) likeBadge.style.opacity = "0";
-    if (passBadge) passBadge.style.opacity = "0";
-
     window.setTimeout(() => {
       card.style.transition = "transform 170ms ease, opacity 170ms ease";
       card.classList.remove("dragging");
+      document.body.classList.remove("is-swiping");
     }, 170);
   }
 
@@ -619,10 +991,22 @@
   }
 
   function resetDragState() {
+    if (state.drag.rafId) {
+      window.cancelAnimationFrame(state.drag.rafId);
+    }
+
+    document.body.classList.remove("is-swiping");
     state.drag.active = false;
     state.drag.pointerId = null;
     state.drag.startX = 0;
+    state.drag.startY = 0;
     state.drag.x = 0;
+    state.drag.axisLock = null;
+    state.drag.rafId = null;
+    state.drag.pendingX = 0;
+    state.drag.captured = false;
+    state.drag.card = null;
+    state.drag.renderX = 0;
   }
 
 
@@ -715,6 +1099,9 @@
       .replace(/'/g, "&#39;");
   }
 })();
+
+
+
 
 
 

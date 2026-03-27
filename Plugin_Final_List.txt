@@ -1,0 +1,548 @@
+﻿Aberrant DSP - Lofi Oddity
+accusonus - AudioCleanUpAssistant
+accusonus - DeBreath
+accusonus - DeClipper
+accusonus - DeEsser
+accusonus - DeEsserPro
+accusonus - MouthDeClicker
+accusonus - NoiseRemover
+accusonus - NoiseRemoverPro
+accusonus - PlosiveRemover
+accusonus - ReverbRemover
+accusonus - ReverbRemoverPro
+accusonus - VoiceAutoEQ
+accusonus - Voice-Changer
+accusonus - VoiceDeepener
+accusonus - VoiceLeveler
+Ample Sound Co., Ltd. - AGLP3
+Ample Sound Co., Ltd. - AGM3
+Ample Sound Co., Ltd. - AGSC3
+AnalogObsession - BritPre
+AnalogObsession - Distox
+AnalogObsession - PreBOX
+AnalogObsession - ReLife
+AnalogObsession - RevO
+Antares - Auto-Tune EFX
+Audio Damage, Inc. - Quanta
+Audio Modeling - SWAM Alto Trombone
+Audio Modeling - SWAM Bass Trombone
+Audio Modeling - SWAM Bass Tuba
+Audio Modeling - SWAM Double Bass Trombone
+Audio Modeling - SWAM Euphonium
+Audio Modeling - SWAM Flugelhorn
+Audio Modeling - SWAM Flugelhorn Eb
+Audio Modeling - SWAM French Horn Bb
+Audio Modeling - SWAM French Horn F
+Audio Modeling - SWAM Piccolo Trumpet
+Audio Modeling - SWAM Tenor Bass Trombone
+Audio Modeling - SWAM Tenor Trombone
+Audio Modeling - SWAM Trumpet
+Audio Modeling - SWAM Trumpet C
+Audio Modeling - SWAM Tuba Eb
+Audiomodern - Soundbox
+AudioThing - Frostbite 2
+AudioThing - Gong Amp
+AudioThing - Megaphone
+AudioThing - miniVerb
+AudioThing - Outer Space
+AudioThing - Reels
+AudioThing - Space Strip
+AudioThing - Speakers
+AudioThing - Springs
+AudioThing - The Orb
+AudioThing - Things Flip EQ
+AudioThing - Things Motor
+AudioThing - Things Texture
+AudioThing - Type A
+AudioThing - Type B
+AudioThing - Valves
+AudioThing - Vinyl Strip
+AudioThing - Wave Box
+AudioThing - Wires
+Bertom - Denoiser Classic
+beyerdynamic - Headphone Lab
+BirdBird - System Audio Bridge
+Cableguys - ShaperBox
+Celemony Software GmbH - Melodyne
+CRQL - ANINA
+Dawesome - Abyss
+Dear Reality - Dear Reality MIYA
+Dear Reality - dearVR MIX
+Dear Reality - dearVR PRO 2
+Devious Machines - Infiltrator
+Devious Machines - Texture
+Dr. Audio - NeuralNote
+Echo Sound Works - ESW Kalimba
+Echo Sound Works - ESW Vinyl Guitar 2
+Eventide - BandDelays
+Eventide - Blackhole
+Eventide - CrushStation
+Eventide - Crystals
+Eventide - EChannel
+Eventide - EQ45
+Eventide - EQ65
+Eventide - Factory
+Eventide - H910Dual
+Eventide - H910Single
+Eventide - H949Dual
+Eventide - H949Single
+Eventide - InstantFlangerMkII
+Eventide - InstantPhaserMkII
+Eventide - MangledVerb
+Eventide - MicroPitch
+Eventide - Octavox
+Eventide - Omnipressor
+Eventide - Physion
+Eventide - PTA
+Eventide - PTD
+Eventide - Quadravox
+Eventide - RotaryMod
+Eventide - ShimmerVerb
+Eventide - SP2016Reverb
+Eventide - SplitEQ
+Eventide - Spring
+Eventide - StereoRoom2016
+Eventide - TriceraChorus
+Eventide - Tverb
+Eventide - UltraChannel
+Eventide - UltraReverb
+Eventide - UltraTap
+Eventide - Undulator
+FabFilter - FabFilter Micro VST plug-in
+FabFilter - FabFilter One VST plug-in
+FabFilter - FabFilter Pro-C 2 VST plug-in
+FabFilter - FabFilter Pro-DS VST plug-in
+FabFilter - FabFilter Pro-G VST plug-in
+FabFilter - FabFilter Pro-L VST plug-in
+FabFilter - FabFilter Pro-MB VST plug-in
+FabFilter - FabFilter Pro-Q 3 VST plug-in
+FabFilter - FabFilter Pro-R VST plug-in
+FabFilter - FabFilter Saturn 2 VST plug-in
+FabFilter - FabFilter Simplon VST plug-in
+FabFilter - FabFilter Timeless 3 VST plug-in
+FabFilter - FabFilter Twin 2 VST plug-in
+FabFilter - FabFilter Volcano 2 VST plug-in
+FFmpeg Project - FFmpeg audio resampling library
+FFmpeg Project - FFmpeg audio/video filtering library
+FFmpeg Project - FFmpeg codec library
+FFmpeg Project - FFmpeg container format library
+FFmpeg Project - FFmpeg device handling library
+FFmpeg Project - FFmpeg image rescaling library
+FFmpeg Project - FFmpeg utility library
+Fiedler Audio - fiedler audio stage
+Fors - Sala
+Ghost Note Audio - SpectrumThief
+IK Multimedia - MODO BASS 2
+Illformed - Glitch2
+Ircam - ASAP Formant Shaping
+Ircam - ASAP Spectral Clipping
+Ircam - ASAP Spectral Remix
+Kazrog Inc - Retro Sta-Level
+Kilohearts - 3-Band EQ
+Kilohearts - Bitcrush
+Kilohearts - Carve EQ
+Kilohearts - Channel Mixer
+Kilohearts - Chorus
+Kilohearts - Clipper
+Kilohearts - Comb Filter
+Kilohearts - Compactor
+Kilohearts - Compressor
+Kilohearts - Convolver
+Kilohearts - Delay
+Kilohearts - Disperser
+Kilohearts - Distortion
+Kilohearts - Dual Delay
+Kilohearts - Dynamics
+Kilohearts - Ensemble
+Kilohearts - Faturator
+Kilohearts - Filter
+Kilohearts - Filter Table
+Kilohearts - Flanger
+Kilohearts - Formant Filter
+Kilohearts - Frequency Shifter
+Kilohearts - Gain
+Kilohearts - Gate
+Kilohearts - Haas
+Kilohearts - Ladder Filter
+Kilohearts - Limiter
+Kilohearts - Multipass
+Kilohearts - Nonlinear Filter
+Kilohearts - Phase Distortion
+Kilohearts - Phase Plant
+Kilohearts - Phaser
+Kilohearts - Pitch Shifter
+Kilohearts - Resonator
+Kilohearts - Reverb
+Kilohearts - Reverser
+Kilohearts - Ring Mod
+Kilohearts - Shaper
+Kilohearts - Shaper Table
+Kilohearts - Slice EQ
+Kilohearts - Snap Heap
+Kilohearts - Stereo
+Kilohearts - Tape Stop
+Kilohearts - Trance Gate
+Kilohearts - Transient Shaper
+Klevgrand - Pana
+KORG - TRITON
+KORG - TRITON_Extreme
+Kush - Clariphonic MK II
+Kush - UBK-1
+LennarDigital - Sylenth1
+Lindell Audio - 6X-500
+Lindell Audio - 7X-500
+Lindell Audio - ChannelX
+Lindell Audio - Lindell 254E
+Lindell Audio - Lindell 354E
+Lindell Audio - Lindell 80 Bus
+Lindell Audio - Lindell 80 Channel
+Lindell Audio - Lindell TE-100
+Lindell Audio - PEX-500
+Lindell Plugins - Lindell 50 Buss
+Lindell Plugins - Lindell 50 Channel
+Lindell Plugins - Lindell 902 De-esser
+Lindell Plugins - Lindell SBC
+Luxora Audio - LUX Vocal Preamp
+Native Instruments GmbH - Kontakt
+Native Instruments GmbH - Kontakt 8 Portable
+Native Instruments GmbH - Massive
+Neural DSP - Archetype Abasi
+Neural DSP - Archetype Cory Wong
+Neural DSP - Archetype Gojira
+Neural DSP - Archetype Nolly
+Neural DSP - Archetype Plini
+Neural DSP - Darkglass Ultra
+Neural DSP - Fortin Cali Suite
+Neural DSP - Fortin Nameless Suite
+Neural DSP - Fortin NTS Suite
+Neural DSP - OMEGA Ampworks Granophyre
+Neural DSP - Parallax
+Newfangled Audio - Newfangled Elevate
+Newfangled Audio - Newfangled EQuivocate
+Newfangled Audio - Newfangled Punctuate
+Newfangled Audio - Newfangled Saturate
+Nimble Tools - Misstortion 2
+oeksound - soothe2
+oeksound - spiff
+Outobugi - NOTT
+Outobugi - Stereoize
+Output - Movement
+Output - Portal
+plugdata - plugdata
+plugdata - plugdata-fx
+Plugin Alliance - ADPTR StreamLiner
+Plugin Alliance - Bettermaker EQ232D
+Plugin Alliance - DS Tantra 2
+Plugin Alliance - elysia phils cascade
+Plugin Alliance - LTL Chop Shop EQ
+Plugin Alliance - NEOLD BIG AL
+Plugin Alliance - NEOLD U17
+Plugin Alliance - NEOLD V76U73
+Plugin Alliance - NEOLD WARBLE
+Plugin Alliance - SPL HawkEye
+Plugin Alliance - Unfiltered Audio Bass Mint
+Plugin Boutique - Scaler2
+Plugin Boutique - ScalerAudio2
+Plugins That Knock - KNOCK
+Polyverse Music - Filtron
+Polyverse Music - Wider
+Polyverse Music Inc - Manipulator
+Project Beatrice - Beatrice_2.0.0
+reFX Audio Software Inc. - Nexus
+Roland Corporation - D-50
+Roland Corporation - JD-800
+Roland Corporation - JUNO-106
+Roland Corporation - JUNO-60
+Roland Corporation - JUNO-60 CHORUS
+Roland Corporation - JUPITER-8
+Roland Corporation - JV-1080
+Roland Corporation - JX-3P
+Roland Corporation - PROMARS
+Roland Corporation - SH-101
+Roland Corporation - SH-2
+Roland Corporation - SYSTEM-1
+Roland Corporation - SYSTEM-100
+Roland Corporation - SYSTEM-8
+Roland Corporation - TB-303
+Roland Corporation - TR-606
+Roland Corporation - TR-707
+Roland Corporation - TR-727
+Roland Corporation - TR-808
+Roland Corporation - TR-909
+Roland Corporation - XV-5080
+Serato - Serato Sample
+Sinevibes - SinevibesAlbedo
+Sinevibes - SinevibesBlend2
+Sinevibes - SinevibesCorrosion2
+Sinevibes - SinevibesDipole2
+Sinevibes - SinevibesDispersion2
+Sinevibes - SinevibesDroplet2
+Sinevibes - SinevibesEternal2
+Sinevibes - SinevibesHollow
+Sinevibes - SinevibesLuminance2
+Sinevibes - SinevibesRerun2
+Sinevibes - SinevibesWhirl2
+Slate Digital - Fresh Air
+Slate Digital - Murda Melodies
+Slate Digital - Storch Filter
+Softube - Softube: Saturation Knob
+Softube - Softube: Tube-Tech CL 1B
+Softube - Softube: Tube-Tech PE 1C
+Sonarworks - SoundID Reference Plugin
+sonible - smartEQ4
+Sonic Academy - Kick 3
+Sonosaurus - SonoBus
+Sonosaurus - SonoBusInstrument
+Sound Particles SA - EnergyPanner
+Soundly AS - Soundly Place it
+Spectrasonics - Keyscape 
+Spectrasonics - Omnisphere 
+Spectrasonics - Trilian 
+Spitfire Audio - Labs
+Splice - SpliceBridge
+SSL - SSL Native Channel Strip 2
+StevenAtkinson - NeuralAmpModeler
+STL Tones - Ignite - Emissary Audio Plug-in
+STL Tones - Ignite - NadIR Audio Plug-in
+Synapse Audio Software - DUNE 3
+Synchro Arts Ltd - Revoice Pro Plug-In
+Synchro Arts Ltd - VocAlign Ultra Plug-In
+Techivation - AI-Rack
+TERU FOX - GuaiGuai
+TERU FOX - KuaiKuai DAW Saviour
+Tone Projects - Basslane Pro
+Tritik - Tritik-Visu
+unplugred - Scope
+Valhalla DSP, LLC - ValhallaDelay
+Valhalla DSP, LLC - ValhallaFutureVerb
+Valhalla DSP, LLC - ValhallaRoom
+Valhalla DSP, LLC - ValhallaSupermassive
+Valhalla DSP, LLC - ValhallaVintageVerb
+Waves Audio - Abbey Road Chambers
+Waves Audio - Abbey Road J37 Tape
+Waves Audio - Abbey Road Plates
+Waves Audio - Abbey Road Reel ADT
+Waves Audio - Abbey Road RS124 Compressor
+Waves Audio - Abbey Road Saturator
+Waves Audio - Abbey Road Studio 3
+Waves Audio - Abbey Road TG Master Chain
+Waves Audio - Abbey Road TG Vocal Chain
+Waves Audio - Abbey Road Vinyl
+Waves Audio - API 2500
+Waves Audio - API 550A
+Waves Audio - API 550B
+Waves Audio - API 560
+Waves Audio - AudioTrack
+Waves Audio - B360 Ambisonics Encoder
+Waves Audio - Bass Rider
+Waves Audio - BB Tubes
+Waves Audio - BeEQ
+Waves Audio - Berzerk Distortion
+Waves Audio - Brauer Motion
+Waves Audio - Butch Vig Vocals
+Waves Audio - C1 Compressor
+Waves Audio - C4 Multiband Compressor
+Waves Audio - C6 Multiband Compressor
+Waves Audio - Center
+Waves Audio - CLA-2A Compressor / Limiter
+Waves Audio - CLA-3A Compressor / Limiter
+Waves Audio - CLA-76 Compressor / Limiter
+Waves Audio - CLA Bass
+Waves Audio - CLA Drums
+Waves Audio - CLA EchoSphere
+Waves Audio - CLA Effects
+Waves Audio - CLA Epic
+Waves Audio - CLA Guitars
+Waves Audio - CLA MixDown
+Waves Audio - CLA MixHub
+Waves Audio - CLA NX
+Waves Audio - CLA Unplugged
+Waves Audio - CLA Vocals
+Waves Audio - Clarity Vx
+Waves Audio - Clarity Vx DeReverb
+Waves Audio - Clarity Vx Pro
+Waves Audio - Cobalt Saphira
+Waves Audio - Cosmo
+Waves Audio - CR8 Creative Sampler
+Waves Audio - dbx 160 Compressor / Limiter
+Waves Audio - DeBreath
+Waves Audio - DeEsser
+Waves Audio - DoF
+Waves Audio - Doppler
+Waves Audio - Doubler
+Waves Audio - DTS Neural Mono2Stereo
+Waves Audio - DTS Neural Surround DownMix
+Waves Audio - DTS Neural Surround UpMix
+Waves Audio - eMo D5 Dynamics
+Waves Audio - eMo F2 Filter
+Waves Audio - eMo Generator
+Waves Audio - eMo Q4 Equalizer
+Waves Audio - Eddie Kramer Bass Channel
+Waves Audio - Eddie Kramer Drum Channel
+Waves Audio - Eddie Kramer Effects Channel
+Waves Audio - Eddie Kramer Guitar Channel
+Waves Audio - Eddie Kramer Vocal Channel
+Waves Audio - Electric 200 Piano
+Waves Audio - Electric 88 Piano
+Waves Audio - Electric Grand 80 Piano
+Waves Audio - Element 2.0 Virtual Analog Synth
+Waves Audio - EMI TG12345 Channel Strip
+Waves Audio - Enigma
+Waves Audio - F6 Floating-Band Dynamic EQ
+Waves Audio - Flow Motion FM Synth
+Waves Audio - Flux Desktop
+Waves Audio - GTR3 Amps
+Waves Audio - GTR3 Stomps
+Waves Audio - GTR3 ToolRack
+Waves Audio - GTR3 Tuner
+Waves Audio - Greg Wells MixCentric
+Waves Audio - Greg Wells PianoCentric
+Waves Audio - Greg Wells ToneCentric
+Waves Audio - Greg Wells VoiceCentric
+Waves Audio - GTR Solo
+Waves Audio - H-Comp Hybrid Compressor
+Waves Audio - H-Delay Hybrid Delay
+Waves Audio - H-EQ Hybrid Equalizer
+Waves Audio - H-Reverb Hybrid Reverb
+Waves Audio - IDR360 Bit-Depth Reducer
+Waves Audio - InPhase
+Waves Audio - InPhase LT
+Waves Audio - IR1 Efficient
+Waves Audio - IR1 Convolution Reverb
+Waves Audio - IR360 Convolution Reverb
+Waves Audio - IR-L Convolution Reverb
+Waves Audio - JJP Bass
+Waves Audio - JJP Cymbals & Percussion
+Waves Audio - JJP Drums
+Waves Audio - JJP Guitars
+Waves Audio - JJP Strings & Keys
+Waves Audio - JJP Vocals
+Waves Audio - Kaleidoscopes
+Waves Audio - Key Detector
+Waves Audio - King's Microphones
+Waves Audio - Kramer HLS Channel
+Waves Audio - Kramer Master Tape
+Waves Audio - Kramer PIE Compressor
+Waves Audio - L1 Ultramaximizer
+Waves Audio - L2 Ultramaximizer
+Waves Audio - L3 Multimaximizer
+Waves Audio - L3 Ultramaximizer
+Waves Audio - L3-16 Multimaximizer
+Waves Audio - L3-LL Multimaximizer
+Waves Audio - L3-LL Ultramaximizer
+Waves Audio - LFE360 Low-Pass Filter
+Waves Audio - Lil Tube
+Waves Audio - LinEQ Broad-Band
+Waves Audio - LinEQ Low-Band
+Waves Audio - LinMB Multiband compressor
+Waves Audio - LoAir
+Waves Audio - M360 Manager / Mixdown
+Waves Audio - Magma BB Tubes
+Waves Audio - Magma Lil Tube
+Waves Audio - Magma Springs
+Waves Audio - Magma Tube Channel Strip
+Waves Audio - Manny Marroquin Delay
+Waves Audio - Manny Marroquin Distortion
+Waves Audio - Manny Marroquin EQ
+Waves Audio - Manny Marroquin Reverb
+Waves Audio - Manny Marroquin Triple D
+Waves Audio - Maserati B72
+Waves Audio - Maserati DRM
+Waves Audio - Maserati GRP
+Waves Audio - Maserati GTi
+Waves Audio - Maserati HCG
+Waves Audio - Maserati VX1
+Waves Audio - MaxxBass
+Waves Audio - MaxxVolume
+Waves Audio - MetaFilter
+Waves Audio - MetaFlanger
+Waves Audio - MondoMod
+Waves Audio - Morphoder
+Waves Audio - MV2
+Waves Audio - NLS Channel
+Waves Audio - NLS Buss
+Waves Audio - NS1 Noise Suppressor
+Waves Audio - NX Germano Studios New York
+Waves Audio - NX Ocean Way Nashville
+Waves Audio - NX Virtual Mix Room
+Waves Audio - OneKnob Brighter
+Waves Audio - OneKnob Driver
+Waves Audio - OneKnob Filter
+Waves Audio - OneKnob Louder
+Waves Audio - OneKnob Phatter
+Waves Audio - OneKnob Pressure
+Waves Audio - OneKnob Pumper
+Waves Audio - OneKnob Wetter
+Waves Audio - OVox Vocal ReSynthesis
+Waves Audio - PAZ Analyzer
+Waves Audio - Primary Source Expander
+Waves Audio - PRS SuperModels
+Waves Audio - PS22 Stereo Maker
+Waves Audio - Pumper
+Waves Audio - PuigChild 660
+Waves Audio - PuigChild 670
+Waves Audio - PuigTec EQP-1A
+Waves Audio - PuigTec MEQ-5
+Waves Audio - Q10 Equalizer
+Waves Audio - Q1-Clone
+Waves Audio - Renaissance Axx
+Waves Audio - Renaissance Bass
+Waves Audio - Renaissance Channel
+Waves Audio - Renaissance Compressor
+Waves Audio - Renaissance DeEsser
+Waves Audio - Renaissance Equalizer
+Waves Audio - Renaissance Reverb
+Waves Audio - Renaissance Vox
+Waves Audio - Retro Fi
+Waves Audio - S1 Stereo Imager
+Waves Audio - S360 Surround Imager
+Waves Audio - Saphira
+Waves Audio - Scheps 73
+Waves Audio - Scheps Omni Channel
+Waves Audio - Scheps Parallel Particles
+Waves Audio - Silk Vocal
+Waves Audio - Sibilance
+Waves Audio - Smack Attack
+Waves Audio - SoundShifter
+Waves Audio - Space Rider
+Waves Audio - SuperTap
+Waves Audio - SSL E-Channel
+Waves Audio - SSL EV2 Channel
+Waves Audio - SSL G-Channel
+Waves Audio - SSL G-Equalizer
+Waves Audio - SSL G-Master Buss Compressor
+Waves Audio - Stream
+Waves Audio - Sub Aligner
+Waves Audio - Submarine
+Waves Audio - Tarsier
+Waves Audio - Torque
+Waves Audio - TrueVerb
+Waves Audio - UltraPitch
+Waves Audio - UM225 / UM226
+Waves Audio - V-Comp
+Waves Audio - V-EQ3
+Waves Audio - V-EQ4
+Waves Audio - Vitamin Multiband Enhancer
+Waves Audio - Vocal Bender
+Waves Audio - Vocal Rider
+Waves Audio - VU Meter
+Waves Audio - Waves Harmony
+Waves Audio - Waves Tune
+Waves Audio - Waves Tune LT
+Waves Audio - Waves Tune Real-Time
+Waves Audio - WLM Plus Loudness Meter
+Waves Audio - WNS Noise Suppressor
+Waves Audio - X-Click
+Waves Audio - X-Crackle
+Waves Audio - X-Hum
+Waves Audio - X-Noise
+Waves Audio - Z-Noise
+Wavesfactory - Cassette
+Wavesfactory - Echo Cat
+Wavesfactory - MercuryFX
+Wavesfactory - SK10
+Wavesfactory - Spectre
+Wavesfactory - Trackspacer
+Xfer Records - Serum 2 VST3 Plug-In
+Xynth Audio - Chroma
+YMCK - Magical8bitPlug2

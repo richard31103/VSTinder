@@ -43,6 +43,19 @@
         <p class="paste-tip">格式欄位可用：插件名稱 / 品牌 / 功能 / 特點 / 分類。特點請用每行一點（例如 * 文字）。</p>
       </section>
 
+      <section class="add-plugin-panel">
+        <label for="add-plugin-name">手動新增 Plugin</label>
+        <div class="add-plugin-grid">
+          <input id="add-plugin-name" type="text" placeholder="Plugin 名稱（必填）" />
+          <input id="add-plugin-vendor" type="text" placeholder="品牌（可留空）" />
+          <select id="add-plugin-category"></select>
+        </div>
+        <div class="paste-actions">
+          <button id="add-plugin-btn" class="btn like" type="button">新增 Plugin</button>
+          <button id="clear-add-plugin-btn" class="btn ghost" type="button">清空欄位</button>
+        </div>
+      </section>
+
       <div class="editor-grid">
         <aside class="editor-sidebar">
           <div class="editor-filters">
@@ -69,9 +82,9 @@
 
           <form id="editor-form" class="hidden" autocomplete="off">
             <div class="field-row">
-              <label>Plugin 名稱</label>
+              <label>Plugin 名稱（可修改）</label>
               <div class="name-copy-row">
-                <input id="plugin-name" type="text" readonly />
+                <input id="plugin-name" type="text" />
                 <button id="copy-name-btn" class="btn ghost" type="button">複製名稱</button>
               </div>
             </div>
@@ -100,6 +113,7 @@
               <button id="save-btn" class="btn like" type="button">儲存</button>
               <button id="save-next-btn" class="btn ghost" type="button">儲存並下一個</button>
               <button id="reset-btn" class="btn pass" type="button">還原此插件</button>
+              <button id="delete-current-btn" class="btn pass" type="button">刪除此插件</button>
             </div>
 
             <p id="save-status" class="save-status"></p>

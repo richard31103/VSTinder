@@ -15,6 +15,7 @@
     "echoboy":  "../Plugin%20Snapshot/EchoBoy.jpg",
     "echoboyjr":  "../Plugin%20Snapshot/EchoBoyJr.jpg",
     "era6-reverbremover":  "../Plugin%20Snapshot/ERA6%20ReverbRemover.jpg",
+    "era6-reverbremoverpro":  "../Plugin%20Snapshot/ERA6%20ReverbRemoverPro.jpg",
     "fabfilter-pro-r":  "../Plugin%20Snapshot/FabFilter%20Pro-R.jpg",
     "khs-convolver":  "../Plugin%20Snapshot/kHs%20Convolver.jpg",
     "khs-delay":  "../Plugin%20Snapshot/kHs%20Delay.jpg",
@@ -25,6 +26,7 @@
     "mcharmverb":  "../Plugin%20Snapshot/MCharmVerb.jpg",
     "miniverb":  "../Plugin%20Snapshot/miniVerb.jpg",
     "mstereoexpander":  "../Plugin%20Snapshot/MStereoExpander.jpg",
+    "neuralampmodelerstereo":  "../Plugin%20Snapshot/NeuralAmpModelerStereo.jpg",
     "outerspace-x64":  "../Plugin%20Snapshot/OuterSpace%20x64.jpg",
     "rev-x-hall":  "../Plugin%20Snapshot/REV-X%20HALL.jpg",
     "rev-x-room":  "../Plugin%20Snapshot/REV-X%20ROOM.jpg",
@@ -34,6 +36,7 @@
     "space-in-your-face":  "../Plugin%20Snapshot/Space%20In-Your-Face.jpg",
     "spacestrip-x64":  "../Plugin%20Snapshot/SpaceStrip%20x64.jpg",
     "spl-mo-verb-plus":  "../Plugin%20Snapshot/SPL%20Mo-Verb%20Plus.jpg",
+    "trackspacer25":  "../Plugin%20Snapshot/Trackspacer25.jpg",
     "tverb":  "../Plugin%20Snapshot/Tverb.jpg",
     "ultrareverb":  "../Plugin%20Snapshot/UltraReverb.jpg",
     "valhalladelay":  "../Plugin%20Snapshot/ValhallaDelay.jpg",
@@ -46,6 +49,15 @@
     "ampeg-b15n":  "../Plugin%20Snapshot/Ampeg%20B15N.jpg",
     "ampeg-svt3pro":  "../Plugin%20Snapshot/Ampeg%20SVT3Pro.jpg",
     "ampeg-svtvr":  "../Plugin%20Snapshot/Ampeg%20SVTVR.jpg",
-    "acme-opticom-xla-3":  "../Plugin%20Snapshot/Acme%20Opticom%20XLA-3.jpg"
+    "saturation-knob":  "../Plugin%20Snapshot/Saturation%20Knob.jpg",
+    "spl-twintube":  "../Plugin%20Snapshot/SPL%20TwinTube.jpg",
+    "tape-j-37":  "../Plugin%20Snapshot/Tape%20J-37.jpg",
+    "tape-mello-fi":  "../Plugin%20Snapshot/Tape%20MELLO-FI.jpg",
+    "tube-tech-cl-1b":  "../Plugin%20Snapshot/Tube-Tech%20CL%201B.jpg",
+    "tube-tech-pe-1c":  "../Plugin%20Snapshot/Tube-Tech%20PE%201C.jpg",
+    "virtual-tape-machines":  "../Plugin%20Snapshot/Virtual%20Tape%20Machines.jpg",
+    "abyss":  "../Plugin%20Snapshot/Abyss.jpg",
+    "acme-opticom-xla-3":  "../Plugin%20Snapshot/Acme%20Opticom%20XLA-3.jpg",
+    "amek-eq-200":  "../Plugin%20Snapshot/AMEK%20EQ%20200.jpg"
 };
 

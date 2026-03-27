@@ -24,11 +24,17 @@
     <section id="swipe-view" class="panel hidden">
       <p id="swipe-status" class="sr-only" aria-live="polite"></p>
 
-      <div id="swipe-stage" class="swipe-stage">
-        <div id="deck" class="deck" aria-live="polite"></div>
-        <div id="swipe-empty" class="empty-state hidden">
-          <h3>這個分類已看完</h3>
-          <p>可返回分類選其他類別繼續。</p>
+      <div class="swipe-layout">
+        <aside class="swipe-sidebar" aria-label="分類插件清單">
+          <div id="desktop-plugin-list" class="desktop-plugin-list"></div>
+        </aside>
+
+        <div id="swipe-stage" class="swipe-stage">
+          <div id="deck" class="deck" aria-live="polite"></div>
+          <div id="swipe-empty" class="empty-state hidden">
+            <h3>這個分類已看完</h3>
+            <p>可返回分類選其他類別繼續。</p>
+          </div>
         </div>
       </div>
     </section>
@@ -49,4 +55,5 @@
   <script src="./app.js"></script>
 </body>
 </html>
+
 
