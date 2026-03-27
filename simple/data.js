@@ -5,13 +5,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Eventide",
     "purpose": "重現經典硬體 Eventide SP2016 的傳奇混響算法，專注於營造自然且具備立體聲寬廣度的空間感，模擬真實房間與音樂廳的聲學特性。",
-    "features": [
-      "傳奇算法移植：完整收錄原始 SP2016 的 \"Stereo Room\" 算法，提供極其自然、不染色的透明空間音色。",
-      "極簡化參數控制：透過 Mix、Decay、Predelay 及獨特的 Position（位置）控制，快速調整音源在虛擬空間中的前後距離。",
-      "精確的擴散與反射：模擬真實物理空間的早期反射音，讓樂器或人聲能完美融入混音而不顯得突兀或混濁。",
-      "低運算負荷：設計精良的算法在提供高品質音色的同時，對電腦效能的消耗極低。",
-      "音調微調：具備簡單直觀的低音與高音 EQ 調整，可針對混響尾跡進行細微的明暗修飾。"
-    ]
+    "features": []
   },
   {
     "id": "altiverb-7",
@@ -19,13 +13,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Audio Ease",
     "purpose": "業界標準的卷積混響（Convolution Reverb）處理器，透過真實空間的脈衝響應（Impulse Response, IR）採樣技術，能夠精準模擬全球知名音樂廳、錄音室、教堂、劇院乃至於車內或森林等各種真實環境的聲學特性。",
-    "features": [
-      "龐大的 IR 資源庫：收錄了包含雪梨歌劇院、巴黎聖母院及眾多頂尖錄音室在內的數百個真實場景，並提供免費更新下載新空間。",
-      "舞台定位功能 (Stage Positioning)：允許使用者在虛擬舞台照片上拖動音源位置，系統會自動調整混響參數以實現精確的空間物理定位。",
-      "亮度圖層 (Brightness)：除了傳統的 IR 採樣，可額外疊加高品質的合成高頻層，彌補某些真實空間採樣高頻不足的問題。",
-      "快照系統 (Snapshots)：支援快速儲存與切換多組預設，方便在不同的空間設置之間進行即時對比。",
-      "智慧搜尋介面：具備強大的關鍵字與分類搜尋系統，並提供空間實景照片，讓混音過程具備極強的視覺參考。"
-    ]
+    "features": []
   },
   {
     "id": "blackhole",
@@ -33,13 +21,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Eventide",
     "purpose": "這是一款源自 Eventide 旗艦硬體處理器的超現實混響效果器，擅長創造極其巨大、深邃且具備超凡脫俗感的空間音色，能突破物理空間的限制，產生無限延伸的殘響。",
-    "features": [
-      "無限殘響 (Infinite Mode)：具備無限延伸的混響尾跡，非常適合製作環境墊音（Pads）、音效設計或史詩般的電影配樂。",
-      "Gravity 控制：獨特的參數可調整混響的衰減方向，正向為正常擴散，負向則可產生類似倒放（Reverse）的效果。",
-      "Ribbon 緞帶控制：允許使用者設定兩組不同的參數狀態，並透過單一橫桿進行平滑的動態過渡，增加演出與自動化控制的表現力。",
-      "內建調變 (Modulation)：提供豐富的調變選項，能讓巨大的混響空間產生如液體般的波動感，消除數位的機械味。",
-      "Hotswitch 功能：可一鍵切換多種參數組合，方便在混音過程中進行即時的預設對比。"
-    ]
+    "features": []
   },
   {
     "id": "bx-bluechorus2",
@@ -47,13 +29,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Brainworx (Plugin Alliance)",
     "purpose": "精確模擬 70 年代經典的「藍色」合唱踏板（經典 Boss CE-2），為吉他、合成器、電子琴或人聲提供溫暖、寬廣且具備類比質感的合唱（Chorus）調變效果。",
-    "features": [
-      "經典 BBD 模擬：完美還原早期桶鏈器件（Bucket Brigade Device）電路產生的柔順音色與獨有的頻率響應特性。",
-      "新增 Mix 控制：相較於原始硬體，增加了乾濕比（Mix）調節功能，讓使用者能更精確地控制效果的融合程度。",
-      "立體聲寬度調整：具備強化的立體聲處理能力，能將單聲道音源擴展成寬廣且具備空間感的立體聲場。",
-      "低資源消耗：承襲 Brainworx 優秀的算法設計，在保持高度類比還原度的同時，佔用極低的 CPU 資源。",
-      "直觀介面：極簡的控制面板，讓使用者能快速調整出從細微的加厚感（Thickening）到劇烈波動的調變音色。"
-    ]
+    "features": []
   },
   {
     "id": "bx-delay2500",
@@ -61,13 +37,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Brainworx (Plugin Alliance)",
     "purpose": "這是一款創新型的數位延遲處理器，旨在提供從經典回聲到極具現代感的創意延遲效果。它不模擬特定的老舊硬體，而是專注於提供極高的聲音透明度與強大的調變控制。",
-    "features": [
-      "內建 M/S 處理：繼承 Brainworx 的核心技術，允許使用者獨立調整中間聲道與側邊聲道的延遲特性，創造極寬的立體聲音場。",
-      "強大的調變矩陣：配備了靈活的 LFO 與包絡跟隨器（Envelope Follower），可調變延遲時間、濾波器頻率等參數，產生豐富的合唱或顫音效果。",
-      "瞬態塑造 (Transient Shaping)：內建專屬的瞬態控制功能，可以強化或削弱延遲信號的撞擊感，確保混音層次分明。",
-      "多模式濾波與失真：包含高品質的高低通濾波器以及飽和（Saturation）模組，讓延遲尾跡可以從純淨無暇轉變為粗獷溫暖。",
-      "閃避功能 (Ducking)：整合了自動閃避控制器，當乾聲（Dry Signal）出現時會自動降低延遲音量，避免混音過於混濁。"
-    ]
+    "features": []
   },
   {
     "id": "bx-rooms",
@@ -75,13 +45,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Brainworx (Plugin Alliance)",
     "purpose": "這是一款基於先進算法的混響處理器，專為創造自然、清晰且具備深度感的空間而設計。透過獨家的 TrueStereo 技術，能有效避免混響堆疊造成的頻率混濁，維持音源的原始解析度。",
-    "features": [
-      "TrueStereo 算法：提供極佳的立體聲影像與包圍感，同時保持單聲道相容性（Mono Compatibility）。",
-      "靈活的空間形狀調整：可精細調整虛擬空間的結構與反射特性，涵蓋從緊湊的房間到巨大的教堂等多種環境。",
-      "內建 M/S 處理能力：繼承 Brainworx 的核心技術，允許使用者獨立調整中間聲道（Mid）與兩側聲道（Side）的混響寬度與頻率平衡。",
-      "Modulation 調變功能：能為混響尾跡添加細微的運動感，增加音色的層次與溫潤度。",
-      "Fix Mix 選項：在切換預設時可以鎖定乾濕比，方便在不同空間設置間進行即時比較。"
-    ]
+    "features": []
   },
   {
     "id": "bx-stereomaker",
@@ -89,13 +53,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Brainworx (Plugin Alliance)",
     "purpose": "這是一款專門將單聲道（Mono）音源轉換為虛擬立體聲（Stereo）的心理聲學處理器，能在不產生相位抵消問題的前提下，為人聲、吉他或合成器增加寬度與空間感。",
-    "features": [
-      "完美單聲道相容性：使用獨特的算法確保在切換回單聲道監聽時，音色不會因為相位干涉而消失或變質。",
-      "精確的空間定位：允許使用者調整虛擬立體聲的寬度（Tone）以及中心位置（Pan），讓聲音在音場中更具層次。",
-      "頻率選擇性處理：內建 Hi-Damp 參數，可針對高頻進行衰減，避免擴展後的立體聲顯得過於刺耳。",
-      "視覺化相關儀：內建相關性表（Correlation Meter），即時監控相位狀態，確保立體聲場的穩定性。",
-      "低頻管理：能夠保持低頻（如踢鼓或貝斯）在中心位置，同時擴展中高頻的寬度，維持混音的衝擊力。"
-    ]
+    "features": []
   },
   {
     "id": "delay-brigade",
@@ -103,13 +61,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Arturia",
     "purpose": "精確模擬經典的 BBD (Bucket Brigade Device) 類比延遲踏板（原型為經典的 Electro-Harmonix Memory Man），旨在提供溫暖、帶有磁性且具備獨特低通濾波特性的經典調製延遲音色。",
-    "features": [
-      "經典 BBD 模擬：忠實還原類比電路中桶鏈器件的聲音降解過程，隨着延遲次數增加，音色會逐漸變得模糊且溫暖。",
-      "內建調製 (Modulation)：整合了經典的合唱（Chorus）與顫音（Vibrato）電路，能為延遲尾跡注入豐富的音高波動與空間感。",
-      "現代化功能擴充：相較於原始硬體，增加了 LFO 調製形狀選擇、同步宿主速度（Sync）以及單獨的左右聲道偏移控制。",
-      "輸入驅動 (Drive)：具備可調的前級輸入增益，能為訊號添加飽滿的類比飽和感與諧波失真。",
-      "環繞感控制：內建 M/S 處理能力與立體聲擴展，讓復古延遲效果在現代寬廣的音場中依然出色。"
-    ]
+    "features": []
   },
   {
     "id": "delay-eternity",
@@ -117,13 +69,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Arturia",
     "purpose": "這是一款現代化的創意延遲處理器，結合了傳統的數位延遲與深度的聲音設計功能，能夠將簡單的音訊轉化為複雜的節奏紋理、大氣墊音或激進的調變效果。",
-    "features": [
-      "雙延遲線設計 (Dual Delay Lines)：具備兩條獨立的延遲線，可設定不同的延遲時間與反饋路徑，創造交錯的立體聲節奏。",
-      "豐富的濾波器與位元破碎 (Bitcrusher)：在延遲環路中內建多種濾波模式與數位失真效果，讓延遲尾跡隨時間產生音色演變。",
-      "強大的調變矩陣：內建 LFO、信封跟隨器（Envelope Follower）與步進序列器（Step Sequencer），可調變幾乎所有參數。",
-      "時間伸縮與顆粒效果：支援獨特的 Time-stretch 與顆粒處理技術，能創造出夢幻般的拉伸感或碎裂的數位質感。",
-      "內建側鏈 (Sidechain)：支援側鏈壓縮功能，讓延遲效果在乾聲出現時自動降低音量，確保混音清晰度。"
-    ]
+    "features": []
   },
   {
     "id": "delay-tape-201",
@@ -131,421 +77,279 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Arturia",
     "purpose": "精確模擬 1970 年代經典的 Roland RE-201 Space Echo 磁帶延遲器，旨在重現磁帶循環產生的溫暖、飽和且具備獨特抖動感的復古回聲與彈簧混響音色。",
-    "features": [
-      "磁帶特性模擬：忠實還原磁帶老化、機械抖動（Wow & Flutter）以及磁頭飽和所產生的非線性音色變化。",
-      "三磁頭組合：具備三個獨立播放磁頭的切換功能，可創造出經典的節奏性延遲與豐富的堆疊效果。",
-      "整合彈簧混響：內建經典的彈簧混響（Spring Reverb）模組，可與延遲訊號混合，營造具備復古感的空間深度。",
-      "現代化擴展：增加了 LFO 調變、輸入增益（Input Drive）以及與宿主速度同步的功能，提升了現代混音的實用性。",
-      "自激振盪 (Self-Oscillation)：支持調整反饋（Intensity）至產生尖叫般的自激振盪效果，適合製作實驗性的音效設計。"
-    ]
+    "features": []
   },
   {
     "id": "dsp-rev-x-hall",
     "name": "dsp REV-X HALL",
     "category": "Space",
-    "vendor": "dsp",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Yamaha / Steinberg",
+    "purpose": "由 Yamaha 開發的高階算法混響，原為其數位混音台（如 CL/QL 系列）與 Steinberg 介面內建的專屬效果，專門提供極致自然、高解析度的大型音樂廳空間感。",
+    "features": []
   },
   {
     "id": "dsp-rev-x-room",
     "name": "dsp REV-X ROOM",
     "category": "Space",
-    "vendor": "dsp",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Yamaha / Steinberg",
+    "purpose": "由 Yamaha 開發的高階算法混響，旨在精確模擬中小型房間的聲學特性，提供緊湊、真實且具備高度環境感的早期反射與殘響。",
+    "features": []
   },
   {
     "id": "echo-cat",
     "name": "Echo Cat",
     "category": "Space",
-    "vendor": "Echo",
-    "purpose": "強化回聲與動態尾音。",
-    "features": [
-      "回聲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Wavesfactory",
+    "purpose": "精確模擬經典的 WEM Watkins Copicat 磁帶延遲器，旨在重現 1950 與 1960 年代標誌性的英倫磁帶回聲，提供溫暖、飽和且具備機械抖動感的復古音色。",
+    "features": []
   },
   {
     "id": "echoboy",
     "name": "EchoBoy",
     "category": "Space",
-    "vendor": "EchoBoy",
-    "purpose": "強化回聲與動態尾音。",
-    "features": [
-      "回聲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Soundtoys",
+    "purpose": "被譽為業界標準的延遲效果器，集結了數十款經典類比延遲硬體、磁帶回聲機及數位延遲器的模擬算法，提供極其豐富的空間設計與音色染色功能。",
+    "features": []
   },
   {
     "id": "echoboyjr",
     "name": "EchoBoyJr",
     "category": "Space",
-    "vendor": "EchoBoyJr",
-    "purpose": "強化回聲與動態尾音。",
-    "features": [
-      "回聲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Soundtoys",
+    "purpose": "這是傳奇延遲插件 EchoBoy 的簡化精華版。它保留了老大哥最受歡迎的類比模擬演算法，但將複雜的參數簡化為最直觀的控制介面，旨在提供快速、高效且極具音樂性的延遲處理。",
+    "features": []
   },
   {
     "id": "era6-reverbremover",
     "name": "ERA6 ReverbRemover",
     "category": "Space",
-    "vendor": "ERA6",
-    "purpose": "建立自然空間與殘響層次。",
-    "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Accusonus",
+    "purpose": "這是一款基於人工智慧與機器學習技術的去混響（De-reverb）處理器。它專為修復在空間殘響過重的環境下錄製的音訊而設計，能有效減少或消除錄音中的房間回響，提升聲音的清晰度與乾淨度。",
+    "features": []
   },
   {
     "id": "era6-reverbremoverpro",
     "name": "ERA6 ReverbRemoverPro",
-    "category": "Space",
-    "vendor": "ERA6",
-    "purpose": "建立自然空間與殘響層次。",
-    "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
-    ]
+    "category": "Dynamic",
+    "vendor": "Accusonus",
+    "purpose": "基於多頻段（Multi-band）處理技術的高階混響移除工具，旨在精確地消除錄音中多餘的房間回響、室內反射與空曠感，特別針對人聲與對白進行優化。",
+    "features": []
   },
   {
     "id": "fabfilter-pro-r",
     "name": "FabFilter Pro-R",
     "category": "Space",
     "vendor": "FabFilter",
-    "purpose": "自然且可塑性高的空間殘響設計。",
-    "features": [
-      "空間特性",
-      "殘響衰減 EQ",
-      "立體深度"
-    ]
+    "purpose": "高品質算法混響（Algorithmic Reverb），結合了高度自然、音樂化的聽感與極其直觀的視覺化操作介面，能精準模擬從微小房間到大型教堂的各種真實或創意空間。",
+    "features": []
   },
   {
     "id": "h3000-band-delays",
     "name": "H3000 Band Delays",
-    "category": "Space",
-    "vendor": "H3000",
-    "purpose": "加入節奏性延遲與空間感。",
-    "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "category": "Modulation",
+    "vendor": "Eventide",
+    "purpose": "源自傳奇硬體 H3000 Harmonizer 的經典延遲效果，將輸入訊號拆解為 8 個獨立的頻段（Bands），每個頻段都可以進行單獨的濾波、延遲、平移和調變處理，創造出極具節奏感與空間感的音效。",
+    "features": []
   },
   {
     "id": "khs-convolver",
     "name": "kHs Convolver",
     "category": "Space",
     "vendor": "Kilohearts",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "purpose": "高效的高性能卷積混響（Convolution Reverb）處理器，透過讀取脈衝響應（Impulse Responses, IR）文件，將真實空間（如音樂廳、山洞）或硬體器材的聲學特性精確地套用到輸入訊號上。",
+    "features": []
   },
   {
     "id": "khs-delay",
     "name": "kHs Delay",
     "category": "Space",
     "vendor": "Kilohearts",
-    "purpose": "加入節奏性延遲與空間感。",
-    "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "purpose": "一款簡潔且高效的數位延遲單元，旨在提供快速的迴聲與時間修飾效果，無論是基本的立體聲延遲還是複雜的混音點綴都能輕鬆達成。",
+    "features": []
   },
   {
     "id": "khs-dual-delay",
     "name": "kHs Dual Delay",
     "category": "Space",
     "vendor": "Kilohearts",
-    "purpose": "加入節奏性延遲與空間感。",
-    "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "purpose": "這是一款功能強大的雙延遲處理器，由兩個獨立的延遲線組成，每個延遲線都可以單獨調整延遲時間和反饋，允許創造出複雜的交錯節奏與寬廣的立體聲音景。",
+    "features": []
   },
   {
     "id": "khs-reverb",
     "name": "kHs Reverb",
     "category": "Space",
     "vendor": "Kilohearts",
-    "purpose": "建立自然空間與殘響層次。",
-    "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
-    ]
+    "purpose": "一款簡單且強大的算法混響處理器，旨在為音訊增加空間感與寬度，從微小的環境反射到巨大的廳堂效果都能快速達成，特別適合需要即時調整且不消耗過多資源的場景。",
+    "features": []
   },
   {
     "id": "khs-stereo",
     "name": "kHs Stereo",
     "category": "Space",
     "vendor": "Kilohearts",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "purpose": "一款專注於立體聲寬度控制與相位調整的工具，能將單聲道（Mono）訊號擴展為立體聲，或精確調整現有立體聲軌道的寬度與相位平衡。",
+    "features": []
   },
   {
     "id": "mangledverb",
     "name": "MangledVerb",
     "category": "Space",
-    "vendor": "MangledVerb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Eventide",
+    "purpose": "結合了高品質混響（Reverb）與強大的失真（Distortion）效果，旨在創造出極具侵略性、陰暗且帶有工業質感的空間音色。",
+    "features": []
   },
   {
     "id": "mcharmverb",
     "name": "MCharmVerb",
     "category": "Space",
-    "vendor": "MCharmVerb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "MeldaProduction",
+    "purpose": "基於強大的 MTurboReverb 引擎所開發的高品質算法混響插件，旨在提供純淨、平滑且極具音樂性的空間感，適合處理人聲、樂器或整體的混音空間。",
+    "features": []
   },
   {
     "id": "minimeters-stereometer",
     "name": "MiniMeters - Stereometer",
-    "category": "Space",
-    "vendor": "MiniMeters",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "category": "Misc",
+    "vendor": "DirectOut / MiniMeters (Joe Russ)",
+    "purpose": "這是一款整合在 MiniMeters 監測套件中的專業立體聲分析工具。它主要用於視覺化音訊訊號的空間分佈（Stereo Field）、相位關係（Phase Correlation）以及左右聲道的平衡狀態，幫助混音師確保音軌在單聲道兼容性與立體聲寬度之間取得平衡。",
+    "features": []
   },
   {
     "id": "miniverb",
     "name": "miniVerb",
     "category": "Space",
-    "vendor": "miniVerb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Audio Thing",
+    "purpose": "一款受 80 年代經典遊戲主機與復古運算器啟發的 8-bit 低傳真（Lo-fi）混響插件，旨在為音訊增添獨特的數位顆粒感、碎裂的殘響尾跡與復古空間氛圍。",
+    "features": []
   },
   {
     "id": "mstereoexpander",
     "name": "MStereoExpander",
     "category": "Space",
-    "vendor": "MStereoExpander",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "MeldaProduction",
+    "purpose": "一款強大的立體聲擴張器，利用心理聲學演算法（Psychoacoustic Algorithms）增加單聲道或立體聲訊號的空間寬度，使聲音在混音中顯得更寬廣且具立體感。",
+    "features": []
   },
   {
     "id": "mstereoscope",
     "name": "MStereoScope",
-    "category": "Space",
-    "vendor": "MStereoScope",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "category": "Misc",
+    "vendor": "MeldaProduction",
+    "purpose": "一款專業的立體聲場分析工具，旨在提供極其精確的視覺化反饋，幫助混音師監控音訊的立體聲寬度、相位關係以及頻率分佈。",
+    "features": []
   },
   {
     "id": "neuralampmodelerstereo",
     "name": "NeuralAmpModelerStereo",
-    "category": "Space",
-    "vendor": "NeuralAmpModelerStereo",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "category": "Saturation",
+    "vendor": "Steven Atkinson (Open Source)",
+    "purpose": "基於深度學習技術（神經網路）的開源吉他音箱模擬器立體聲版本，能夠極其精確地捕捉與還原真實真空管音箱、前級、踏板或完整訊號鏈的動態與音色特質。",
+    "features": []
   },
   {
     "id": "outerspace-x64",
     "name": "OuterSpace x64",
     "category": "Space",
-    "vendor": "OuterSpace",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Audio Thing",
+    "purpose": "忠實模擬傳奇的 1970 年代經典硬體 Roland RE-201 Space Echo，結合了磁帶延遲（Tape Delay）與彈簧混響（Spring Reverb），提供充滿溫暖飽和感與復古氛圍的空間音色。",
+    "features": []
   },
   {
     "id": "precision-time-delay",
     "name": "Precision Time Delay",
-    "category": "Space",
-    "vendor": "Precision",
-    "purpose": "加入節奏性延遲與空間感。",
-    "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
-    ]
+    "category": "Misc",
+    "vendor": "Eventide",
+    "purpose": "這是一款精確度極高的延遲處理器，專為時間對齊（Time Alignment）與微小的相位修正而設計。它能以子樣本（Sub-sample）級別的精確度來延遲音訊訊號，解決多支麥克風錄製同一音源時產生的相位抵消問題，或用於創造細微的空間寬度。",
+    "features": []
   },
   {
     "id": "rev-x-hall",
     "name": "REV-X HALL",
     "category": "Space",
-    "vendor": "REV-X",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Yamaha (Steinberg)",
+    "purpose": "這是一款由 Yamaha 開發的高階數位混響演算法，最初內建於其旗艦級數位混音台（如 PM5D）與 SPX2000 處理器中。它專為提供極其自然、高密度且富有層次感的音樂大廳（Hall）氛圍而設計，特別強調聲場的深度與高頻的細膩擴散。",
+    "features": []
   },
   {
     "id": "rev-x-room",
     "name": "REV-X ROOM",
     "category": "Space",
-    "vendor": "REV-X",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Yamaha (Steinberg)",
+    "purpose": "這是一款高品質的數位混響演算法，源自 Yamaha 旗艦級硬體處理器與數位混音台。Room 模式專為模擬小型到中型封閉空間的聲學特性而設計，能提供極其自然、細膩且高密度的早期反射音，適合為音軌增加真實的物理存在感。",
+    "features": []
   },
   {
     "id": "shimmerverb",
     "name": "ShimmerVerb",
     "category": "Space",
-    "vendor": "ShimmerVerb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Eventide",
+    "purpose": "這是一款結合了混響（Reverb）與音高平移（Pitch Shifting）技術的效果器。它能將混響的尾跡進行音高轉置（通常是向上一個八度），並將其反饋回混響迴路中，營造出如大教堂般莊嚴、空靈且具有光澤感的「閃爍」音色。",
+    "features": []
   },
   {
     "id": "smartreverb-x64",
     "name": "smartreverb x64",
     "category": "Space",
-    "vendor": "smartreverb",
-    "purpose": "建立自然空間與殘響層次。",
-    "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "sonible",
+    "purpose": "這是一款基於人工智慧（AI）技術的適應性混響插件。它能自動分析輸入音訊的源信號特性（如頻譜與時域特徵），並在幾秒鐘內計算出與該音源完美契合的客製化混響設置，避免了傳統混響常見的渾濁感或頻率衝突。",
+    "features": []
   },
   {
     "id": "sp2016-reverb",
     "name": "SP2016 Reverb",
     "category": "Space",
-    "vendor": "SP2016",
-    "purpose": "建立自然空間與殘響層次。",
-    "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
-    ]
+    "vendor": "Eventide",
+    "purpose": "這是一款對 1982 年問世的傳奇硬體 Eventide SP2016 的官方數位化模擬插件。它不僅是歷史上第一台「可編程」的效果處理器，更開創了「插件（Plug-in）」一詞的先河。它能提供極其自然且具標誌性的空間感，廣泛應用於人聲、鼓組及各類樂器的混音處理。",
+    "features": []
   },
   {
     "id": "space-in-your-face",
     "name": "Space In-Your-Face",
     "category": "Space",
-    "vendor": "Space",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Dada Life",
+    "purpose": "這是一款極簡化的混響（Reverb）插件，延續了 Dada Life 一貫的「簡單、暴力、有效」設計哲學。它專為創造具有衝擊力且寬廣的空間感而設計，能讓聲音在混音中瞬間變得宏大，同時保持極高的存在感。",
+    "features": []
   },
   {
     "id": "spacestrip-x64",
     "name": "SpaceStrip x64",
     "category": "Space",
-    "vendor": "SpaceStrip",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "AudioThing",
+    "purpose": "這是一款多功能的一體化效果器（Channel Strip），專為為音軌增加空間感、深度與立體感而設計。它集成了多種處理模組，讓使用者能在單一視窗內完成從飽和度處理到複雜空間環境的建構，特別適合處理合成器、吉他或人聲。",
+    "features": []
   },
   {
     "id": "spl-de-verb-plus",
     "name": "SPL De-Verb Plus",
-    "category": "Space",
-    "vendor": "SPL",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "category": "Dynamic",
+    "vendor": "Plugin Alliance / Alliance Vox (Original hardware by SPL)",
+    "purpose": "專門用於消除或減少音訊中過多房間殘響與環境聲的處理器。不同於傳統的門限器（Gate）或擴展器（Expander），它專注於處理聲音的衰減（Decay）部分，能在不影響原始訊號瞬態的情況下，有效讓錄音變得更加乾爽。",
+    "features": []
   },
   {
     "id": "spl-mo-verb-plus",
     "name": "SPL Mo-Verb Plus",
     "category": "Space",
-    "vendor": "SPL",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Plugin Alliance / Alliance (SPL)",
+    "purpose": "基於 SPL 著名的微分包絡技術（Differential Envelope Technology），專門用於強化或縮減混響信號中的衰減（Sustain）部分，能精確控制空間尾跡的長度與存在感。",
+    "features": []
   },
   {
     "id": "trackspacer25",
     "name": "Trackspacer25",
-    "category": "Space",
-    "vendor": "Trackspacer25",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "category": "Dynamic",
+    "vendor": "Wavesfactory",
+    "purpose": "一款強大的動態頻譜過濾插件，透過側鏈（Sidechain）訊號即時分析輸入來源的頻譜，並在主軌道上精確挖除相對應的頻率空間，有效解決混音中的頻率衝突。",
+    "features": []
   },
   {
     "id": "tverb",
     "name": "Tverb",
     "category": "Space",
-    "vendor": "Tverb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
+    "vendor": "Eventide",
+    "purpose": "這是一款由傳奇製作人 Tony Visconti 合作研發的混響插件，精確模擬了 1977 年大衛·鮑伊（David Bowie）在柏林錄製《Heroes》時所使用的獨特三麥克風錄音室設置與空間聲學。",
+    "features": []
   },
   {
     "id": "ultrareverb",
@@ -553,13 +357,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Eventide",
     "purpose": "這是一款全功能的數位混響處理器，結合了 Eventide 數十年的硬體算法精華，提供包含混響、延遲、等化器與動態處理在內的一站式空間音色解決方案。",
-    "features": [
-      "九種經典算法：包含 Halls, Chambers, Rooms, Plates, Ambience 等，源自旗艦硬體 H8000，音質極其細膩且具備立體深度。",
-      "整合式效果鏈：內建前/後 3 段 EQ、壓縮器（Compressor）與門限（Gate），讓使用者能直接在插件內完成混響的音色塑型與動態管理。",
-      "獨立延遲模組：具備與混響並行或串聯的 Pre-delay 與 Post-delay，且支援與宿主專案速度（BPM）同步，適合製作節奏性空間效果。",
-      "快照對比 (Snapshots)：支援儲存多組參數快照，方便在不同空間設定之間進行即時切換與試聽。",
-      "低負載高效能：雖然功能強大且包含多種處理模組，但 CPU 消耗依然控制得非常理想，適合多軌並用。"
-    ]
+    "features": []
   },
   {
     "id": "valhalladelay",
@@ -567,13 +365,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "這是一款極致靈活且高品質的延遲（Delay）處理器，融合了經典類比延遲、磁帶回聲與現代數位算法，旨在提供從復古染色到前衛空間設計的全方位延遲解決方案。",
-    "features": [
-      "14 種獨特模式 (Modes)：涵蓋 Tape（經典磁帶）、HiFi（純淨磁帶）、BBD（類比電路）、Digital（純數位）、Ghost（頻移延遲）、Pitch（移相延遲）等豐富算法。",
-      "五種延遲風格 (Styles)：可切換 Single（單聲道）、Dual（雙聲道）、Ratio（比例）、PingPong（乒乓）及 Quad（四路延遲）模式，輕鬆掌控立體聲場。",
-      "內建擴散 (Diffusion)：具備獨特的擴散參數，能將延遲重複音逐漸模糊化，使其聽感趨向混響（Reverb），創造夢幻的環境質感。",
-      "Era 時代選擇：可選擇 Past、Present 或 Future 模式，調整音訊的解析度、雜訊與非線性飽和特性，模擬不同時期的硬體質感。",
-      "極致性能與介面：維持品牌一貫的一頁式極簡介面，支援無級縮放，且 CPU 佔用率極低，適合在錄音與混音中大量使用。"
-    ]
+    "features": []
   },
   {
     "id": "valhallafutureverb",
@@ -581,13 +373,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "這是一款實驗性的高品質數位算法混響，旨在創造具有未來感、超現實且極其純淨的空間效果，打破傳統物理空間的限制，提供高度數位化但聽感平滑的殘響。",
-    "features": [
-      "前衛算法設計：不同於模擬經典硬體的 VintageVerb，此插件專注於現代數位合成技術，產生極高密度且無金屬共振感的尾跡。",
-      "超長衰減時間：支援極長的殘響時間，配合獨特的擴散參數，能將簡單的音源轉化為宏大且充滿流動感的背景墊音。",
-      "高精細度調變：內建複雜的隨機調變引擎，能為殘響注入細微的生命力，避免數位處理常見的機械重複感。",
-      "極簡一頁式介面：維持品牌一貫的直觀設計，讓使用者能快速調整空間大小、預延遲與高低頻衰減。",
-      "極低 CPU 佔用：即使處理複雜的運算，依然保持極高的系統效能，適合在大型混音專案中大量掛載。"
-    ]
+    "features": []
   },
   {
     "id": "valhallaplate",
@@ -595,13 +381,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "高品質的板式混響（Plate Reverb）模擬插件，旨在重現經典物理板式混響器的緻密音色與金屬質感，為人聲、鼓組及樂器提供光澤感與深度。",
-    "features": [
-      "12 種原創算法：涵蓋從經典的 Chrome、Steel、Brass 到現代感的 Cobalt 等模式，模擬不同材質與尺寸的板式混響特性。",
-      "極高擴散密度：不同於房間或大廳混響，其快速建立的初期反射與極高密度的尾跡，能讓音源在不失清晰度的前提下獲得豐滿感。",
-      "物理模擬控制：具備寬度（Width）、大小（Size）與張力控制，可模擬真實金屬板受熱或調整張力後的音色變化。",
-      "低 CPU 負載：延續 Valhalla 一貫的高效能算法，適合在大型專案中同時掛載多個執行個體。",
-      "一頁式介面：所有參數如衰減時間、預延遲、均衡器與調變（Modulation）皆集中於單一畫面，操作極其高效。"
-    ]
+    "features": []
   },
   {
     "id": "valhallaroom",
@@ -609,13 +389,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "高品質的算法房間混響（Algorithmic Room Reverb），專為模擬極致自然、通透的室內聲學空間設計，能精確還原從微小的錄音室（Booth）到巨大的音樂廳（Concert Hall）等各種真實物理空間感。",
-    "features": [
-      "12 種獨特算法：包含 Large Room, Medium Room, Small Room, Dark Room, Nostromo, Narcissus 等多種模式，涵蓋從極度透明到帶有濃厚色彩的音色。",
-      "早期反射與晚期殘響控制：允許使用者獨立調整早期反射（Early Reflections）與晚期殘響（Late Reverb）的比例與擴散度，精確掌控音源在空間中的遠近位置。",
-      "極高音質與純淨度：其算法經過高度優化，即使在極長的衰減時間下，依然能保持聲音的平滑與解析度，避免金屬共振感。",
-      "低 CPU 佔用：維持 Valhalla 系列一貫的高效能表現，適合在大型專案中作為主要的空間效果器使用。",
-      "直觀介面：經典的極簡一頁式設計，支持無級縮放，讓混響深度、寬度與頻率衰減等參數一目了然。"
-    ]
+    "features": []
   },
   {
     "id": "valhallashimmer",
@@ -623,13 +397,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "專為創造巨大、空靈且具備「移頻」特性的混響（Shimmer Reverb）而設計，擅長將聲音轉化為如絲綢般滑順、不斷向上堆疊的電影感墊音（Pads）與大氣紋理。",
-    "features": [
-      "移頻算法 (Pitch Shifting)：內建高品質的移頻模組，可將混響回饋進行八度音程或特定音程的偏移，創造出類似聖歌或星際感的光輝音色。",
-      "多種重播模式 (Shift Modes)：提供 Single（單次移頻）、Dual（雙重移頻）、Reverse（倒放移頻）等模式，能根據需求調整音色的明亮度與層次。",
-      "極長衰減時間：支援長達數十秒甚至無限的衰減，配合平滑的擴散算法，能輕易將單個音符擴張成宏大的空間背景。",
-      "非線性調變 (Modulation)：內建調變控制可消除數位處理的共振感，為長尾跡增加自然的波動與溫潤感。",
-      "低 CPU 負載與高效介面：維持 Valhalla 一貫的極簡一頁式設計，操作極其直觀且不佔系統資源。"
-    ]
+    "features": []
   },
   {
     "id": "valhallasupermassive",
@@ -637,13 +405,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "這是一款專為極致巨大的延遲（Delay）與混響（Reverb）設計的處理器，結合了多重反饋延遲網絡與複雜的擴散算法，能夠創造出從規律迴聲到無盡迴盪的超現實空間感。",
-    "features": [
-      "多樣化的模式 (Modes)：內建 20 種以星座與天體命名的算法模式（如 Gemini, Hydra, Centaurus, Cirrus 等），每種模式都具備獨特的延遲密度、擴散特性與衰減曲線。",
-      "無限衰減 (Infinite)：極長的混響尾跡與反饋控制，非常適合製作環境墊音（Ambient Pads）與電影感的音效設計。",
-      "同步與細分 (Warp & Density)：獨特的 Warp 參數能調整延遲分接點的相對長度，配合 Density 參數可讓聲音從清晰的重複跳轉為濃密的雲霧感。",
-      "內建調變 (Modulation)：強大的調變控制能為巨大的空間注入生命力，產生如合唱（Chorus）般寬廣且流動的音色。",
-      "高性能與直觀介面：維持品牌一貫的低 CPU 佔用率與簡潔的一頁式操作介面，支援無級縮放調整。"
-    ]
+    "features": []
   },
   {
     "id": "valhallavintageverb",
@@ -651,16 +413,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Space",
     "vendor": "Valhalla DSP",
     "purpose": "高品質數位算法混響（Algorithmic Reverb），旨在模擬 1970 與 1980 年代經典硬體混響處理器的音色特性，提供深邃、溫暖且富有層次感的空間效果。",
-    "features": [
-      "多樣化的模式 (Modes)：內建 22 種混響模式（如 Concert Hall, Plate, Room, Chamber, Ambient 等），能應付從微小空間到無盡虛無的各種聽感需求。",
-      "三種顏色模式 (Color Modes)：",
-      "1970s：模擬早期數位硬體的降採樣與頻率限制，音色較暗且帶有復古的顆粒感。",
-      "1980s：全頻率響應，模擬 80 年代明亮且寬廣的經典硬體音色。",
-      "NOW：現代、純淨且無染色的處理方式，適合追求透明感的混音。",
-      "極低 CPU 佔用：即使在大型專案中同時掛載數十個執行個體，依然能保持系統流暢。",
-      "直觀的介面設計：一頁式的極簡介面讓所有參數一目了然，支援無級縮放，操作邏輯非常高效。",
-      "平滑的調變 (Modulation)：內建強大的調變算法，能讓混響尾跡產生細微的移動感，避免數位混響常見的機械感。"
-    ]
+    "features": []
   },
   {
     "id": "ampeg-b15n",
@@ -668,12 +421,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx (Plugin Alliance) / Universal Audio",
     "purpose": "精確模擬 1960 年代傳奇的 Ampeg B-15N 翻蓋式（Portaflex）真空管貝斯音箱，提供溫暖、厚實且具備豐富偶次諧波的經典低音音色。",
-    "features": [
-      "真空管電路模擬：細膩還原了 6SL7 前級管與 6L6GC 後級管的動態響應，能產生從純淨到微破音的溫潤感。",
-      "兩種電路模式：包含 1964（陰極偏壓）與 1966（固定偏壓）兩種電路切換，提供不同的壓縮感與反應速度。",
-      "強大的 FX Rack：內建雜訊門（Noise Gate）、高低通濾波器（HPF/LPF）以及多種頂級箱體與麥克風組合的採樣脈衝。",
-      "錄音室等級調整：支援在混音中進行精確的音調平衡，非常適合復古搖滾、摩城音樂（Motown）與爵士樂。"
-    ]
+    "features": []
   },
   {
     "id": "ampeg-svt3pro",
@@ -681,13 +429,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx (Plugin Alliance)",
     "purpose": "精確模擬 Ampeg 經典的 SVT-3 PRO 貝斯音箱頭，結合了真空管前級（Tube Preamp）與 MOSFET 後級的特性，提供具備現代感、反應敏捷且充滿動態的貝斯音色。",
-    "features": [
-      "真空管與電晶體混合模擬：完美還原了五支真空管前級的溫暖音色，以及 MOSFET 後級帶來的清晰度與低頻衝擊力。",
-      "9 段圖形等化器 (Graphic EQ)：除了標準的 3 段音調控制，還內建 9 段圖形 EQ，可針對特定頻率進行精細修飾或現場環境補償。",
-      "5 段頻率選擇 (Frequency Select)：提供五個不同的中頻切換點，讓使用者能精確定位貝斯在混音中的存在感。",
-      "強大的 FX Rack：內建包含各種頂級貝斯箱體、麥克風型號組合的 IR 採樣，並附帶雜訊門、濾波器與功率浸泡器（Power Soak）功能。",
-      "低延遲處理：優化後的算法適合在錄音室追蹤或現場演出時進行即時監聽。"
-    ]
+    "features": []
   },
   {
     "id": "ampeg-svtvr",
@@ -695,13 +437,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx (Plugin Alliance) / Universal Audio",
     "purpose": "精確模擬 1970 年代傳奇的 Ampeg SVT (Super Valve Technology) 「藍線」版本音箱頭，這款全電子管貝斯音箱以其巨大的 300 瓦輸出功率和震撼的低頻表現，成為搖滾樂史上的標誌性音色。",
-    "features": [
-      "全電子管電路模擬：忠實還原了原始硬體中複雜的電子管增益架構，提供極具動態、溫暖且富有侵略性的飽和感。",
-      "雙通道設計：包含 Channel 1（經典 SVT 音色）與 Channel 2（較為明亮且具備不同增益特性），可單獨使用或混合以創造層次。",
-      "經典頻率切換 (Ultra Low/High)：具備原機標誌性的 Ultra Low 與 Ultra High 切換開關，能一鍵強化深邃的低頻衝擊力或清脆的高頻細節。",
-      "強大的 FX Rack：內建包含各種經典 8x10 箱體與多種頂級麥克風組合的 IR 採樣，並附帶雜訊門、高低通濾波器與功率浸泡器。",
-      "搖滾標準音色：其渾厚且具備「咆哮感」的中低頻，是處理搖滾、金屬及龐克樂風貝斯音軌的首選。"
-    ]
+    "features": []
   },
   {
     "id": "ampeg-svtvr-classic",
@@ -709,11 +445,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "ampeg-v4b",
@@ -721,11 +453,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "ample-guitar-lp",
@@ -733,11 +461,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Ample",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "吉他",
-      "諧波染色"
-    ]
+    "features": []
   },
   {
     "id": "ample-guitar-m",
@@ -745,11 +469,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Ample",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "吉他",
-      "諧波染色"
-    ]
+    "features": []
   },
   {
     "id": "ample-guitar-sc",
@@ -757,11 +477,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Ample",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "吉他",
-      "諧波染色"
-    ]
+    "features": []
   },
   {
     "id": "archetype-abasi",
@@ -769,11 +485,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "archetype-cory-wong",
@@ -781,11 +493,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "archetype-gojira",
@@ -793,11 +501,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "archetype-nolly",
@@ -805,11 +509,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "archetype-plini",
@@ -817,11 +517,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "britpre",
@@ -829,11 +525,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "BritPre",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-blackdist2",
@@ -841,11 +533,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "bx-distorange",
@@ -853,11 +541,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "bx-greenscreamer",
@@ -865,11 +549,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-metal2",
@@ -877,11 +557,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-rockergain100",
@@ -889,11 +565,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-rockrack-v3",
@@ -901,11 +573,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-rockrack-v3-player",
@@ -913,11 +581,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-saturator-v2",
@@ -925,11 +589,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波讓聲音更有厚度。",
-    "features": [
-      "飽和",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "bx-shredspread",
@@ -937,11 +597,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "bx-yellowdrive",
@@ -949,11 +605,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Brainworx",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Drive",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "comp-tube-sta",
@@ -961,11 +613,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Comp",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tube",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "crushstation",
@@ -973,11 +621,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "CrushStation",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "decapitator",
@@ -985,11 +629,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Decapitator",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "diezel-herbert",
@@ -997,11 +637,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "diezel-vh4",
@@ -1009,11 +645,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "dist-coldfire",
@@ -1021,11 +653,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Dist",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "dist-opamp-21",
@@ -1033,11 +661,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Dist",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "Amp",
-      "諧波染色"
-    ]
+    "features": []
   },
   {
     "id": "dist-tube-culture",
@@ -1045,11 +669,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Dist",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "Tube",
-      "諧波染色"
-    ]
+    "features": []
   },
   {
     "id": "distox",
@@ -1057,11 +677,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Distox",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "dsp-ga-classics-drive",
@@ -1069,11 +685,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "dsp",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Drive",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "elysia-mpressor",
@@ -1081,11 +693,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "elysia",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "elysia-mpressor-sc",
@@ -1093,11 +701,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "elysia",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "engl-e646-vs",
@@ -1105,11 +709,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "engl-e765-rt",
@@ -1117,11 +717,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "engl-savage-120",
@@ -1129,11 +725,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "esw-vinyl-guitar-2",
@@ -1141,11 +733,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "ESW",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "吉他",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-saturn-2",
@@ -1153,11 +741,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "FabFilter",
     "purpose": "多頻段飽和與失真，增加音色厚度與存在感。",
-    "features": [
-      "多頻段 Drive",
-      "可調變",
-      "Tube/Tape 模式"
-    ]
+    "features": []
   },
   {
     "id": "faturator",
@@ -1165,11 +749,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Faturator",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "fortin-cali-suite",
@@ -1177,11 +757,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "fortin-nameless-suite",
@@ -1189,11 +765,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "fortin-nts-suite",
@@ -1201,11 +773,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "friedman-be100",
@@ -1213,11 +781,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "friedman-buxom-betty",
@@ -1225,11 +789,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "friedman-ds40",
@@ -1237,11 +797,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Neural DSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "fuchs-overdrive-supreme-50",
@@ -1249,11 +805,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Fuchs",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Drive",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "ga-classics-drive",
@@ -1261,11 +813,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "GA",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Drive",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "gongamp",
@@ -1273,11 +821,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "GongAmp",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "khs-bitcrush",
@@ -1285,11 +829,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Kilohearts",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "khs-distortion",
@@ -1297,11 +837,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Kilohearts",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "khs-phase-distortion",
@@ -1309,11 +845,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Kilohearts",
     "purpose": "加入更強烈的失真特性。",
-    "features": [
-      "失真",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "khs-tape-stop",
@@ -1321,11 +853,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Kilohearts",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tape",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "lux-vocal-preamp",
@@ -1333,11 +861,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "LUX",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "msaturator",
@@ -1345,11 +869,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "MSaturator",
     "purpose": "加入諧波讓聲音更有厚度。",
-    "features": [
-      "飽和",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "neuralampmodeler",
@@ -1357,11 +877,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "NeuralAmpModeler",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "newfangled-saturate",
@@ -1369,11 +885,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Newfangled Audio",
     "purpose": "加入諧波讓聲音更有厚度。",
-    "features": [
-      "飽和",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "omega-ampworks-granophyre",
@@ -1381,11 +893,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "OMEGA",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "omnipressor",
@@ -1393,11 +901,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Omnipressor",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-vintage-tape",
@@ -1405,11 +909,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "iZotope",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tape",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "pre-1973",
@@ -1417,11 +917,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Pre",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "pre-trida",
@@ -1429,11 +925,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Pre",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "pre-v76",
@@ -1441,11 +933,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Pre",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "prebox",
@@ -1453,11 +941,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "PreBOX",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "precision-time-align",
@@ -1465,11 +949,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Precision",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "psp-microwarmer",
@@ -1477,11 +957,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "PSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "psp-vintagewarmer",
@@ -1489,11 +965,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "PSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "psp-vintagewarmer2",
@@ -1501,11 +973,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "PSP",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "諧波染色",
-      "音色厚度",
-      "失真質感"
-    ]
+    "features": []
   },
   {
     "id": "saturation-knob",
@@ -1513,11 +981,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Saturation",
     "purpose": "加入諧波讓聲音更有厚度。",
-    "features": [
-      "飽和",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "serato-sample",
@@ -1525,11 +989,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Serato",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "spl-twintube",
@@ -1537,11 +997,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "SPL",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tube",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "ssdsampler5",
@@ -1549,11 +1005,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "SSDSampler5",
     "purpose": "提供 Amp 類型的增益與染色。",
-    "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "tape-j-37",
@@ -1561,11 +1013,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Tape",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tape",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "tape-mello-fi",
@@ -1573,11 +1021,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Tape",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tape",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "tube-tech-cl-1b",
@@ -1585,11 +1029,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Tube-Tech",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tube",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "tube-tech-pe-1c",
@@ -1597,11 +1037,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Tube-Tech",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tube",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "virtual-tape-machines",
@@ -1609,11 +1045,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Saturation",
     "vendor": "Virtual",
     "purpose": "加入諧波與染色，讓聲音更厚實。",
-    "features": [
-      "Tape",
-      "諧波染色",
-      "音色厚度"
-    ]
+    "features": []
   },
   {
     "id": "abyss",
@@ -1621,9 +1053,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Tracktion / Dawesome",
     "purpose": "這是一款以「顏色」為核心概念的視覺化合成器，結合了光譜合成（Spectral Synthesis）與強大的調變系統，旨在讓使用者透過直覺的色彩操作來創造出充滿動感、深邃且具有電影感的音色。",
-    "features": [
-      "色彩聲音引擎 (Sound Color Engine)：打破傳統的波形旋鈕，將音色特性映射到色彩空間中，使用者只需在色板上滑動即可混合出獨特的聲譜。"
-    ]
+    "features": []
   },
   {
     "id": "acme-opticom-xla-3",
@@ -1631,13 +1061,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx (Plugin Alliance)",
     "purpose": "精確模擬強大的真空管光學壓縮器（Optical Compressor），結合了 LA-2A 的平滑感與更具侵略性的飽和特性，能為音軌提供極具音樂性的動態控制與溫暖的諧波染色。",
-    "features": [
-      "三段反應速度 (Response)：提供 Slow、Normal、Fast 三種預設反應時間，涵蓋從平滑的長延音到激進的瞬態捕捉。",
-      "軍用級真空管電路：模擬原始硬體的全真空管訊號路徑，隨着輸入增益增加，會產生極其渾厚且動人的類比飽和感。",
-      "獨特的飽和曲線：在高壓縮量下仍能保持聲音的厚度，非常適合加強人聲的存在感或讓鼓組變得更加肥厚（Fat）。",
-      "內建平行混音 (Mix)：具備乾濕比旋鈕，方便在進行重度壓縮與飽和處理時，保留原始信號的動態衝擊力。",
-      "調整靈活度：相較於傳統光學壓縮器，其非線性反應讓它在處理貝斯與電吉他時具備更強的音色塑造能力。"
-    ]
+    "features": []
   },
   {
     "id": "adptr-metricab",
@@ -1645,11 +1069,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ADPTR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "adptr-sculpt",
@@ -1657,11 +1077,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ADPTR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "aglp",
@@ -1669,11 +1085,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "AGLP",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "agm",
@@ -1681,11 +1093,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "AGM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "agsc",
@@ -1693,11 +1101,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "AGSC",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ai-rack",
@@ -1705,11 +1109,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "AI-Rack",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "anina",
@@ -1717,11 +1117,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ANINA",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bimono",
@@ -1729,11 +1125,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Bimono",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "black-box-analog-design-hg-2",
@@ -1741,11 +1133,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Black",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "boogex",
@@ -1753,11 +1141,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Boogex",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bus-exciter-104",
@@ -1765,11 +1149,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Bus",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bus-force",
@@ -1777,11 +1157,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Bus",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bus-peak",
@@ -1789,11 +1165,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Bus",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-boom",
@@ -1801,11 +1173,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-amek-9099",
@@ -1813,11 +1181,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-e",
@@ -1825,11 +1189,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-focusrite-sc",
@@ -1837,11 +1197,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-g",
@@ -1849,11 +1205,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-n",
@@ -1861,11 +1213,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-ssl-4000-e",
@@ -1873,11 +1221,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-ssl-4000-g",
@@ -1885,11 +1229,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-console-ssl-9000-j",
@@ -1897,11 +1237,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-control-v2",
@@ -1909,11 +1245,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-crispyscale",
@@ -1921,11 +1253,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-digital-v3",
@@ -1933,11 +1261,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-digital-v3-mix",
@@ -1945,11 +1269,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-hybrid-v2",
@@ -1957,11 +1277,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-hybrid-v2-mix",
@@ -1969,11 +1285,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-limiter",
@@ -1981,11 +1293,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "限制峰值並提升整體響度。",
-    "features": [
-      "限制",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "bx-limiter-true-peak",
@@ -1993,11 +1301,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "限制峰值並提升整體響度。",
-    "features": [
-      "限制",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "bx-masterdesk",
@@ -2005,11 +1309,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-masterdesk-classic",
@@ -2017,11 +1317,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-masterdesk-true-peak",
@@ -2029,11 +1325,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-megadual",
@@ -2041,11 +1333,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-megasingle",
@@ -2053,11 +1341,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-opto",
@@ -2065,11 +1349,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-opto-pedal",
@@ -2077,11 +1357,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-refinement",
@@ -2089,11 +1365,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-solo",
@@ -2101,11 +1373,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "bx-townhouse-buss-compressor",
@@ -2113,11 +1381,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "壓縮動態，讓音量更集中。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "bx-xl-v2",
@@ -2125,11 +1389,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Brainworx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "cassette",
@@ -2137,11 +1397,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Cassette",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "chandler-gav19t",
@@ -2149,11 +1405,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Chandler",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "chordbloom-vst3",
@@ -2161,11 +1413,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ChordBloom",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "chroma",
@@ -2173,11 +1421,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Chroma",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "clariphonic-dsp-mkii",
@@ -2185,11 +1429,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Clariphonic",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "clear",
@@ -2197,11 +1437,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Clear",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "comp-diode-609",
@@ -2209,11 +1445,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Comp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "comp-fet-76",
@@ -2221,11 +1453,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Comp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "comp-vca-65",
@@ -2233,11 +1461,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Comp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "cradle-the-god-particle",
@@ -2245,11 +1469,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Cradle",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dangerous-bax-eq-master",
@@ -2257,11 +1477,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Dangerous",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "darkglass-ultra",
@@ -2269,11 +1485,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Darkglass",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dear-reality-miya",
@@ -2281,11 +1493,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Dear",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dearvr-mix",
@@ -2293,11 +1501,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dearVR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dearvr-mix-se",
@@ -2305,11 +1509,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dearVR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dearvr-music",
@@ -2317,11 +1517,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dearVR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dearvr-pro",
@@ -2329,11 +1525,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dearVR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dearvr-pro-2",
@@ -2341,11 +1533,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dearVR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "devilloc",
@@ -2353,11 +1541,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "DevilLoc",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "devillocdeluxe",
@@ -2365,11 +1549,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "DevilLocDeluxe",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "disperser",
@@ -2377,11 +1557,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Disperser",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dsp-chstrip",
@@ -2389,11 +1565,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dsp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dsp-ga-classics-crunch",
@@ -2401,11 +1573,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dsp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dsp-ga-classics-lead",
@@ -2413,11 +1581,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dsp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dsp-rev-x-plate",
@@ -2425,11 +1589,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "dsp",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "dynastia",
@@ -2437,11 +1597,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Dynastia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "echannel",
@@ -2449,11 +1605,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "EChannel",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "effectrack",
@@ -2461,11 +1613,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "EffectRack",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "efx-fragments",
@@ -2473,11 +1621,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Efx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "efx-refract",
@@ -2485,11 +1629,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Efx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-alpha-master",
@@ -2497,11 +1637,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-alpha-mix",
@@ -2509,11 +1645,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-karacter-master",
@@ -2521,11 +1653,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-karacter-mix",
@@ -2533,11 +1661,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-museq-master",
@@ -2545,11 +1669,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-nvelope",
@@ -2557,11 +1677,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "elysia-phils-cascade",
@@ -2569,11 +1685,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "elysia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "emissary",
@@ -2581,11 +1693,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Emissary",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "endless-smile-32",
@@ -2593,11 +1701,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Cableguys",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "endless-smile-64",
@@ -2605,11 +1709,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Cableguys",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "era6-voiceleveler",
@@ -2617,11 +1717,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ERA6",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "eternal-return",
@@ -2629,11 +1725,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Eternal",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-pro-c-2",
@@ -2641,11 +1733,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FabFilter",
     "purpose": "多模式壓縮器，兼具易用與精準控制。",
-    "features": [
-      "多種壓縮風格",
-      "Sidechain",
-      "自動增益"
-    ]
+    "features": []
   },
   {
     "id": "fiedler-audio-stage",
@@ -2653,11 +1741,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "fiedler",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "filtron",
@@ -2665,11 +1749,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Filtron",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-boost",
@@ -2677,11 +1757,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-BOOST",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-dynamo",
@@ -2689,11 +1765,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-DYNAMO",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-fluxx",
@@ -2701,11 +1773,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-FLUXX",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-micro",
@@ -2713,11 +1781,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-MICRO",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-neo",
@@ -2725,11 +1789,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-NEO",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-retro",
@@ -2737,11 +1797,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-RETRO",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fin-vood",
@@ -2749,11 +1805,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "FIN-VOOD",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "frostbite2",
@@ -2761,11 +1813,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Frostbite2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "fuchs-train-ii",
@@ -2773,11 +1821,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Fuchs",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ga-classics-crunch",
@@ -2785,11 +1829,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "GA",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ga-classics-lead",
@@ -2797,11 +1837,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "GA",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "gallien-krueger-800rb",
@@ -2809,11 +1845,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Gallien",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "guaiguai",
@@ -2821,11 +1853,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "GuaiGuai",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "gullfoss",
@@ -2833,11 +1861,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Gullfoss",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "gullfoss-live",
@@ -2845,11 +1869,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Gullfoss",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "gullfoss-master",
@@ -2857,11 +1877,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Gullfoss",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "h3000-factory",
@@ -2869,11 +1885,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "H3000",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "h910-dual-harmonizer",
@@ -2881,11 +1893,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "H910",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "h910-harmonizer",
@@ -2893,11 +1901,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "H910",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "h949-dual-harmonizer",
@@ -2905,11 +1909,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "H949",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "h949-harmonizer",
@@ -2917,11 +1917,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "H949",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "headphone-lab",
@@ -2929,11 +1925,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Headphone",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "hpl2",
@@ -2941,11 +1933,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "HPL2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "infiltrator",
@@ -2953,11 +1941,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Cableguys",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "intensity-vst",
@@ -2965,11 +1949,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "INTENSITY",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "intensity-vst3",
@@ -2977,11 +1957,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "INTENSITY",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "izozone9",
@@ -2989,11 +1965,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9dynamiceq",
@@ -3001,11 +1973,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9dynamics",
@@ -3013,11 +1981,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9equalizer",
@@ -3025,11 +1989,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9exciter",
@@ -3037,11 +1997,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9imager",
@@ -3049,11 +2005,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9lowendfocus",
@@ -3061,11 +2013,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9masterrebalance",
@@ -3073,11 +2021,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9matcheq",
@@ -3085,11 +2029,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9maximizer",
@@ -3097,11 +2037,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9spectralshaper",
@@ -3109,11 +2045,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9vintagecompressor",
@@ -3121,11 +2053,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9vintageeq",
@@ -3133,11 +2061,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9vintagelimiter",
@@ -3145,11 +2069,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izozone9vintagetape",
@@ -3157,11 +2077,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "izrelay",
@@ -3169,11 +2085,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jd-800",
@@ -3181,11 +2093,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "JD-800",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "js-inflator",
@@ -3193,11 +2101,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "JS",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "juno-106-vst2-64bit",
@@ -3205,11 +2109,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "juno-106-vst3-64bit",
@@ -3217,11 +2117,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "juno-60-vst3-64bit",
@@ -3229,11 +2125,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jupiter-8-vst2-64bit",
@@ -3241,11 +2133,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jupiter-8-vst3-64bit",
@@ -3253,11 +2141,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jv-1080-vst2-64bit",
@@ -3265,11 +2149,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jv-1080-vst3-64bit",
@@ -3277,11 +2157,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jx-3p-vst2-64bit",
@@ -3289,11 +2165,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "jx-3p-vst3-64bit",
@@ -3301,11 +2173,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "keyscape",
@@ -3313,11 +2181,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Keyscape",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "khs-channel-mixer",
@@ -3325,11 +2189,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "khs-compactor",
@@ -3337,11 +2197,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "khs-compressor",
@@ -3349,11 +2205,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "壓縮動態，讓音量更集中。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "khs-dynamics",
@@ -3361,11 +2213,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "khs-gate",
@@ -3373,11 +2221,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "Gate",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "khs-limiter",
@@ -3385,11 +2229,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "限制峰值並提升整體響度。",
-    "features": [
-      "限制",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "khs-trance-gate",
@@ -3397,11 +2237,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "Gate",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "khs-transient-shaper",
@@ -3409,11 +2245,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kilohearts",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "瞬態",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "kick-3",
@@ -3421,11 +2253,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Kick",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "knif-audio-soma",
@@ -3433,11 +2261,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Knif",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "knock",
@@ -3445,11 +2269,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "KNOCK",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "kuaikuai-daw-saviour",
@@ -3457,11 +2277,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "KuaiKuai",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "kv-element",
@@ -3469,11 +2285,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "KV-Element",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "kv-element-fx",
@@ -3481,11 +2293,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "KV-Element-FX",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "labs-64-bit",
@@ -3493,11 +2301,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "LABS",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lame-enc",
@@ -3505,11 +2309,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "lame",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "libmp3lame",
@@ -3517,11 +2317,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "libmp3lame",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-254e",
@@ -3529,11 +2325,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-354e",
@@ -3541,11 +2333,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-50-buss",
@@ -3553,11 +2341,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-50-channel",
@@ -3565,11 +2349,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-6x-500",
@@ -3577,11 +2357,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-7x-500",
@@ -3589,11 +2365,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-80-bus",
@@ -3601,11 +2373,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-80-channel",
@@ -3613,11 +2381,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-channelx",
@@ -3625,11 +2389,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-pex-500",
@@ -3637,11 +2397,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-sbc",
@@ -3649,11 +2405,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lindell-te-100",
@@ -3661,11 +2413,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lindell",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "littlealterboy",
@@ -3673,11 +2421,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "LittleAlterBoy",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "littlemicroshift",
@@ -3685,11 +2429,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "LittleMicroShift",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "littleplate",
@@ -3697,11 +2437,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "LittlePlate",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "littleprimaltap",
@@ -3709,11 +2445,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "LittlePrimalTap",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "littleradiator",
@@ -3721,11 +2453,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "LittleRadiator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "lofi-oddity",
@@ -3733,11 +2461,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Lofi",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "looptrotter-sa2rate2",
@@ -3745,11 +2469,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Looptrotter",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "maag-magnum-k",
@@ -3757,11 +2477,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Maag",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "magc",
@@ -3769,11 +2485,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MAGC",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "magical8bitplug2",
@@ -3781,11 +2493,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Magical8bitPlug2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "manipulator",
@@ -3793,11 +2501,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Output / iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "massive",
@@ -3805,11 +2509,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Massive",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mbandpass",
@@ -3817,11 +2517,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MBandPass",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mbitfun",
@@ -3829,11 +2525,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MBitFun",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mccgenerator",
@@ -3841,11 +2533,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MCCGenerator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mchannelmatrix",
@@ -3853,11 +2541,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MChannelMatrix",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mcomb",
@@ -3865,11 +2549,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MComb",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mcompressor",
@@ -3877,11 +2557,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MCompressor",
     "purpose": "壓縮動態，讓音量更集中。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "mconvolutionez",
@@ -3889,11 +2565,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MConvolutionEZ",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "megaphone-x64",
@@ -3901,11 +2573,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Megaphone",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "melodyne",
@@ -3913,11 +2581,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Melodyne",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mercuryfx",
@@ -3925,11 +2589,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MercuryFX",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mfreeformphase",
@@ -3937,11 +2597,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MFreeformPhase",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "microshift",
@@ -3949,11 +2605,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MicroShift",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "millennia-tcl-2",
@@ -3961,11 +2613,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Millennia",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "misstortion2",
@@ -3973,11 +2621,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Misstortion2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mmetronome",
@@ -3985,11 +2629,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MMetronome",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mnoisegenerator",
@@ -3997,11 +2637,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MNoiseGenerator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mnotepad",
@@ -4009,11 +2645,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MNotepad",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "morphing-chstrip",
@@ -4021,11 +2653,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Morphing",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "moscillator",
@@ -4033,11 +2661,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MOscillator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "moscilloscope",
@@ -4045,11 +2669,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MOscilloscope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mratio",
@@ -4057,11 +2677,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MRatio",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mratiomb",
@@ -4069,11 +2685,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MRatioMB",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mrecorder",
@@ -4081,11 +2693,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MRecorder",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mtremolo",
@@ -4093,11 +2701,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MTremolo",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "multipass",
@@ -4105,11 +2709,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Multipass",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "munison",
@@ -4117,11 +2717,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MUnison",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "murda-melodies",
@@ -4129,11 +2725,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Murda",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mvibrato",
@@ -4141,11 +2733,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MVibrato",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "mwavefolder",
@@ -4153,11 +2741,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "MWaveFolder",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "nadir",
@@ -4165,11 +2749,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "NadIR",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "neold-big-al",
@@ -4177,11 +2757,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "NEOLD",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "neold-u17",
@@ -4189,11 +2765,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "NEOLD",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "neold-v76u73",
@@ -4201,11 +2773,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "NEOLD",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "neold-warble",
@@ -4213,11 +2781,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "NEOLD",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "neuralnote",
@@ -4225,11 +2789,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "NeuralNote",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "newfangled-elevate",
@@ -4237,11 +2797,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Newfangled Audio",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "newfangled-punctuate",
@@ -4249,11 +2805,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Newfangled Audio",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "nexus",
@@ -4261,11 +2813,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Nexus",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "noveltech-character",
@@ -4273,11 +2821,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Noveltech",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "noveltech-vocal-enhancer",
@@ -4285,11 +2829,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Noveltech",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "octavox",
@@ -4297,11 +2837,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Octavox",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "omnisphere",
@@ -4309,11 +2845,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Omnisphere",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ott",
@@ -4321,11 +2853,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "OTT",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11",
@@ -4333,11 +2861,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-clarity",
@@ -4345,11 +2869,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-dynamic-eq",
@@ -4357,11 +2877,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-dynamics",
@@ -4369,11 +2885,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-exciter",
@@ -4381,11 +2893,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-imager",
@@ -4393,11 +2901,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-impact",
@@ -4405,11 +2909,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-low-end-focus",
@@ -4417,11 +2917,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-master-rebalance",
@@ -4429,11 +2925,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-maximizer",
@@ -4441,11 +2933,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "推高響度並控制峰值。",
-    "features": [
-      "最大化",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-stabilizer",
@@ -4453,11 +2941,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-vintage-compressor",
@@ -4465,11 +2949,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "壓縮動態，讓音量更集中。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-vintage-limiter",
@@ -4477,11 +2957,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "限制峰值並提升整體響度。",
-    "features": [
-      "限制",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9",
@@ -4489,11 +2965,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-dynamic-eq",
@@ -4501,11 +2973,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-dynamics",
@@ -4513,11 +2981,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-equalizer",
@@ -4525,11 +2989,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-exciter",
@@ -4537,11 +2997,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-imager",
@@ -4549,11 +3005,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-low-end-focus",
@@ -4561,11 +3013,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-master-rebalance",
@@ -4573,11 +3021,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-match-eq",
@@ -4585,11 +3029,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-maximizer",
@@ -4597,11 +3037,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-spectral-shaper",
@@ -4609,11 +3045,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-vintage-compressor",
@@ -4621,11 +3053,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-vintage-eq",
@@ -4633,11 +3061,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-vintage-limiter",
@@ -4645,11 +3069,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "ozone-9-vintage-tape",
@@ -4657,11 +3077,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "iZotope",
     "purpose": "母帶處理套件，聚焦音量、平衡與整體質感。",
-    "features": [
-      "母帶鏈",
-      "Dynamics",
-      "Maximizer"
-    ]
+    "features": []
   },
   {
     "id": "parallax",
@@ -4669,11 +3085,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Parallax",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "phasemistress",
@@ -4681,11 +3093,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "PhaseMistress",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "physion",
@@ -4693,11 +3101,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Physion",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "placeit",
@@ -4705,11 +3109,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "PlaceIt",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "plugdata",
@@ -4717,11 +3117,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "plugdata",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "plugdata-fx",
@@ -4729,11 +3125,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "plugdata-fx",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "portal",
@@ -4741,11 +3133,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Output / iZotope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "primaltap",
@@ -4753,11 +3141,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "PrimalTap",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "pro-audio-dsp-dsm-v3",
@@ -4765,11 +3149,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Pro",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "promars-vst2-64bit",
@@ -4777,11 +3157,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "promars-vst3-64bit",
@@ -4789,11 +3165,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "pulsar-massive",
@@ -4801,11 +3173,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Pulsar",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "purple-audio-mc-77",
@@ -4813,11 +3181,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Purple",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "quadravox",
@@ -4825,11 +3189,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Quadravox",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "radiator",
@@ -4837,11 +3197,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Radiator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ravegenerator-x64",
@@ -4849,11 +3205,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "RaveGenerator-x64",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ravegenerator2-x64",
@@ -4861,11 +3213,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "RaveGenerator2-x64",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "reels",
@@ -4873,11 +3221,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Reels",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "relay",
@@ -4885,11 +3229,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Relay",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "relife",
@@ -4897,11 +3237,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ReLife",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "retro-sta-level",
@@ -4909,11 +3245,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Retro",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "rev-intensity",
@@ -4921,11 +3253,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Rev",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "rev-lx-24",
@@ -4933,11 +3261,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Rev",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "rev-plate-140",
@@ -4945,11 +3269,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Rev",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "rev-x-plate",
@@ -4957,11 +3277,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "REV-X",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "revo",
@@ -4969,11 +3285,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "RevO",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "rift",
@@ -4981,11 +3293,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Rift",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "rotary-cls-222",
@@ -4993,11 +3301,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Rotary",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "runciter",
@@ -5005,11 +3309,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Runciter",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sala",
@@ -5017,11 +3317,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Sala",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "scaler2",
@@ -5029,11 +3325,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Scaler2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "scaleraudio2",
@@ -5041,11 +3333,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ScalerAudio2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "schoeps-double-ms",
@@ -5053,11 +3341,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Schoeps",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "schoeps-mono-upmix-1to2",
@@ -5065,11 +3349,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Schoeps",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "schoeps-mono-upmix-1to3",
@@ -5077,11 +3357,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Schoeps",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "scope",
@@ -5089,11 +3365,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Scope",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "serum",
@@ -5101,11 +3373,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Serum",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "serum2",
@@ -5113,11 +3381,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Serum2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "serumfx-x64",
@@ -5125,11 +3389,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SerumFX",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sh-101-vst2-64bit",
@@ -5137,11 +3397,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sh-101-vst3-64bit",
@@ -5149,11 +3405,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sh-2-vst2-64bit",
@@ -5161,11 +3413,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sh-2-vst3-64bit",
@@ -5173,11 +3421,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesalbedo",
@@ -5185,11 +3429,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesAlbedo",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesblend2",
@@ -5197,11 +3437,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesBlend2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibescorrosion2",
@@ -5209,11 +3445,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesCorrosion2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesdipole2",
@@ -5221,11 +3453,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesDipole2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesdispersion2",
@@ -5233,11 +3461,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesDispersion2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesdroplet2",
@@ -5245,11 +3469,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesDroplet2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibeseternal2",
@@ -5257,11 +3477,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesEternal2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibeshollow",
@@ -5269,11 +3485,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesHollow",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesluminance2",
@@ -5281,11 +3493,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesLuminance2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibesrerun2",
@@ -5293,11 +3501,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesRerun2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sinevibeswhirl2",
@@ -5305,11 +3509,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SinevibesWhirl2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sk10",
@@ -5317,11 +3517,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SK10",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "slate-digital-fg-x",
@@ -5329,11 +3525,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Slate",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "smartlimit",
@@ -5341,11 +3533,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "smartlimit",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "snap-heap",
@@ -5353,11 +3541,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Snap",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "snarebuzz",
@@ -5365,11 +3549,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SnareBuzz",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sonobus",
@@ -5377,11 +3557,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SonoBus",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sonobusinstrument",
@@ -5389,11 +3565,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SonoBusInstrument",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "soothe2-x64",
@@ -5401,11 +3573,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "soothe2",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "soundbox",
@@ -5413,11 +3581,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Soundbox",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "speakers",
@@ -5425,11 +3589,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Speakers",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spectral-compressor",
@@ -5437,11 +3597,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Spectral",
     "purpose": "壓縮動態，讓音量更集中。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "spectre",
@@ -5449,11 +3605,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Spectre",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spectrumthief",
@@ -5461,11 +3613,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SpectrumThief",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spiff-x64",
@@ -5473,11 +3621,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "spiff",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spl-attacker-plus",
@@ -5485,11 +3629,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spl-free-ranger",
@@ -5497,11 +3637,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spl-hawkeye",
@@ -5509,11 +3645,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spl-iron",
@@ -5521,11 +3653,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spl-pq",
@@ -5533,11 +3661,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "spl-transient-designer-plus",
@@ -5545,11 +3669,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "瞬態",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "spl-vitalizer-mk2-t",
@@ -5557,11 +3677,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SPL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "splicebridge",
@@ -5569,11 +3685,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SpliceBridge",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ssl-native-channel-strip-2",
@@ -5581,11 +3693,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SSL",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "st1b",
@@ -5593,11 +3701,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "st1b",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "st4b",
@@ -5605,11 +3709,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "st4b",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "suhr-pt100",
@@ -5617,11 +3717,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Suhr",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "suhr-se100",
@@ -5629,11 +3725,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Suhr",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-alto-trombone",
@@ -5641,11 +3733,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-euphonium",
@@ -5653,11 +3741,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-flugelhorn",
@@ -5665,11 +3749,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-flugelhorn-eb",
@@ -5677,11 +3757,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-french-horn-bb",
@@ -5689,11 +3765,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-french-horn-f",
@@ -5701,11 +3773,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-piccolo-trumpet",
@@ -5713,11 +3781,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-tenor-trombone",
@@ -5725,11 +3789,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-trumpet",
@@ -5737,11 +3797,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-trumpet-c",
@@ -5749,11 +3805,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "swam-tuba-eb",
@@ -5761,11 +3813,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "SWAM",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "sylenth1",
@@ -5773,11 +3821,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Sylenth1",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-audio-bridge",
@@ -5785,11 +3829,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "System",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-1-vst2-64bit",
@@ -5797,11 +3837,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-1-vst3-64bit",
@@ -5809,11 +3845,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-100-vst2-64bit",
@@ -5821,11 +3853,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-100-vst3-64bit",
@@ -5833,11 +3861,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-8-vst2-64bit",
@@ -5845,11 +3869,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "system-8-vst3-64bit",
@@ -5857,11 +3877,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "t-force-alpha-plus-x32",
@@ -5869,11 +3885,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "T-Force",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "t-force-alpha-plus-x64",
@@ -5881,11 +3893,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "T-Force",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tb-303-vst2-64bit",
@@ -5893,11 +3901,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tb-303-vst3-64bit",
@@ -5905,11 +3909,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tensorflow",
@@ -5917,11 +3917,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "tensorflow",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tensorflow-framework",
@@ -5929,11 +3925,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "tensorflow",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "texture",
@@ -5941,11 +3933,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Texture",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "texture32",
@@ -5953,11 +3941,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Texture32",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "the-oven",
@@ -5965,11 +3949,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "THE",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "theorb-x64",
@@ -5977,11 +3957,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "TheOrb",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "thingsmotor",
@@ -5989,11 +3965,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ThingsMotor",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "thingstexture",
@@ -6001,11 +3973,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "ThingsTexture",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tomo-audiolabs-lisa",
@@ -6013,11 +3981,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "TOMO",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-606-vst3-64bit",
@@ -6025,11 +3989,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-707-vst3-64bit",
@@ -6037,11 +3997,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-727-vst3-64bit",
@@ -6049,11 +4005,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-808-vst2-64bit",
@@ -6061,11 +4013,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-808-vst3-64bit",
@@ -6073,11 +4021,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-909-vst2-64bit",
@@ -6085,11 +4029,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tr-909-vst3-64bit",
@@ -6097,11 +4037,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tremolator",
@@ -6109,11 +4045,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Tremolator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "trilian",
@@ -6121,11 +4053,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Trilian",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "tritik-visu",
@@ -6133,11 +4061,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Tritik-Visu",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "typea-x64",
@@ -6145,11 +4069,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "TypeA",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "typeb",
@@ -6157,11 +4077,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "TypeB",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uaudio-teletronix-la-2a-tc",
@@ -6169,11 +4085,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "uaudio",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uaudio-verve-essentials",
@@ -6181,11 +4093,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "uaudio",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ubk-1",
@@ -6193,11 +4101,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "UBK-1",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-a",
@@ -6205,11 +4109,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-A",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-d",
@@ -6217,11 +4117,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-D",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-f",
@@ -6229,11 +4125,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-F",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-g",
@@ -6241,11 +4133,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-G",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-p",
@@ -6253,11 +4141,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-P",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-q",
@@ -6265,11 +4149,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-Q",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-s",
@@ -6277,11 +4157,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-S",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "uhbik-t",
@@ -6289,11 +4165,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Uhbik-T",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ultrachannel",
@@ -6301,11 +4173,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "UltraChannel",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "ultratap",
@@ -6313,11 +4181,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "UltraTap",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "undulator",
@@ -6325,11 +4189,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Undulator",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "valves",
@@ -6337,11 +4197,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Valves",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vbc-fg-grey",
@@ -6349,11 +4205,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "VBC",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vbc-fg-mu",
@@ -6361,11 +4213,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "VBC",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vbc-fg-red",
@@ -6373,11 +4221,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "VBC",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vbc-rack",
@@ -6385,11 +4229,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "VBC",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vcomp140",
@@ -6397,11 +4237,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "vcomp140",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "壓縮",
-      "動態控制",
-      "衝擊力"
-    ]
+    "features": []
   },
   {
     "id": "vertigo-vsc-2",
@@ -6409,11 +4245,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Vertigo",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vertigo-vsm-3",
@@ -6421,11 +4253,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Vertigo",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vinylstrip-x64",
@@ -6433,11 +4261,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "VinylStrip",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "virtual-mix-rack",
@@ -6445,11 +4269,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Virtual",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vital",
@@ -6457,11 +4277,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Vital",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "vocalign6pro",
@@ -6469,11 +4285,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "VocAlign6Pro",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "wavebox-x64",
@@ -6481,11 +4293,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "WaveBox",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "waves-studiorack-for-obs",
@@ -6493,11 +4301,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Waves",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "waveshell1-vst3-15-2-x64",
@@ -6505,11 +4309,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "WaveShell1-VST3",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "waveshell1-vst3-15-5-x64",
@@ -6517,11 +4317,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "WaveShell1-VST3",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "waveshell1-vst3-15-9-x64",
@@ -6529,11 +4325,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "WaveShell1-VST3",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "wide-awake",
@@ -6541,11 +4333,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Wide",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "wider",
@@ -6553,11 +4341,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Wider",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "wires",
@@ -6565,11 +4349,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Wires",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "xv-5080-vst2-64bit",
@@ -6577,11 +4357,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "xv-5080-vst3-64bit",
@@ -6589,11 +4365,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Dynamic",
     "vendor": "Unknown",
     "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
+    "features": []
   },
   {
     "id": "amek-eq-200",
@@ -6601,11 +4373,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "AMEK",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "amek-eq-250",
@@ -6613,11 +4381,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "AMEK",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "asap-spectral-clipping",
@@ -6625,11 +4389,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ASAP",
     "purpose": "在頻譜層級修正聲音問題。",
-    "features": [
-      "頻譜",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "asap-spectral-remix",
@@ -6637,11 +4397,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ASAP",
     "purpose": "在頻譜層級修正聲音問題。",
-    "features": [
-      "頻譜",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "auto-tune-efx",
@@ -6649,11 +4405,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Auto-Tune",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "bertom-denoiserclassic",
@@ -6661,11 +4413,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Bertom",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "降噪",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bettermaker-eq232d",
@@ -6673,11 +4421,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Bettermaker",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bx-2098-eq",
@@ -6685,11 +4429,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bx-cleansweep-pro",
@@ -6697,11 +4437,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "bx-cleansweep-v2",
@@ -6709,11 +4445,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "bx-crispytuner",
@@ -6721,11 +4453,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "bx-dyneq-v2",
@@ -6733,11 +4461,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bx-dyneq-v2-mono",
@@ -6745,11 +4469,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bx-paneq",
@@ -6757,11 +4477,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bx-subfilter",
@@ -6769,11 +4485,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "bx-tuner",
@@ -6781,11 +4493,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Brainworx",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "carve-eq",
@@ -6793,11 +4501,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Carve",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "dangerous-bax-eq-mix",
@@ -6805,11 +4509,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Dangerous",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "dsp-ga-classics-clean",
@@ -6817,11 +4517,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "dsp",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "eiosis-aireq",
@@ -6829,11 +4525,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Eiosis",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "eiosis-e2deesser",
@@ -6841,11 +4533,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Eiosis",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "elysia-museq-mix",
@@ -6853,11 +4541,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "elysia",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "elysia-niveau-filter",
@@ -6865,11 +4549,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "elysia",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "eq-sitral-295",
@@ -6877,11 +4557,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "EQ",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "eq45",
@@ -6889,11 +4565,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "EQ45",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "eq65",
@@ -6901,11 +4573,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "EQ65",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "era6-audiocleanupassistant",
@@ -6913,11 +4581,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-debreath",
@@ -6925,11 +4589,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-declipper",
@@ -6937,11 +4597,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-deesser",
@@ -6949,11 +4605,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-deesserpro",
@@ -6961,11 +4613,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-mouthdeclicker",
@@ -6973,11 +4621,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-noiseremover",
@@ -6985,11 +4629,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-noiseremoverpro",
@@ -6997,11 +4637,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-plosiveremover",
@@ -7009,11 +4645,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "era6-voiceautoeq",
@@ -7021,11 +4653,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "era6-voicedeepener",
@@ -7033,11 +4661,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ERA6",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-micro",
@@ -7045,11 +4669,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-one",
@@ -7057,11 +4677,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-pro-ds",
@@ -7069,11 +4685,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-pro-g",
@@ -7081,11 +4693,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-pro-l-2",
@@ -7093,11 +4701,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-pro-mb",
@@ -7105,11 +4709,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-pro-q-3",
@@ -7117,11 +4717,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "可做精細與音樂性的 EQ 頻段塑形。",
-    "features": [
-      "參數式 EQ",
-      "動態頻段",
-      "頻譜視覺"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-simplon",
@@ -7129,11 +4725,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-timeless-3",
@@ -7141,11 +4733,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-twin-2",
@@ -7153,11 +4741,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fabfilter-volcano-2",
@@ -7165,11 +4749,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FabFilter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "filter-m12",
@@ -7177,11 +4757,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Filter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "filter-mini",
@@ -7189,11 +4765,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Filter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "filter-ms-20",
@@ -7201,11 +4773,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Filter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "filter-sem",
@@ -7213,11 +4781,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Filter",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "filterfreak1",
@@ -7225,11 +4789,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FilterFreak1",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "filterfreak2",
@@ -7237,11 +4797,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "FilterFreak2",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "fresh-air",
@@ -7249,11 +4805,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Fresh",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "ga-classics-clean",
@@ -7261,11 +4813,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "GA",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "inf-eq",
@@ -7273,11 +4821,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Inf",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "izrx9breathcontrol",
@@ -7285,11 +4829,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9connect",
@@ -7297,11 +4837,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-click",
@@ -7309,11 +4845,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-clip",
@@ -7321,11 +4853,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-crackle",
@@ -7333,11 +4861,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-ess",
@@ -7345,11 +4869,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-hum",
@@ -7357,11 +4877,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-plosive",
@@ -7369,11 +4885,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9de-reverb",
@@ -7381,11 +4893,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9guitarde-noise",
@@ -7393,11 +4901,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9monitor",
@@ -7405,11 +4909,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9mouthde-click",
@@ -7417,11 +4917,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9spectralde-noise",
@@ -7429,11 +4925,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "izrx9voicede-noise",
@@ -7441,11 +4933,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "iztonalbalancecontrol2",
@@ -7453,11 +4941,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "khs-3-band-eq",
@@ -7465,11 +4949,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-comb-filter",
@@ -7477,11 +4957,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-filter",
@@ -7489,11 +4965,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-filter-table",
@@ -7501,11 +4973,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-formant-filter",
@@ -7513,11 +4981,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-frequency-shifter",
@@ -7525,11 +4989,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-ladder-filter",
@@ -7537,11 +4997,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "khs-nonlinear-filter",
@@ -7549,11 +5005,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Kilohearts",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "lindell-902-de-esser",
@@ -7561,11 +5013,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Lindell",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "去齒音",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "ltl-chop-shop-eq",
@@ -7573,11 +5021,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "LTL",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "maag-eq2",
@@ -7585,11 +5029,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Maag",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "maag-eq4",
@@ -7597,11 +5037,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Maag",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "mathaudiomicrophoneeq",
@@ -7609,11 +5045,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "MathaudioMicrophoneEQ",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "mequalizer",
@@ -7621,11 +5053,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "MEqualizer",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "mfreqshifter",
@@ -7633,11 +5061,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "MFreqShifter",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "millennia-nseq-2",
@@ -7645,11 +5069,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Millennia",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "mspectralpan",
@@ -7657,11 +5077,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "MSpectralPan",
     "purpose": "在頻譜層級修正聲音問題。",
-    "features": [
-      "頻譜",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "mtuner",
@@ -7669,11 +5085,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "MTuner",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "newfangled-equivocate",
@@ -7681,11 +5093,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Newfangled Audio",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-equalizer",
@@ -7693,11 +5101,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-match-eq",
@@ -7705,11 +5109,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-spectral-shaper",
@@ -7717,11 +5117,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "在頻譜層級修正聲音問題。",
-    "features": [
-      "頻譜",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "ozone-11-vintage-eq",
@@ -7729,11 +5125,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "revoiceprolink",
@@ -7741,11 +5133,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "RevoiceProLink",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "revoiceprolinkvst-64bit",
@@ -7753,11 +5141,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unknown",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "revoicepromonitorvst-64bit",
@@ -7765,11 +5149,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unknown",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-breath-control",
@@ -7777,11 +5157,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-connect",
@@ -7789,11 +5165,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-click",
@@ -7801,11 +5173,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-clip",
@@ -7813,11 +5181,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-crackle",
@@ -7825,11 +5189,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-ess",
@@ -7837,11 +5197,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-hum",
@@ -7849,11 +5205,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-plosive",
@@ -7861,11 +5213,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-de-reverb",
@@ -7873,11 +5221,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-guitar-de-noise",
@@ -7885,11 +5229,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-monitor",
@@ -7897,11 +5237,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-mouth-de-click",
@@ -7909,11 +5245,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-spectral-de-noise",
@@ -7921,11 +5253,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "rx-9-voice-de-noise",
@@ -7933,11 +5261,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "iZotope",
     "purpose": "音訊修復工具組，適合清理與還原工作流。",
-    "features": [
-      "降噪",
-      "修復模組",
-      "頻譜編修"
-    ]
+    "features": []
   },
   {
     "id": "sieq",
@@ -7945,11 +5269,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SieQ",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "slice-eq",
@@ -7957,11 +5277,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Slice",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "smarteq3",
@@ -7969,11 +5285,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "smartEQ3",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "smarteq4",
@@ -7981,11 +5293,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "smartEQ4",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "spl-de-esser",
@@ -7993,11 +5301,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SPL",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "去齒音",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "spl-de-esser-dual-band",
@@ -8005,11 +5309,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SPL",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "去齒音",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "spl-eq-ranger-plus",
@@ -8017,11 +5317,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SPL",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "spl-passeq",
@@ -8029,11 +5325,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SPL",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "spl-passeq-single",
@@ -8041,11 +5333,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SPL",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "spliteq",
@@ -8053,11 +5341,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "SplitEQ",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "storch-filter",
@@ -8065,11 +5349,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Storch",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "thingsflipeq",
@@ -8077,11 +5357,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "ThingsFlipEQ",
     "purpose": "用精準 EQ 進行音色塑形。",
-    "features": [
-      "EQ",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "tonal-balance-control-2",
@@ -8089,11 +5365,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Tonal",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "truebalance",
@@ -8101,11 +5373,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "truebalance",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "unfilter-vst",
@@ -8113,11 +5381,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "UNFILTER",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfilter-vst3",
@@ -8125,11 +5389,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "UNFILTER",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-bass-mint",
@@ -8137,11 +5397,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-byome",
@@ -8149,11 +5405,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-dent-2",
@@ -8161,11 +5413,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-fault",
@@ -8173,11 +5421,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-g8",
@@ -8185,11 +5429,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-indent-2",
@@ -8197,11 +5437,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-lion",
@@ -8209,11 +5445,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-lo-fi-af",
@@ -8221,11 +5453,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-needlepoint",
@@ -8233,11 +5461,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-sandman",
@@ -8245,11 +5469,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-sandman-pro",
@@ -8257,11 +5477,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-silo",
@@ -8269,11 +5485,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-specops",
@@ -8281,11 +5493,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-tails",
@@ -8293,11 +5501,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-triad",
@@ -8305,11 +5509,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "unfiltered-audio-zip",
@@ -8317,11 +5517,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "Unfiltered",
     "purpose": "聚焦或削減指定頻段。",
-    "features": [
-      "濾波",
-      "頻率塑形",
-      "清晰度"
-    ]
+    "features": []
   },
   {
     "id": "voicechanger",
@@ -8329,11 +5525,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Frequency",
     "vendor": "VoiceChanger",
     "purpose": "調整頻率平衡與音色清晰度。",
-    "features": [
-      "頻率塑形",
-      "清晰度",
-      "頻譜控制"
-    ]
+    "features": []
   },
   {
     "id": "addictive-drums-2",
@@ -8341,11 +5533,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Addictive",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "鼓組",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "basslane-pro",
@@ -8353,11 +5541,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Basslane",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "beatrice-2-0-0-beta-4",
@@ -8365,11 +5549,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "beatrice",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "bx-bassdude",
@@ -8377,11 +5557,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Brainworx",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "bx-subsynth",
@@ -8389,11 +5565,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Brainworx",
     "purpose": "產生可演奏的合成音色。",
-    "features": [
-      "合成",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "d-50-vst2-64bit",
@@ -8401,11 +5573,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Unknown",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "d-50-vst3-64bit",
@@ -8413,11 +5581,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Unknown",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "dune-3",
@@ -8425,11 +5589,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "DUNE",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "esw-kalimba",
@@ -8437,11 +5597,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "ESW",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "fl-studio-vsti",
@@ -8449,11 +5605,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "FL",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "kontakt",
@@ -8461,11 +5613,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Native Instruments",
     "purpose": "取樣器平台，可承載大量樂器音色庫。",
-    "features": [
-      "取樣引擎",
-      "音色庫宿主",
-      "MIDI 控制"
-    ]
+    "features": []
   },
   {
     "id": "kontakt-8-portable",
@@ -8473,11 +5621,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Native Instruments",
     "purpose": "取樣器平台，可承載大量樂器音色庫。",
-    "features": [
-      "取樣引擎",
-      "音色庫宿主",
-      "MIDI 控制"
-    ]
+    "features": []
   },
   {
     "id": "lam16",
@@ -8485,11 +5629,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "LAM16",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "m1",
@@ -8497,11 +5637,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "M1",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "modo-bass-2",
@@ -8509,11 +5645,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "MODO",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "phase-plant",
@@ -8521,11 +5653,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Kilohearts",
     "purpose": "模組化合成器，適合進階聲音設計。",
-    "features": [
-      "模組引擎",
-      "Wavetable",
-      "彈性路由"
-    ]
+    "features": []
   },
   {
     "id": "quanta",
@@ -8533,11 +5661,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Quanta",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "spl-drumxchanger",
@@ -8545,11 +5669,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "SPL",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "鼓組",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "swam-bass-trombone",
@@ -8557,11 +5677,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "SWAM",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "swam-bass-tuba",
@@ -8569,11 +5685,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "SWAM",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "swam-double-bass-trombone",
@@ -8581,11 +5693,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "SWAM",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "swam-tenor-bass-trombone",
@@ -8593,11 +5701,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "SWAM",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "貝斯",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "triton",
@@ -8605,11 +5709,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "TRITON",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "triton-extreme",
@@ -8617,11 +5717,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "TRITON",
     "purpose": "提供可演奏的合成或取樣音源。",
-    "features": [
-      "可演奏音源",
-      "樂器角色",
-      "MIDI 觸發"
-    ]
+    "features": []
   },
   {
     "id": "vocalsynth-pro",
@@ -8629,11 +5725,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Synthesizer",
     "vendor": "Output / iZotope",
     "purpose": "產生可演奏的合成音色。",
-    "features": [
-      "合成",
-      "可演奏音源",
-      "樂器角色"
-    ]
+    "features": []
   },
   {
     "id": "ada-flanger",
@@ -8641,11 +5733,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "ADA",
     "purpose": "建立掃頻式梳狀濾波效果。",
-    "features": [
-      "Flanger",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "asap-formant-shaping",
@@ -8653,11 +5741,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "ASAP",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "共振峰",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "chorus-dimension-d",
@@ -8665,11 +5749,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Chorus",
     "purpose": "以微小位移增加寬度與流動感。",
-    "features": [
-      "Chorus",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "chorus-jun-6",
@@ -8677,11 +5757,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Chorus",
     "purpose": "以微小位移增加寬度與流動感。",
-    "features": [
-      "Chorus",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "crystallizer",
@@ -8689,11 +5765,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Crystallizer",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "閃耀質感",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "crystals",
@@ -8701,11 +5773,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Crystals",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "閃耀質感",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "ds-tantra-2",
@@ -8713,11 +5781,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "DS",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "efx-motions",
@@ -8725,11 +5789,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Efx",
     "purpose": "加入動畫感與節奏變化。",
-    "features": [
-      "動態",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "energypanner",
@@ -8737,11 +5797,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "EnergyPanner",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "立體聲",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "flanger-bl-20",
@@ -8749,11 +5805,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Flanger",
     "purpose": "建立掃頻式梳狀濾波效果。",
-    "features": [
-      "Flanger",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "glitch2",
@@ -8761,11 +5813,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Glitch2",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "故障效果",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "instant-flanger-mk-ii",
@@ -8773,11 +5821,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Instant",
     "purpose": "建立掃頻式梳狀濾波效果。",
-    "features": [
-      "Flanger",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "instant-phaser-mk-ii",
@@ -8785,11 +5829,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Instant",
     "purpose": "建立相位移動的空間質地。",
-    "features": [
-      "Phaser",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "juno-60-chorus",
@@ -8797,11 +5837,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "JUNO-60",
     "purpose": "以微小位移增加寬度與流動感。",
-    "features": [
-      "Chorus",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "khs-chorus",
@@ -8809,11 +5845,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "以微小位移增加寬度與流動感。",
-    "features": [
-      "Chorus",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "khs-clipper",
@@ -8821,11 +5853,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-ensemble",
@@ -8833,11 +5861,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-flanger",
@@ -8845,11 +5869,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "建立掃頻式梳狀濾波效果。",
-    "features": [
-      "Flanger",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "khs-gain",
@@ -8857,11 +5877,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-haas",
@@ -8869,11 +5885,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-phaser",
@@ -8881,11 +5893,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "建立相位移動的空間質地。",
-    "features": [
-      "Phaser",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "khs-pitch-shifter",
@@ -8893,11 +5901,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "做音高與共振峰變化。",
-    "features": [
-      "音高",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "khs-resonator",
@@ -8905,11 +5909,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-reverser",
@@ -8917,11 +5917,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-ring-mod",
@@ -8929,11 +5925,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "khs-shaper",
@@ -8941,11 +5933,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "Shaper",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "khs-shaper-table",
@@ -8953,11 +5941,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Kilohearts",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "Shaper",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "mautopan",
@@ -8965,11 +5949,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MAutopan",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "立體聲",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "mautopitch",
@@ -8977,11 +5957,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MAutoPitch",
     "purpose": "做音高與共振峰變化。",
-    "features": [
-      "音高",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "mflanger",
@@ -8989,11 +5965,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MFlanger",
     "purpose": "建立掃頻式梳狀濾波效果。",
-    "features": [
-      "Flanger",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "micropitch",
@@ -9001,11 +5973,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MicroPitch",
     "purpose": "做音高與共振峰變化。",
-    "features": [
-      "音高",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "motion-fractal",
@@ -9013,11 +5981,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Motion",
     "purpose": "加入動畫感與節奏變化。",
-    "features": [
-      "動態",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "movement-x64",
@@ -9025,11 +5989,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Output / iZotope",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "律動",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "mphaser",
@@ -9037,11 +5997,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MPhaser",
     "purpose": "建立相位移動的空間質地。",
-    "features": [
-      "Phaser",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "mringmodulator",
@@ -9049,11 +6005,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MRingModulator",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "mwaveshaper",
@@ -9061,11 +6013,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "MWaveShaper",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "Shaper",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "pana",
@@ -9073,11 +6021,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Pana",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "立體聲",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "panman",
@@ -9085,11 +6029,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "PanMan",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "立體聲",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "phaser-bi-tron",
@@ -9097,11 +6037,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Phaser",
     "purpose": "建立相位移動的空間質地。",
-    "features": [
-      "Phaser",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "pitchmap-vst",
@@ -9109,11 +6045,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "PITCHMAP",
     "purpose": "做音高與共振峰變化。",
-    "features": [
-      "音高",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "pitchmap-vst3",
@@ -9121,11 +6053,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "PITCHMAP",
     "purpose": "做音高與共振峰變化。",
-    "features": [
-      "音高",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "rev-spring-636",
@@ -9133,11 +6061,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Rev",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "rotary-mod",
@@ -9145,11 +6069,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Rotary",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "shaperbox-2",
@@ -9157,11 +6077,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Cableguys",
     "purpose": "多模組 Shaper 套件，快速做出律動與動態變化。",
-    "features": [
-      "Volume Shaper",
-      "Time Shaper",
-      "Cable Routing"
-    ]
+    "features": []
   },
   {
     "id": "shaperbox-3",
@@ -9169,11 +6085,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Cableguys",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "Shaper",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "span",
@@ -9181,11 +6093,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "SPAN",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "立體聲",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "spring",
@@ -9193,11 +6101,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Spring",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "springs",
@@ -9205,11 +6109,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "Springs",
     "purpose": "加入時間向度的變化與律動。",
-    "features": [
-      "動態變化",
-      "律動感",
-      "質地流動"
-    ]
+    "features": []
   },
   {
     "id": "tricerachorus",
@@ -9217,11 +6117,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Modulation",
     "vendor": "TriceraChorus",
     "purpose": "以微小位移增加寬度與流動感。",
-    "features": [
-      "Chorus",
-      "動態變化",
-      "律動感"
-    ]
+    "features": []
   },
   {
     "id": "adptr-streamliner",
@@ -9229,11 +6125,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "ADPTR",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "bx-meter",
@@ -9241,11 +6133,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "Brainworx",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "dearvr-monitor",
@@ -9253,11 +6141,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "dearVR",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "lfotool",
@@ -9265,11 +6149,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "LFOTool",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "manalyzer",
@@ -9277,11 +6157,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MAnalyzer",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters",
@@ -9289,11 +6165,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-audio-server",
@@ -9301,11 +6173,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-loudness",
@@ -9313,11 +6181,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-oscilloscope",
@@ -9325,11 +6189,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-spectrogram",
@@ -9337,11 +6197,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-spectrum",
@@ -9349,11 +6205,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-vu",
@@ -9361,11 +6213,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "minimeters-waveform",
@@ -9373,11 +6221,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MiniMeters",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "mloudnessanalyzer",
@@ -9385,11 +6229,7 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MLoudnessAnalyzer",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   },
   {
     "id": "mutility",
@@ -9397,10 +6237,6 @@ window.VSTINDER_PLUGINS = [
     "category": "Misc",
     "vendor": "MUtility",
     "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
+    "features": []
   }
 ];

@@ -2,6 +2,15 @@
   const CATEGORIES = ["Space", "Saturation", "Dynamic", "Frequency", "Synthesizer", "Modulation", "Misc"];
   const OVERRIDES_KEY = "vstinder.simple.overrides.v1";
   const TEMPLATE_LABELS = ["插件名稱", "品牌", "功能", "特點", "分類"];
+  const EDIT_RULES = Object.freeze({
+    purposeMinLength: 24,
+    purposeStrongLength: 60,
+    featureTotalMinLength: 36,
+    featureTotalStrongLength: 120,
+    longFeatureLength: 18,
+    longFeatureMinCount: 2,
+    longFeatureStrongCount: 3
+  });
 
   const rawPlugins = Array.isArray(window.VSTINDER_PLUGINS) ? window.VSTINDER_PLUGINS.slice() : [];
   const basePlugins = dedupeArchitectureVariants(rawPlugins);
@@ -14,6 +23,7 @@
     search: "",
     categoryFilter: "all",
     onlyEdited: false,
+    onlyUnedited: false,
     filteredIds: []
   };
 
@@ -26,6 +36,7 @@
   const searchInput = document.getElementById("search-input");
   const categoryFilterSelect = document.getElementById("category-filter");
   const onlyEditedInput = document.getElementById("only-edited");
+  const onlyUneditedInput = document.getElementById("only-unedited");
 
   const nameInput = document.getElementById("plugin-name");
   const categoryInput = document.getElementById("plugin-category");
@@ -52,6 +63,11 @@
 
     onlyEditedInput.addEventListener("change", () => {
       state.onlyEdited = onlyEditedInput.checked;
+      renderList();
+    });
+
+    onlyUneditedInput.addEventListener("change", () => {
+      state.onlyUnedited = onlyUneditedInput.checked;
       renderList();
     });
 
@@ -236,15 +252,68 @@
     return merged;
   }
 
+  function getEditStatus(plugin, merged) {
+    const hasOverride = Boolean(state.overrides[plugin.id]);
+
+    const purposeText = normalizeTextForEditJudge(merged.purpose);
+    const purposeLength = purposeText.length;
+
+    const features = Array.isArray(merged.features) ? merged.features : [];
+    const normalizedFeatures = features
+      .map((item) => normalizeTextForEditJudge(cleanupFeatureText(item)))
+      .filter(Boolean);
+
+    const featureTotalLength = normalizedFeatures.reduce((sum, text) => sum + text.length, 0);
+    const longFeatureCount = normalizedFeatures.filter((text) => text.length >= EDIT_RULES.longFeatureLength).length;
+
+    const hasRichPurpose = purposeLength >= EDIT_RULES.purposeMinLength;
+    const hasStrongPurpose = purposeLength >= EDIT_RULES.purposeStrongLength;
+    const hasRichFeatures = featureTotalLength >= EDIT_RULES.featureTotalMinLength || longFeatureCount >= EDIT_RULES.longFeatureMinCount;
+    const hasStrongFeatures = featureTotalLength >= EDIT_RULES.featureTotalStrongLength || longFeatureCount >= EDIT_RULES.longFeatureStrongCount;
+
+    const isRich = (hasRichPurpose && hasRichFeatures) || hasStrongPurpose || hasStrongFeatures;
+    const isEdited = hasOverride || isRich;
+
+    return {
+      isEdited,
+      hasOverride,
+      isRich,
+      purposeLength,
+      featureTotalLength,
+      longFeatureCount
+    };
+  }
+
+  function normalizeTextForEditJudge(input) {
+    return String(input || "").replace(/[\s\r\n\t]+/g, "").trim();
+  }
+
   function renderList() {
     const search = state.search;
     const filtered = [];
 
+    const editedOnly = state.onlyEdited && !state.onlyUnedited;
+    const uneditedOnly = state.onlyUnedited && !state.onlyEdited;
+
+    let editedCount = 0;
+    let overrideCount = 0;
+
     for (const plugin of basePlugins) {
       const merged = getMergedPlugin(plugin);
-      const isEdited = Boolean(state.overrides[plugin.id]);
+      const editStatus = getEditStatus(plugin, merged);
 
-      if (state.onlyEdited && !isEdited) {
+      if (editStatus.isEdited) {
+        editedCount += 1;
+      }
+      if (editStatus.hasOverride) {
+        overrideCount += 1;
+      }
+
+      if (editedOnly && !editStatus.isEdited) {
+        continue;
+      }
+
+      if (uneditedOnly && editStatus.isEdited) {
         continue;
       }
 
@@ -256,14 +325,13 @@
         continue;
       }
 
-      filtered.push({ plugin, merged, isEdited });
+      filtered.push({ plugin, merged, editStatus });
     }
 
     filtered.sort((a, b) => a.plugin.name.localeCompare(b.plugin.name));
     state.filteredIds = filtered.map((item) => item.plugin.id);
 
-    const editedCount = Object.keys(state.overrides).length;
-    summaryEl.textContent = `共 ${basePlugins.length} 筆插件，已手動編輯 ${editedCount} 筆，目前列表 ${filtered.length} 筆`;
+    summaryEl.textContent = `共 ${basePlugins.length} 筆插件，已編輯判定 ${editedCount} 筆（手動 Override ${overrideCount} 筆），目前列表 ${filtered.length} 筆。判定依據：功能 >= ${EDIT_RULES.purposeMinLength} 字 且 特點總長 >= ${EDIT_RULES.featureTotalMinLength} 字（或內容特別完整）。`;
 
     if (filtered.length === 0) {
       listEl.innerHTML = `<div class="empty-state"><h3>沒有符合項目</h3><p>調整搜尋或篩選條件。</p></div>`;
@@ -271,13 +339,14 @@
     }
 
     listEl.innerHTML = filtered
-      .map(({ plugin, merged, isEdited }) => {
+      .map(({ plugin, merged, editStatus }) => {
         const active = plugin.id === state.selectedId ? "active" : "";
+        const statusText = editStatus.isEdited ? "已編輯" : "未編輯";
         return `
           <article class="plugin-row ${active}" data-id="${escapeHtml(plugin.id)}">
             <button class="row-main" type="button" data-action="select" data-id="${escapeHtml(plugin.id)}">
               <strong>${escapeHtml(plugin.name)}</strong>
-              <span>${escapeHtml(merged.category)} ${isEdited ? "· 已編輯" : ""}</span>
+              <span>${escapeHtml(merged.category)} · ${statusText}</span>
             </button>
             <button class="row-copy" type="button" data-action="copy" data-name="${escapeHtml(plugin.name)}">複製</button>
           </article>
@@ -661,7 +730,9 @@
     return String(input || "")
       .replace(/\*\*(.*?)\*\*/g, "$1")
       .replace(/__(.*?)__/g, "$1")
-      .replace(/`([^`]+)`/g, "$1");
+      .replace(/`([^`]+)`/g, "$1")
+      .replace(/\*\*/g, "")
+      .replace(/__/g, "");
   }
 
   function normalizeCategory(input) {
@@ -1086,6 +1157,9 @@
     return out;
   }
 })();
+
+
+
 
 
 

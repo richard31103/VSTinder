@@ -199,7 +199,7 @@
       }
 
       if (Array.isArray(override.features)) {
-        const features = override.features.map((value) => String(value || "").trim()).filter(Boolean);
+        const features = override.features.map((value) => cleanupFeatureDisplayText(value)).filter(Boolean);
         if (features.length > 0) {
           next.features = features;
         }
@@ -646,8 +646,19 @@
     return ` style="--saved-image: url('${safePath}');"`;
   }
 
+  function cleanupFeatureDisplayText(input) {
+    return String(input || "")
+      .replace(/\*\*(.*?)\*\*/g, "$1")
+      .replace(/__(.*?)__/g, "$1")
+      .replace(/`([^`]+)`/g, "$1")
+      .replace(/\*\*/g, "")
+      .replace(/__/g, "")
+      .replace(/\s{2,}/g, " ")
+      .trim();
+  }
+
   function renderFeatureItem(input) {
-    const text = String(input || "").trim();
+    const text = cleanupFeatureDisplayText(input);
     if (!text) {
       return "";
     }
@@ -658,7 +669,7 @@
     }
 
     const title = escapeHtml(match[1].trim());
-    const descRaw = String(match[2] || "").trim();
+    const descRaw = cleanupFeatureDisplayText(match[2] || "");
 
     if (!descRaw) {
       return `<li><span class="feature-title">${title}：</span></li>`;
@@ -704,6 +715,7 @@
       .replace(/'/g, "&#39;");
   }
 })();
+
 
 
 

@@ -31,7 +31,7 @@
       </div>
 
       <p class="editor-summary" id="editor-summary"></p>
-      <p class="editor-workflow">建議流程：複製名稱 -> 貼到你的研究筆記補資訊 -> 回來填品牌/功能/特點 -> 按「儲存並下一個」。</p>
+      <p class="editor-workflow">建議流程：複製名稱 -> 貼到你的研究筆記補資訊 -> 回來填品牌/功能/特點 -> 按「儲存並下一個」。已編輯判定：功能內容較完整（>=24 字）且特點較完整（總長 >=36 字），或手動 Override。</p>
 
       <section class="paste-panel">
         <label for="quick-paste-input">固定格式快速套用</label>
@@ -52,6 +52,9 @@
             </select>
             <label class="inline-check">
               <input id="only-edited" type="checkbox" /> 只看已編輯
+            </label>
+            <label class="inline-check">
+              <input id="only-unedited" type="checkbox" /> 未編輯
             </label>
           </div>
 
@@ -110,3 +113,5 @@
   <script src="./editor.js"></script>
 </body>
 </html>
+
+
