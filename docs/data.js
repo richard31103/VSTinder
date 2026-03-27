@@ -3,13 +3,14 @@ window.VSTINDER_PLUGINS = [
     "id": "2016-stereo-room",
     "name": "2016 Stereo Room",
     "category": "Space",
-    "vendor": "未知",
-    "purpose": "這是一款空間效果插件，主要用途為：The 2016 立體聲 Room&#x27;s interface mirrors that of Eventide&#x27;s 殘響 2016 hardware unit - itself a rerub of the rather less user-friendly &#x27;80s SP2016 effects box.",
+    "vendor": "Eventide",
+    "purpose": "重現經典硬體 Eventide SP2016 的傳奇混響算法，專注於營造自然且具備立體聲寬廣度的空間感，模擬真實房間與音樂廳的聲學特性。",
     "features": [
-      "多種空間模型",
-      "立體聲寬度",
-      "Eventide 2016 Stereo Room review",
-      "復古音色取向"
+      "傳奇算法移植：完整收錄原始 SP2016 的 \"Stereo Room\" 算法，提供極其自然、不染色的透明空間音色。",
+      "極簡化參數控制：透過 Mix、Decay、Predelay 及獨特的 Position（位置）控制，快速調整音源在虛擬空間中的前後距離。",
+      "精確的擴散與反射：模擬真實物理空間的早期反射音，讓樂器或人聲能完美融入混音而不顯得突兀或混濁。",
+      "低運算負荷：設計精良的算法在提供高品質音色的同時，對電腦效能的消耗極低。",
+      "音調微調：具備簡單直觀的低音與高音 EQ 調整，可針對混響尾跡進行細微的明暗修飾。"
     ]
   },
   {
@@ -17,108 +18,125 @@ window.VSTINDER_PLUGINS = [
     "name": "Altiverb 7",
     "category": "Space",
     "vendor": "Audio Ease",
-    "purpose": "這是一款空間效果插件，主要用途為：Altiverb the original convolution 殘響 plug-in for music and post by Audio Ease Classic 殘響 gear Altiverb contains a tremendous amount of classic 殘響 gear and purpose built echo chambers.",
+    "purpose": "業界標準的卷積混響（Convolution Reverb）處理器，透過真實空間的脈衝響應（Impulse Response, IR）採樣技術，能夠精準模擬全球知名音樂廳、錄音室、教堂、劇院乃至於車內或森林等各種真實環境的聲學特性。",
     "features": [
-      "卷積空間",
-      "復古音色取向",
-      "多種空間模型",
-      "延遲與回聲控制"
+      "龐大的 IR 資源庫：收錄了包含雪梨歌劇院、巴黎聖母院及眾多頂尖錄音室在內的數百個真實場景，並提供免費更新下載新空間。",
+      "舞台定位功能 (Stage Positioning)：允許使用者在虛擬舞台照片上拖動音源位置，系統會自動調整混響參數以實現精確的空間物理定位。",
+      "亮度圖層 (Brightness)：除了傳統的 IR 採樣，可額外疊加高品質的合成高頻層，彌補某些真實空間採樣高頻不足的問題。",
+      "快照系統 (Snapshots)：支援快速儲存與切換多組預設，方便在不同的空間設置之間進行即時對比。",
+      "智慧搜尋介面：具備強大的關鍵字與分類搜尋系統，並提供空間實景照片，讓混音過程具備極強的視覺參考。"
     ]
   },
   {
     "id": "blackhole",
     "name": "Blackhole",
     "category": "Space",
-    "vendor": "Blackhole",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Eventide",
+    "purpose": "這是一款源自 Eventide 旗艦硬體處理器的超現實混響效果器，擅長創造極其巨大、深邃且具備超凡脫俗感的空間音色，能突破物理空間的限制，產生無限延伸的殘響。",
     "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
+      "無限殘響 (Infinite Mode)：具備無限延伸的混響尾跡，非常適合製作環境墊音（Pads）、音效設計或史詩般的電影配樂。",
+      "Gravity 控制：獨特的參數可調整混響的衰減方向，正向為正常擴散，負向則可產生類似倒放（Reverse）的效果。",
+      "Ribbon 緞帶控制：允許使用者設定兩組不同的參數狀態，並透過單一橫桿進行平滑的動態過渡，增加演出與自動化控制的表現力。",
+      "內建調變 (Modulation)：提供豐富的調變選項，能讓巨大的混響空間產生如液體般的波動感，消除數位的機械味。",
+      "Hotswitch 功能：可一鍵切換多種參數組合，方便在混音過程中進行即時的預設對比。"
     ]
   },
   {
     "id": "bx-bluechorus2",
     "name": "bx bluechorus2",
-    "category": "Space",
-    "vendor": "Brainworx",
-    "purpose": "強化回聲與動態尾音。",
+    "category": "Modulation",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "精確模擬 70 年代經典的「藍色」合唱踏板（經典 Boss CE-2），為吉他、合成器、電子琴或人聲提供溫暖、寬廣且具備類比質感的合唱（Chorus）調變效果。",
     "features": [
-      "回聲",
-      "空間深度",
-      "立體寬度"
+      "經典 BBD 模擬：完美還原早期桶鏈器件（Bucket Brigade Device）電路產生的柔順音色與獨有的頻率響應特性。",
+      "新增 Mix 控制：相較於原始硬體，增加了乾濕比（Mix）調節功能，讓使用者能更精確地控制效果的融合程度。",
+      "立體聲寬度調整：具備強化的立體聲處理能力，能將單聲道音源擴展成寬廣且具備空間感的立體聲場。",
+      "低資源消耗：承襲 Brainworx 優秀的算法設計，在保持高度類比還原度的同時，佔用極低的 CPU 資源。",
+      "直觀介面：極簡的控制面板，讓使用者能快速調整出從細微的加厚感（Thickening）到劇烈波動的調變音色。"
     ]
   },
   {
     "id": "bx-delay2500",
     "name": "bx delay2500",
     "category": "Space",
-    "vendor": "Brainworx",
-    "purpose": "加入節奏性延遲與空間感。",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "這是一款創新型的數位延遲處理器，旨在提供從經典回聲到極具現代感的創意延遲效果。它不模擬特定的老舊硬體，而是專注於提供極高的聲音透明度與強大的調變控制。",
     "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
+      "內建 M/S 處理：繼承 Brainworx 的核心技術，允許使用者獨立調整中間聲道與側邊聲道的延遲特性，創造極寬的立體聲音場。",
+      "強大的調變矩陣：配備了靈活的 LFO 與包絡跟隨器（Envelope Follower），可調變延遲時間、濾波器頻率等參數，產生豐富的合唱或顫音效果。",
+      "瞬態塑造 (Transient Shaping)：內建專屬的瞬態控制功能，可以強化或削弱延遲信號的撞擊感，確保混音層次分明。",
+      "多模式濾波與失真：包含高品質的高低通濾波器以及飽和（Saturation）模組，讓延遲尾跡可以從純淨無暇轉變為粗獷溫暖。",
+      "閃避功能 (Ducking)：整合了自動閃避控制器，當乾聲（Dry Signal）出現時會自動降低延遲音量，避免混音過於混濁。"
     ]
   },
   {
     "id": "bx-rooms",
     "name": "bx rooMS",
     "category": "Space",
-    "vendor": "Brainworx",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "這是一款基於先進算法的混響處理器，專為創造自然、清晰且具備深度感的空間而設計。透過獨家的 TrueStereo 技術，能有效避免混響堆疊造成的頻率混濁，維持音源的原始解析度。",
     "features": [
-      "空間",
-      "空間深度",
-      "立體寬度"
+      "TrueStereo 算法：提供極佳的立體聲影像與包圍感，同時保持單聲道相容性（Mono Compatibility）。",
+      "靈活的空間形狀調整：可精細調整虛擬空間的結構與反射特性，涵蓋從緊湊的房間到巨大的教堂等多種環境。",
+      "內建 M/S 處理能力：繼承 Brainworx 的核心技術，允許使用者獨立調整中間聲道（Mid）與兩側聲道（Side）的混響寬度與頻率平衡。",
+      "Modulation 調變功能：能為混響尾跡添加細微的運動感，增加音色的層次與溫潤度。",
+      "Fix Mix 選項：在切換預設時可以鎖定乾濕比，方便在不同空間設置間進行即時比較。"
     ]
   },
   {
     "id": "bx-stereomaker",
     "name": "bx stereomaker",
     "category": "Space",
-    "vendor": "Brainworx",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "這是一款專門將單聲道（Mono）音源轉換為虛擬立體聲（Stereo）的心理聲學處理器，能在不產生相位抵消問題的前提下，為人聲、吉他或合成器增加寬度與空間感。",
     "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
+      "完美單聲道相容性：使用獨特的算法確保在切換回單聲道監聽時，音色不會因為相位干涉而消失或變質。",
+      "精確的空間定位：允許使用者調整虛擬立體聲的寬度（Tone）以及中心位置（Pan），讓聲音在音場中更具層次。",
+      "頻率選擇性處理：內建 Hi-Damp 參數，可針對高頻進行衰減，避免擴展後的立體聲顯得過於刺耳。",
+      "視覺化相關儀：內建相關性表（Correlation Meter），即時監控相位狀態，確保立體聲場的穩定性。",
+      "低頻管理：能夠保持低頻（如踢鼓或貝斯）在中心位置，同時擴展中高頻的寬度，維持混音的衝擊力。"
     ]
   },
   {
     "id": "delay-brigade",
     "name": "Delay BRIGADE",
     "category": "Space",
-    "vendor": "Delay",
-    "purpose": "加入節奏性延遲與空間感。",
+    "vendor": "Arturia",
+    "purpose": "精確模擬經典的 BBD (Bucket Brigade Device) 類比延遲踏板（原型為經典的 Electro-Harmonix Memory Man），旨在提供溫暖、帶有磁性且具備獨特低通濾波特性的經典調製延遲音色。",
     "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
+      "經典 BBD 模擬：忠實還原類比電路中桶鏈器件的聲音降解過程，隨着延遲次數增加，音色會逐漸變得模糊且溫暖。",
+      "內建調製 (Modulation)：整合了經典的合唱（Chorus）與顫音（Vibrato）電路，能為延遲尾跡注入豐富的音高波動與空間感。",
+      "現代化功能擴充：相較於原始硬體，增加了 LFO 調製形狀選擇、同步宿主速度（Sync）以及單獨的左右聲道偏移控制。",
+      "輸入驅動 (Drive)：具備可調的前級輸入增益，能為訊號添加飽滿的類比飽和感與諧波失真。",
+      "環繞感控制：內建 M/S 處理能力與立體聲擴展，讓復古延遲效果在現代寬廣的音場中依然出色。"
     ]
   },
   {
     "id": "delay-eternity",
     "name": "Delay ETERNITY",
     "category": "Space",
-    "vendor": "Delay",
-    "purpose": "加入節奏性延遲與空間感。",
+    "vendor": "Arturia",
+    "purpose": "這是一款現代化的創意延遲處理器，結合了傳統的數位延遲與深度的聲音設計功能，能夠將簡單的音訊轉化為複雜的節奏紋理、大氣墊音或激進的調變效果。",
     "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
+      "雙延遲線設計 (Dual Delay Lines)：具備兩條獨立的延遲線，可設定不同的延遲時間與反饋路徑，創造交錯的立體聲節奏。",
+      "豐富的濾波器與位元破碎 (Bitcrusher)：在延遲環路中內建多種濾波模式與數位失真效果，讓延遲尾跡隨時間產生音色演變。",
+      "強大的調變矩陣：內建 LFO、信封跟隨器（Envelope Follower）與步進序列器（Step Sequencer），可調變幾乎所有參數。",
+      "時間伸縮與顆粒效果：支援獨特的 Time-stretch 與顆粒處理技術，能創造出夢幻般的拉伸感或碎裂的數位質感。",
+      "內建側鏈 (Sidechain)：支援側鏈壓縮功能，讓延遲效果在乾聲出現時自動降低音量，確保混音清晰度。"
     ]
   },
   {
     "id": "delay-tape-201",
     "name": "Delay TAPE-201",
     "category": "Space",
-    "vendor": "Delay",
-    "purpose": "加入節奏性延遲與空間感。",
+    "vendor": "Arturia",
+    "purpose": "精確模擬 1970 年代經典的 Roland RE-201 Space Echo 磁帶延遲器，旨在重現磁帶循環產生的溫暖、飽和且具備獨特抖動感的復古回聲與彈簧混響音色。",
     "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
+      "磁帶特性模擬：忠實還原磁帶老化、機械抖動（Wow & Flutter）以及磁頭飽和所產生的非線性音色變化。",
+      "三磁頭組合：具備三個獨立播放磁頭的切換功能，可創造出經典的節奏性延遲與豐富的堆疊效果。",
+      "整合彈簧混響：內建經典的彈簧混響（Spring Reverb）模組，可與延遲訊號混合，營造具備復古感的空間深度。",
+      "現代化擴展：增加了 LFO 調變、輸入增益（Input Drive）以及與宿主速度同步的功能，提升了現代混音的實用性。",
+      "自激振盪 (Self-Oscillation)：支持調整反饋（Intensity）至產生尖叫般的自激振盪效果，適合製作實驗性的音效設計。"
     ]
   },
   {
@@ -533,204 +551,156 @@ window.VSTINDER_PLUGINS = [
     "id": "ultrareverb",
     "name": "UltraReverb",
     "category": "Space",
-    "vendor": "UltraReverb",
-    "purpose": "建立自然空間與殘響層次。",
+    "vendor": "Eventide",
+    "purpose": "這是一款全功能的數位混響處理器，結合了 Eventide 數十年的硬體算法精華，提供包含混響、延遲、等化器與動態處理在內的一站式空間音色解決方案。",
     "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
+      "九種經典算法：包含 Halls, Chambers, Rooms, Plates, Ambience 等，源自旗艦硬體 H8000，音質極其細膩且具備立體深度。",
+      "整合式效果鏈：內建前/後 3 段 EQ、壓縮器（Compressor）與門限（Gate），讓使用者能直接在插件內完成混響的音色塑型與動態管理。",
+      "獨立延遲模組：具備與混響並行或串聯的 Pre-delay 與 Post-delay，且支援與宿主專案速度（BPM）同步，適合製作節奏性空間效果。",
+      "快照對比 (Snapshots)：支援儲存多組參數快照，方便在不同空間設定之間進行即時切換與試聽。",
+      "低負載高效能：雖然功能強大且包含多種處理模組，但 CPU 消耗依然控制得非常理想，適合多軌並用。"
     ]
   },
   {
     "id": "valhalladelay",
     "name": "ValhallaDelay",
     "category": "Space",
-    "vendor": "ValhallaDelay",
-    "purpose": "加入節奏性延遲與空間感。",
+    "vendor": "Valhalla DSP",
+    "purpose": "這是一款極致靈活且高品質的延遲（Delay）處理器，融合了經典類比延遲、磁帶回聲與現代數位算法，旨在提供從復古染色到前衛空間設計的全方位延遲解決方案。",
     "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
-    ]
-  },
-  {
-    "id": "valhalladelay-x64",
-    "name": "ValhallaDelay x64",
-    "category": "Space",
-    "vendor": "ValhallaDelay",
-    "purpose": "加入節奏性延遲與空間感。",
-    "features": [
-      "延遲",
-      "空間深度",
-      "立體寬度"
+      "14 種獨特模式 (Modes)：涵蓋 Tape（經典磁帶）、HiFi（純淨磁帶）、BBD（類比電路）、Digital（純數位）、Ghost（頻移延遲）、Pitch（移相延遲）等豐富算法。",
+      "五種延遲風格 (Styles)：可切換 Single（單聲道）、Dual（雙聲道）、Ratio（比例）、PingPong（乒乓）及 Quad（四路延遲）模式，輕鬆掌控立體聲場。",
+      "內建擴散 (Diffusion)：具備獨特的擴散參數，能將延遲重複音逐漸模糊化，使其聽感趨向混響（Reverb），創造夢幻的環境質感。",
+      "Era 時代選擇：可選擇 Past、Present 或 Future 模式，調整音訊的解析度、雜訊與非線性飽和特性，模擬不同時期的硬體質感。",
+      "極致性能與介面：維持品牌一貫的一頁式極簡介面，支援無級縮放，且 CPU 佔用率極低，適合在錄音與混音中大量使用。"
     ]
   },
   {
     "id": "valhallafutureverb",
     "name": "ValhallaFutureVerb",
     "category": "Space",
-    "vendor": "ValhallaFutureVerb",
-    "purpose": "建立自然空間與殘響層次。",
+    "vendor": "Valhalla DSP",
+    "purpose": "這是一款實驗性的高品質數位算法混響，旨在創造具有未來感、超現實且極其純淨的空間效果，打破傳統物理空間的限制，提供高度數位化但聽感平滑的殘響。",
     "features": [
-      "殘響",
-      "空間深度",
-      "立體寬度"
+      "前衛算法設計：不同於模擬經典硬體的 VintageVerb，此插件專注於現代數位合成技術，產生極高密度且無金屬共振感的尾跡。",
+      "超長衰減時間：支援極長的殘響時間，配合獨特的擴散參數，能將簡單的音源轉化為宏大且充滿流動感的背景墊音。",
+      "高精細度調變：內建複雜的隨機調變引擎，能為殘響注入細微的生命力，避免數位處理常見的機械重複感。",
+      "極簡一頁式介面：維持品牌一貫的直觀設計，讓使用者能快速調整空間大小、預延遲與高低頻衰減。",
+      "極低 CPU 佔用：即使處理複雜的運算，依然保持極高的系統效能，適合在大型混音專案中大量掛載。"
     ]
   },
   {
     "id": "valhallaplate",
     "name": "ValhallaPlate",
     "category": "Space",
-    "vendor": "ValhallaPlate",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Valhalla DSP",
+    "purpose": "高品質的板式混響（Plate Reverb）模擬插件，旨在重現經典物理板式混響器的緻密音色與金屬質感，為人聲、鼓組及樂器提供光澤感與深度。",
     "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
-  },
-  {
-    "id": "valhallaplate-x64",
-    "name": "ValhallaPlate x64",
-    "category": "Space",
-    "vendor": "ValhallaPlate",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
+      "12 種原創算法：涵蓋從經典的 Chrome、Steel、Brass 到現代感的 Cobalt 等模式，模擬不同材質與尺寸的板式混響特性。",
+      "極高擴散密度：不同於房間或大廳混響，其快速建立的初期反射與極高密度的尾跡，能讓音源在不失清晰度的前提下獲得豐滿感。",
+      "物理模擬控制：具備寬度（Width）、大小（Size）與張力控制，可模擬真實金屬板受熱或調整張力後的音色變化。",
+      "低 CPU 負載：延續 Valhalla 一貫的高效能算法，適合在大型專案中同時掛載多個執行個體。",
+      "一頁式介面：所有參數如衰減時間、預延遲、均衡器與調變（Modulation）皆集中於單一畫面，操作極其高效。"
     ]
   },
   {
     "id": "valhallaroom",
     "name": "ValhallaRoom",
     "category": "Space",
-    "vendor": "ValhallaRoom",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Valhalla DSP",
+    "purpose": "高品質的算法房間混響（Algorithmic Room Reverb），專為模擬極致自然、通透的室內聲學空間設計，能精確還原從微小的錄音室（Booth）到巨大的音樂廳（Concert Hall）等各種真實物理空間感。",
     "features": [
-      "空間",
-      "空間深度",
-      "立體寬度"
-    ]
-  },
-  {
-    "id": "valhallaroom-x64",
-    "name": "ValhallaRoom x64",
-    "category": "Space",
-    "vendor": "ValhallaRoom",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間",
-      "空間深度",
-      "立體寬度"
+      "12 種獨特算法：包含 Large Room, Medium Room, Small Room, Dark Room, Nostromo, Narcissus 等多種模式，涵蓋從極度透明到帶有濃厚色彩的音色。",
+      "早期反射與晚期殘響控制：允許使用者獨立調整早期反射（Early Reflections）與晚期殘響（Late Reverb）的比例與擴散度，精確掌控音源在空間中的遠近位置。",
+      "極高音質與純淨度：其算法經過高度優化，即使在極長的衰減時間下，依然能保持聲音的平滑與解析度，避免金屬共振感。",
+      "低 CPU 佔用：維持 Valhalla 系列一貫的高效能表現，適合在大型專案中作為主要的空間效果器使用。",
+      "直觀介面：經典的極簡一頁式設計，支持無級縮放，讓混響深度、寬度與頻率衰減等參數一目了然。"
     ]
   },
   {
     "id": "valhallashimmer",
     "name": "ValhallaShimmer",
     "category": "Space",
-    "vendor": "ValhallaShimmer",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Valhalla DSP",
+    "purpose": "專為創造巨大、空靈且具備「移頻」特性的混響（Shimmer Reverb）而設計，擅長將聲音轉化為如絲綢般滑順、不斷向上堆疊的電影感墊音（Pads）與大氣紋理。",
     "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
-  },
-  {
-    "id": "valhallashimmer-x64",
-    "name": "ValhallaShimmer x64",
-    "category": "Space",
-    "vendor": "ValhallaShimmer",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
+      "移頻算法 (Pitch Shifting)：內建高品質的移頻模組，可將混響回饋進行八度音程或特定音程的偏移，創造出類似聖歌或星際感的光輝音色。",
+      "多種重播模式 (Shift Modes)：提供 Single（單次移頻）、Dual（雙重移頻）、Reverse（倒放移頻）等模式，能根據需求調整音色的明亮度與層次。",
+      "極長衰減時間：支援長達數十秒甚至無限的衰減，配合平滑的擴散算法，能輕易將單個音符擴張成宏大的空間背景。",
+      "非線性調變 (Modulation)：內建調變控制可消除數位處理的共振感，為長尾跡增加自然的波動與溫潤感。",
+      "低 CPU 負載與高效介面：維持 Valhalla 一貫的極簡一頁式設計，操作極其直觀且不佔系統資源。"
     ]
   },
   {
     "id": "valhallasupermassive",
     "name": "ValhallaSupermassive",
     "category": "Space",
-    "vendor": "ValhallaSupermassive",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Valhalla DSP",
+    "purpose": "這是一款專為極致巨大的延遲（Delay）與混響（Reverb）設計的處理器，結合了多重反饋延遲網絡與複雜的擴散算法，能夠創造出從規律迴聲到無盡迴盪的超現實空間感。",
     "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
-  },
-  {
-    "id": "valhallasupermassive-x64",
-    "name": "ValhallaSupermassive x64",
-    "category": "Space",
-    "vendor": "ValhallaSupermassive",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
+      "多樣化的模式 (Modes)：內建 20 種以星座與天體命名的算法模式（如 Gemini, Hydra, Centaurus, Cirrus 等），每種模式都具備獨特的延遲密度、擴散特性與衰減曲線。",
+      "無限衰減 (Infinite)：極長的混響尾跡與反饋控制，非常適合製作環境墊音（Ambient Pads）與電影感的音效設計。",
+      "同步與細分 (Warp & Density)：獨特的 Warp 參數能調整延遲分接點的相對長度，配合 Density 參數可讓聲音從清晰的重複跳轉為濃密的雲霧感。",
+      "內建調變 (Modulation)：強大的調變控制能為巨大的空間注入生命力，產生如合唱（Chorus）般寬廣且流動的音色。",
+      "高性能與直觀介面：維持品牌一貫的低 CPU 佔用率與簡潔的一頁式操作介面，支援無級縮放調整。"
     ]
   },
   {
     "id": "valhallavintageverb",
     "name": "ValhallaVintageVerb",
     "category": "Space",
-    "vendor": "ValhallaVintageVerb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
+    "vendor": "Valhalla DSP",
+    "purpose": "高品質數位算法混響（Algorithmic Reverb），旨在模擬 1970 與 1980 年代經典硬體混響處理器的音色特性，提供深邃、溫暖且富有層次感的空間效果。",
     "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
-    ]
-  },
-  {
-    "id": "valhallavintageverb-x64",
-    "name": "ValhallaVintageVerb x64",
-    "category": "Space",
-    "vendor": "ValhallaVintageVerb",
-    "purpose": "用於塑造空間感、距離感與殘響深度。",
-    "features": [
-      "空間深度",
-      "立體寬度",
-      "尾音控制"
+      "多樣化的模式 (Modes)：內建 22 種混響模式（如 Concert Hall, Plate, Room, Chamber, Ambient 等），能應付從微小空間到無盡虛無的各種聽感需求。",
+      "三種顏色模式 (Color Modes)：",
+      "1970s：模擬早期數位硬體的降採樣與頻率限制，音色較暗且帶有復古的顆粒感。",
+      "1980s：全頻率響應，模擬 80 年代明亮且寬廣的經典硬體音色。",
+      "NOW：現代、純淨且無染色的處理方式，適合追求透明感的混音。",
+      "極低 CPU 佔用：即使在大型專案中同時掛載數十個執行個體，依然能保持系統流暢。",
+      "直觀的介面設計：一頁式的極簡介面讓所有參數一目了然，支援無級縮放，操作邏輯非常高效。",
+      "平滑的調變 (Modulation)：內建強大的調變算法，能讓混響尾跡產生細微的移動感，避免數位混響常見的機械感。"
     ]
   },
   {
     "id": "ampeg-b15n",
     "name": "Ampeg B15N",
     "category": "Saturation",
-    "vendor": "Neural DSP",
-    "purpose": "提供 Amp 類型的增益與染色。",
+    "vendor": "Brainworx (Plugin Alliance) / Universal Audio",
+    "purpose": "精確模擬 1960 年代傳奇的 Ampeg B-15N 翻蓋式（Portaflex）真空管貝斯音箱，提供溫暖、厚實且具備豐富偶次諧波的經典低音音色。",
     "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
+      "真空管電路模擬：細膩還原了 6SL7 前級管與 6L6GC 後級管的動態響應，能產生從純淨到微破音的溫潤感。",
+      "兩種電路模式：包含 1964（陰極偏壓）與 1966（固定偏壓）兩種電路切換，提供不同的壓縮感與反應速度。",
+      "強大的 FX Rack：內建雜訊門（Noise Gate）、高低通濾波器（HPF/LPF）以及多種頂級箱體與麥克風組合的採樣脈衝。",
+      "錄音室等級調整：支援在混音中進行精確的音調平衡，非常適合復古搖滾、摩城音樂（Motown）與爵士樂。"
     ]
   },
   {
     "id": "ampeg-svt3pro",
     "name": "Ampeg SVT3Pro",
     "category": "Saturation",
-    "vendor": "Neural DSP",
-    "purpose": "提供 Amp 類型的增益與染色。",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "精確模擬 Ampeg 經典的 SVT-3 PRO 貝斯音箱頭，結合了真空管前級（Tube Preamp）與 MOSFET 後級的特性，提供具備現代感、反應敏捷且充滿動態的貝斯音色。",
     "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
+      "真空管與電晶體混合模擬：完美還原了五支真空管前級的溫暖音色，以及 MOSFET 後級帶來的清晰度與低頻衝擊力。",
+      "9 段圖形等化器 (Graphic EQ)：除了標準的 3 段音調控制，還內建 9 段圖形 EQ，可針對特定頻率進行精細修飾或現場環境補償。",
+      "5 段頻率選擇 (Frequency Select)：提供五個不同的中頻切換點，讓使用者能精確定位貝斯在混音中的存在感。",
+      "強大的 FX Rack：內建包含各種頂級貝斯箱體、麥克風型號組合的 IR 採樣，並附帶雜訊門、濾波器與功率浸泡器（Power Soak）功能。",
+      "低延遲處理：優化後的算法適合在錄音室追蹤或現場演出時進行即時監聽。"
     ]
   },
   {
     "id": "ampeg-svtvr",
     "name": "Ampeg SVTVR",
     "category": "Saturation",
-    "vendor": "Neural DSP",
-    "purpose": "提供 Amp 類型的增益與染色。",
+    "vendor": "Brainworx (Plugin Alliance) / Universal Audio",
+    "purpose": "精確模擬 1970 年代傳奇的 Ampeg SVT (Super Valve Technology) 「藍線」版本音箱頭，這款全電子管貝斯音箱以其巨大的 300 瓦輸出功率和震撼的低頻表現，成為搖滾樂史上的標誌性音色。",
     "features": [
-      "Amp",
-      "諧波染色",
-      "音色厚度"
+      "全電子管電路模擬：忠實還原了原始硬體中複雜的電子管增益架構，提供極具動態、溫暖且富有侵略性的飽和感。",
+      "雙通道設計：包含 Channel 1（經典 SVT 音色）與 Channel 2（較為明亮且具備不同增益特性），可單獨使用或混合以創造層次。",
+      "經典頻率切換 (Ultra Low/High)：具備原機標誌性的 Ultra Low 與 Ultra High 切換開關，能一鍵強化深邃的低頻衝擊力或清脆的高頻細節。",
+      "強大的 FX Rack：內建包含各種經典 8x10 箱體與多種頂級麥克風組合的 IR 採樣，並附帶雜訊門、高低通濾波器與功率浸泡器。",
+      "搖滾標準音色：其渾厚且具備「咆哮感」的中低頻，是處理搖滾、金屬及龐克樂風貝斯音軌的首選。"
     ]
   },
   {
@@ -1648,25 +1618,25 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "abyss",
     "name": "Abyss",
-    "category": "Dynamic",
-    "vendor": "Abyss",
-    "purpose": "控制動態範圍與整體音量表現。",
+    "category": "Synthesizer",
+    "vendor": "Tracktion / Dawesome",
+    "purpose": "這是一款以「顏色」為核心概念的視覺化合成器，結合了光譜合成（Spectral Synthesis）與強大的調變系統，旨在讓使用者透過直覺的色彩操作來創造出充滿動感、深邃且具有電影感的音色。",
     "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
+      "色彩聲音引擎 (Sound Color Engine)：打破傳統的波形旋鈕，將音色特性映射到色彩空間中，使用者只需在色板上滑動即可混合出獨特的聲譜。"
     ]
   },
   {
     "id": "acme-opticom-xla-3",
     "name": "Acme Opticom XLA-3",
     "category": "Dynamic",
-    "vendor": "Acme",
-    "purpose": "控制動態範圍與整體音量表現。",
+    "vendor": "Brainworx (Plugin Alliance)",
+    "purpose": "精確模擬強大的真空管光學壓縮器（Optical Compressor），結合了 LA-2A 的平滑感與更具侵略性的飽和特性，能為音軌提供極具音樂性的動態控制與溫暖的諧波染色。",
     "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
+      "三段反應速度 (Response)：提供 Slow、Normal、Fast 三種預設反應時間，涵蓋從平滑的長延音到激進的瞬態捕捉。",
+      "軍用級真空管電路：模擬原始硬體的全真空管訊號路徑，隨着輸入增益增加，會產生極其渾厚且動人的類比飽和感。",
+      "獨特的飽和曲線：在高壓縮量下仍能保持聲音的厚度，非常適合加強人聲的存在感或讓鼓組變得更加肥厚（Fat）。",
+      "內建平行混音 (Mix)：具備乾濕比旋鈕，方便在進行重度壓縮與飽和處理時，保留原始信號的動態衝擊力。",
+      "調整靈活度：相較於傳統光學壓縮器，其非線性反應讓它在處理貝斯與電吉他時具備更強的音色塑造能力。"
     ]
   },
   {
@@ -3518,18 +3488,6 @@ window.VSTINDER_PLUGINS = [
     ]
   },
   {
-    "id": "labs-32-bit",
-    "name": "LABS (32 Bit)",
-    "category": "Dynamic",
-    "vendor": "LABS",
-    "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
-  },
-  {
     "id": "labs-64-bit",
     "name": "LABS (64 Bit)",
     "category": "Dynamic",
@@ -4370,18 +4328,6 @@ window.VSTINDER_PLUGINS = [
     ]
   },
   {
-    "id": "ott-x64",
-    "name": "OTT x64",
-    "category": "Dynamic",
-    "vendor": "OTT",
-    "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
-  },
-  {
     "id": "ozone-11",
     "name": "Ozone 11",
     "category": "Dynamic",
@@ -4922,18 +4868,6 @@ window.VSTINDER_PLUGINS = [
     ]
   },
   {
-    "id": "ravegenerator2-x86",
-    "name": "RaveGenerator2-x86",
-    "category": "Dynamic",
-    "vendor": "RaveGenerator2-x86",
-    "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
-  },
-  {
     "id": "reels",
     "name": "Reels",
     "category": "Dynamic",
@@ -5032,18 +4966,6 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "revo",
     "name": "RevO",
-    "category": "Dynamic",
-    "vendor": "RevO",
-    "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
-  },
-  {
-    "id": "revo-x64",
-    "name": "RevO x64",
     "category": "Dynamic",
     "vendor": "RevO",
     "purpose": "控制動態範圍與整體音量表現。",
@@ -5176,18 +5098,6 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "serum",
     "name": "Serum",
-    "category": "Dynamic",
-    "vendor": "Serum",
-    "purpose": "控制動態範圍與整體音量表現。",
-    "features": [
-      "動態控制",
-      "衝擊力",
-      "音量穩定"
-    ]
-  },
-  {
-    "id": "serum-x64",
-    "name": "Serum x64",
     "category": "Dynamic",
     "vendor": "Serum",
     "purpose": "控制動態範圍與整體音量表現。",
@@ -9352,18 +9262,6 @@ window.VSTINDER_PLUGINS = [
   {
     "id": "lfotool",
     "name": "LFOTool",
-    "category": "Misc",
-    "vendor": "LFOTool",
-    "purpose": "泛用型或目前未細分的插件。",
-    "features": [
-      "工具用途",
-      "創意用途",
-      "工作流程"
-    ]
-  },
-  {
-    "id": "lfotool-x64",
-    "name": "LFOTool x64",
     "category": "Misc",
     "vendor": "LFOTool",
     "purpose": "泛用型或目前未細分的插件。",
